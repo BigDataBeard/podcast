@@ -1,0 +1,1225 @@
+WEBVTT
+
+00:00:00.005 --> 00:00:08.616
+<v Thomas>Thomas anthem of the big date of your podcast I'll be your host today for our episode but it will just be me I have another co-host Corey how are you doing today.
+
+00:00:09.218 --> 00:00:10.761
+<v Cory>Man I'm awesome.
+
+00:00:10.774 --> 00:00:18.687
+<v Thomas>Then we also have our guest today so I guess is going to be built schmarzo the Dina Big Data built to say hey to the audience.
+
+00:00:18.976 --> 00:00:25.622
+<v Bill>Hey audience under thanks for having me on the podcast I'm I'm very eager for the kinds of questions you're going to throw at me.
+
+00:00:26.061 --> 00:00:38.686
+<v Thomas>Will try to be gentle there but first a couple different news items so we've got a couple news topic that we want to jump in and then one after that talk about all the things that you're doing as the dean of big day.
+
+00:00:41.360 --> 00:00:47.555
+<v Thomas>So the first news topic item that we got for the day is comes in from Katy nuggets it's.
+
+00:00:47.604 --> 00:00:57.656
+<v Thomas>It's an article about the demand for data scientist is pretty much asking how we hit PCAT and kind of where is the we see the Pete for demand so you don't any bubble that we have,
+
+00:00:57.464 --> 00:01:09.783
+<v Thomas>you know there's always a time where you know what swells up really fast but then it you kind of deflates and so what they were trying to do is about 1200 different voters and vote on when they think the peak will happen so it's some people there in the industry,
+
+00:01:09.615 --> 00:01:16.519
+<v Thomas>or maybe I've been in the industry for a little bit longer to its okay,
+
+00:01:16.651 --> 00:01:21.927
+<v Thomas>ICP anywhere between the next 4 to 10 years just from this pole here.
+
+00:01:22.510 --> 00:01:30.141
+<v Thomas>Cory how do you feel about the Pete for data scientist and kind of machine learning and you know how big the market is for you know it's been the sexiest career since.
+
+00:01:30.244 --> 00:01:35.604
+<v Thomas>2012 and then seem to be dying what what do you think about the pecan for the interest is for machine learning.
+
+00:01:36.325 --> 00:01:49.346
+<v Cory>Well I think it's like anything I don't think humans are very good at looking out past about 4-5 Years anyway so we're kind of the putting that fence out there something that we're going to comfortable if we think we can understand I think the.
+
+00:01:49.617 --> 00:02:00.637
+<v Cory>Another thing I like about titties I could say I was cracking up on the duties poles like it's you can tell it's run by a bunch of statisticians cuz they're they're really not only curious about the responses that they get,
+
+00:02:00.698 --> 00:02:12.722
+<v Cory>what's really dig into the underlying meaning of the responses and how they're connected and I think that you know that the connection between how long somebody thinks the peak is a way,
+
+00:02:12.764 --> 00:02:15.275
+<v Cory>versus how long they've been in data science,
+
+00:02:15.240 --> 00:02:23.021
+<v Cory>it's kind of an interesting correlation is I think that those folks that have been in it for a long time for me I did a size perspective.
+
+00:02:23.520 --> 00:02:29.331
+<v Cory>I think they're probably a little bit more even I'd the date I think kind of back to sub but they were like.
+
+00:02:29.253 --> 00:02:39.829
+<v Cory>I think that they believe it's going to happen faster by the folks that are just into it or still very excited that it's that it's out there that there's a long tail before they start to see the decline but Bill are you still,
+
+00:02:39.649 --> 00:02:44.708
+<v Cory>I mean you're clearly still very highly in demand do you think this is findings are accurate.
+
+00:02:44.510 --> 00:02:47.015
+<v Bill>I know I.
+
+00:02:47.310 --> 00:02:59.358
+<v Bill>Don't think we're going to see demand drop off for good data scientist I think I think one of the way I look at this article one of the things that kind of struck me as this there's an underlying belief that the tools are going to bail us out,
+
+00:02:59.250 --> 00:03:08.979
+<v Bill>that we're seeing you know I creasing number of tools out there that are designed to make that his term citizen data scientist and I think that's a false prophet.
+
+00:03:09.153 --> 00:03:18.899
+<v Bill>I think we're trying to do is create citizens of data science and that the demand for good data scientists will continue to grow because they're the people who know how to monetize a data.
+
+00:03:19.086 --> 00:03:28.917
+<v Bill>So while this term data scientist can Encompass anything from people who are doing bi many cases are in Ojai level b i to people who are really doing data science work,
+
+00:03:28.947 --> 00:03:38.381
+<v Bill>I think if you really bored this curve down and look at what are the people who are really leveraging data science to monetize my data I think I'm going to see that curve girlfriend is really low today.
+
+00:03:38.490 --> 00:03:43.609
+<v Bill>I need the number of people who do that today for effectively is very low and I think that's going to grow over time.
+
+00:03:44.288 --> 00:03:51.306
+<v Cory>Does not just about the quantity it's about the quality I get it okay so being good is a good thing.
+
+00:03:48.819 --> 00:03:51.577
+<v Thomas>Yeah
+yeah.
+
+00:03:51.277 --> 00:03:53.674
+<v Bill>Be good to good thing and being better is even better.
+
+00:03:53.753 --> 00:04:06.329
+<v Thomas>I kind of look at it a different way I don't think we've scratched the surface and I think that even if you're a bad data scientist out there and you're listening I'm glad that you're listening to show we're going to try to give you some tools and help you be a better day to scientist at some point,
+
+00:04:06.083 --> 00:04:15.313
+<v Thomas>but I also think I think that there's so much to me and we haven't even scratched the surface.
+
+00:04:15.602 --> 00:04:20.162
+<v Cory>Yeah there's a lot of employers spend a lot of money but I figure out who's going and who's not.
+
+00:04:20.132 --> 00:04:30.215
+<v Bill>I think I think the tools out there aren't going to take and make more great data scientist I think the great data scientist or doing it today with leather and Stone.
+
+00:04:30.372 --> 00:04:39.589
+<v Bill>I think with the tools can do with some of these data science workbenches for example will take an average data scientist and make them good.
+
+00:04:39.848 --> 00:04:44.132
+<v Bill>But I got to be honest with you for the bad data scientist there's no help because I think.
+
+00:04:44.295 --> 00:04:50.081
+<v Bill>I think there's a real mindset there were some people just don't get it and that's okay.
+
+00:04:50.208 --> 00:05:03.313
+<v Bill>But you're not everybody can be the shorts up on the team so we got to play left field and play catcher so it it's it's a specializations task and some people who won't be good data scientist might end up being very good you know data visualization people,
+
+00:05:03.320 --> 00:05:06.360
+<v Bill>or data Engineers or data architect so.
+
+00:05:06.607 --> 00:05:18.426
+<v Bill>The people who are really good at quantifying cause and effect to a really really good at be able to figure out what variables are actually driving performance those are the ones who are going to continue to be in demand for the End of Time.
+
+00:05:19.057 --> 00:05:20.307
+<v Cory>That's actually kind of.
+
+00:05:20.205 --> 00:05:34.025
+<v Cory>Funny Segway said that said that we we started looking at the there was an article posted informationweek about the the highest paid jobs in Tech and if you if you're going to go down the list all the things that we.
+
+00:05:33.906 --> 00:05:39.824
+<v Cory>Thomas starts talking about this it's it's really awesome it's my blowing the number like the the top.
+
+00:05:40.281 --> 00:05:44.992
+<v Cory>Paid like top paying job in Tech that is an individual contributor.
+
+00:05:45.389 --> 00:05:51.686
+<v Cory>Is a big data engineer which I think they kind of throw some of the data science parts of that job there like in the top.
+
+00:05:51.566 --> 00:06:05.369
+<v Cory>Paying jobs in Tech you get a bunch of dudes with season they're tight alright c i o c t o c s o then you get the v's the VP of it but the next guy down number 5 is literally the Big Data engineer salt.
+
+00:06:05.261 --> 00:06:13.379
+<v Cory>What I think Bill what you were saying is if you've got good if they're good at finding those cause and effect could make a whole lot of money doing this stuff.
+
+00:06:14.587 --> 00:06:17.561
+<v Bill>Yeah they took the best day to sign just said at Google.
+
+00:06:17.952 --> 00:06:27.951
+<v Bill>Make tons of money because they're the best day to sign it so that end in Google is an expert at monetizing data by the way I thought that I thought that article really.
+
+00:06:28.144 --> 00:06:33.617
+<v Bill>I'm in Lost credibility for me immediately when I didn't even have the chief data officer on the list.
+
+00:06:33.930 --> 00:06:44.127
+<v Bill>But how do you how do you miss that role of a chick or as we think about organizations who are chartering that role to become more efficient at.
+
+00:06:44.260 --> 00:06:51.530
+<v Bill>Monetizing data blogs on the chief data officer role because it's the wrong title.
+
+00:06:51.789 --> 00:07:06.421
+<v Bill>It's it's not a cheap date officers not like a mini CIO it should be called the chief data monetization officer the job of the CDO is in monetize data and that's probably the single most important rule of all the rules air in doesn't make the list,
+
+00:07:06.512 --> 00:07:20.566
+<v Bill>so this this article sort of I already did already kind of skewed my perspective because you're missing the single most important role in organizations care about which is the the guy or the gal who was charted with monetizing the data,
+
+00:07:20.657 --> 00:07:21.702
+<v Bill>so anyway.
+
+00:07:21.642 --> 00:07:36.400
+<v Cory>Yeah brother are there that many people that actually doing that job right now that's the cuz I get that right I get that at Chief did officers I think is an important pivotal function in an organization to help them along that that curve of monetization.
+
+00:07:36.353 --> 00:07:46.556
+<v Cory>What are there that many people doing it that we would in a study like this we're studying you know high paying jobs are there enough of them and are they just not are they not paid as well as some of these other jobs.
+
+00:07:46.754 --> 00:07:53.135
+<v Bill>Well I think it's I think it's reflects the misnomer when a chief data officer is,
+
+00:07:53.220 --> 00:08:01.218
+<v Bill>I think they pulley missed it most organizations have brought in and they taken somebody who is it who is basically you know in the CIO.
+
+00:08:01.717 --> 00:08:10.255
+<v Bill>Ladder for the path and they they put more of the CDL roll and said your job is a manager data will no no no there Joshua to monetize a date.
+
+00:08:10.472 --> 00:08:15.880
+<v Bill>And if you look at digital media companies they have a roll call Chief Revenue officer,
+
+00:08:15.922 --> 00:08:24.130
+<v Bill>whose job is to attend Google's going to Chief Revenue officer in Facebook doesn't Yahoo does in their job is to figure out how do I make money off this data,
+
+00:08:24.143 --> 00:08:36.683
+<v Bill>why don't we have people like that shouldn't every organization who has this growing wealth of data who's been asked they're all they're all from in and around how do I monetize my data what you don't have any organization who owns that,
+
+00:08:36.756 --> 00:08:38.666
+<v Bill>you want what you want magic to happen,
+
+00:08:38.751 --> 00:08:50.095
+<v Bill>so it's to me it's just it's reflective of the fact that people are missing the bigger picture it is not just about grabbing and maintaining data that the end is how do I monetize it.
+
+00:08:50.126 --> 00:09:00.665
+<v Thomas>Yeah I know I agree I think part of it too and one of the things that stuck out to me in this and so just give credit up there it's an article from informationweek weekly and it's called the 15 highest paid.
+
+00:09:00.684 --> 00:09:09.553
+<v Thomas>Tech jobs in so I think part of it isn't the tech because I didn't see data scientist on there any either too and I and I think we can get the big data engineer on their number five,
+
+00:09:09.367 --> 00:09:16.565
+<v Thomas>12 is the data architect and you have a DBA in there 14 but I think part of the problem is they don't see the.
+
+00:09:16.494 --> 00:09:22.947
+<v Thomas>Monetization officer or chief data officer maybe that's not really registering as a tech job just cuz like we're not seeing them.
+
+00:09:23.056 --> 00:09:31.612
+<v Thomas>Data scientist on here but we know since 2012 has been one of the sexiest careers out there right and we know that it's in huge demand so I wonder I wonder kind of looking.
+
+00:09:31.558 --> 00:09:39.718
+<v Thomas>You know if we were ever to look under the covers of some of this technology kind of what jobs did they see that weren't specifically a tech job which and you know it.
+
+00:09:39.707 --> 00:09:52.572
+<v Thomas>The ones really skewed and whatever you know what what tech jobs are cuz I think everything involves technology that we do you need to make the taste even your Chief marketing officer has to be you have a technical skills and.
+
+00:09:52.332 --> 00:09:55.949
+<v Bill>Agreed agreed.
+
+00:09:55.853 --> 00:09:59.194
+<v Cory>Yeah it sucks it's one of those the.
+
+00:09:59.687 --> 00:10:13.249
+<v Cory>The truth is the tech is so ingrained in business that it's hard it's hard to decouple the two but I think Thomas I see we're headed like this is like the puretech operator rolls rather than the connected to business which Kindle is a great.
+
+00:10:13.135 --> 00:10:22.112
+<v Cory>Conversation for my bills doing so he's so busy is cuz he has so many conversations about Mary in the tube between business and Tech.
+
+00:10:22.053 --> 00:10:28.752
+<v Cory>So Bill maybe we maybe we jump into it and let you talk about who you are and what you up to these days.
+
+00:10:29.312 --> 00:10:31.108
+<v Bill>Sure thanks so.
+
+00:10:31.283 --> 00:10:43.859
+<v Bill>Well I'm the that the chief technology officer for Dell EMC big data and i r t Consulting practice which really means it's fancy way of saying I spend all my time on the road talking to and working with customers.
+
+00:10:44.430 --> 00:10:56.869
+<v Bill>By far the best job in Industry cuz I get a chance to work with people who are wrestling with these questions all the time I also have the advantage that I I teach part-time at University of San Francisco School of Management.
+
+00:10:57.410 --> 00:11:04.266
+<v Bill>Teacher class are called the big day to NBA and the and the purpose of the charter of that classes how do we.
+
+00:11:04.429 --> 00:11:10.341
+<v Bill>Teach tomorrow's Business Leaders to embrace analytics as a business discipline that is.
+
+00:11:10.552 --> 00:11:23.597
+<v Bill>The analytics is no longer the realm of what I T does that for they successful organizations of they're going to Business Leaders need to embrace and likes to the business discipline to become citizens of data science.
+
+00:11:23.814 --> 00:11:31.565
+<v Bill>Almond understand how data science helps him make more money history wise I've been in the data analytics space for.
+
+00:11:31.902 --> 00:11:40.759
+<v Bill>God knows how long I got started back in the 1980s doing data warehousing by I had one of those so you know Forrest Gump moments in your life,
+
+00:11:40.735 --> 00:11:53.384
+<v Bill>we're in the right place right time. Because I'm tall or good looking or from Iowa you every time sometimes in life you just get lucky right place right time and in 8788 I was lucky I was wearing the project at Procter & Gamble will be brought in,
+
+00:11:53.367 --> 00:12:01.454
+<v Bill>Walmart's Point of Sales data for the first time in to do analysis on it which really sort of launched the whole day to warehouse and bi space.
+
+00:12:01.533 --> 00:12:05.739
+<v Bill>So I spent 27 years in a bi did warehouse space know it very well.
+
+00:12:06.106 --> 00:12:15.407
+<v Bill>I'm a star schema guy work close to Ralph Kimball for many years and then about 14 years ago I was recruited out of business objects where I was the vice president of analytic applications.
+
+00:12:15.654 --> 00:12:24.866
+<v Bill>I was recruited by Yahoo to build out their Advertiser analytics which was designed to how do we help advertisers optimize or spend across the Yahoo ad Network.
+
+00:12:25.251 --> 00:12:33.344
+<v Bill>And that was a that was a water
+stone moment for me are you know ah ah a milestone moment in the sense that.
+
+00:12:33.567 --> 00:12:42.496
+<v Bill>Everything that I had learned about bi and data warehousing was now wrong and everything and how I approach Beyond data warehouse and I had to unlearn,
+
+00:12:42.587 --> 00:12:48.794
+<v Bill>do I move into a world where I wasn't dealing with gigabytes of data I was dealing with petabytes of data and I wasn't dealing with you know,
+
+00:12:48.854 --> 00:12:59.099
+<v Bill>100 dimensions of dealing with a million dimensions and and so you know 500 million customers a day coming to Yahoo and understanding what add to show them what time,
+
+00:12:59.046 --> 00:13:08.738
+<v Bill>everything I knew about their porch light done before the whole idea of slice and dice just didn't scale so if the last several almost last decade a half and I've been spending time,
+
+00:13:08.750 --> 00:13:23.424
+<v Bill>working in this world of big data and data science now it's all machine learning artificial intelligence and deep learning neural networks in to pick your favorite technology but it's really all has always boil down to one one conversation.
+
+00:13:24.043 --> 00:13:32.594
+<v Bill>Which is how do I make money out of my data how do I use my data to make me more money so.
+
+00:13:32.606 --> 00:13:40.904
+<v Bill>That's kind of the role that I do and I'm like I said I'm very fortunate because I spend all my time with customers who are at various stages in their big data business model maturity,
+
+00:13:40.755 --> 00:13:48.482
+<v Bill>I'm going to give me a chance and I understand where they are and their challenges would also give me a chance to work with them to help Advance them along that maturity index.
+
+00:13:48.795 --> 00:13:59.905
+<v Thomas>That's awesome bill and I know we've had some different conversations before in the past about you know some of your time at Yahoo but just just for the listeners out there I mean it's so cool I mean you are you are at Yahoo.
+
+00:14:00.002 --> 00:14:05.776
+<v Thomas>Don't people how to make more money right out of the data that you had at the same time that Hadoop was me and you know,
+
+00:14:05.590 --> 00:14:16.154
+<v Thomas>mainstream to incubated in open sores can you give us a little background on what that was like to be a part of Amina versus so many smart people Yahoo at that time and all the things that came out of there I mean it's just.
+
+00:14:16.082 --> 00:14:17.379
+<v Thomas>Just so amazing.
+
+00:14:17.903 --> 00:14:23.100
+<v Bill>Yeah there was a group of yahuah call STS and think it was for strategic Data Solutions.
+
+00:14:23.503 --> 00:14:29.704
+<v Bill>And when that group kind of got disbanded there's about 40 people in that group and they were amazing,
+
+00:14:29.596 --> 00:14:34.379
+<v Bill>twister it was the best brightest bunch of people I've ever worked with,
+
+00:14:34.307 --> 00:14:47.791
+<v Bill>in that group disbanded you can see across in a Cloudera and map are and hortonworks and all these other big data analytics companies you can see no Green Plumbing sucks you can see all these different people should have went out and they,
+
+00:14:47.648 --> 00:14:52.707
+<v Bill>and they seated this whole big data conversion is whole big data craze,
+
+00:14:52.599 --> 00:15:02.225
+<v Bill>preceded by what was going on at Yahoo and how when they decide that group how all these really smart people landed and spots and started a growing on tree started growing everywhere.
+
+00:15:02.418 --> 00:15:11.527
+<v Bill>As a as a user I am not a technology guy but the things that I could do with Hadoop and the analytics we had around that.
+
+00:15:11.630 --> 00:15:17.122
+<v Bill>To me were staggering and I could build detail profiles on every visitor.
+
+00:15:17.392 --> 00:15:25.246
+<v Bill>I could know you know work sites they've been to what they were most interested in what they clicked on what keywords they searched I knew so much about them.
+
+00:15:25.487 --> 00:15:29.194
+<v Bill>And if and when you know so much about every individual customer.
+
+00:15:29.333 --> 00:15:38.159
+<v Bill>Then your ability to make really strong recommendations like what add you think that person is most likely to want to see cuz if I can make that if I can improve that by .1%.
+
+00:15:38.274 --> 00:15:49.931
+<v Bill>It's worth tens of millions of dollars of the organization so the the lot of the concepts that I had brought to Yahoo about how bi and data warehousing work were wrong.
+
+00:15:50.052 --> 00:15:57.004
+<v Bill>In this new world but the ideas about how you monetize we're still spot on so while I lost a lot of the,
+
+00:15:56.818 --> 00:16:06.859
+<v Bill>my technology footing for many years before I finally understood the whole the concept behind data science and Big Data the monetization concepts became even more,
+
+00:16:06.799 --> 00:16:11.966
+<v Bill>convincing I was even more convinced of the ability to monetize that data and unique ways.
+
+00:16:12.387 --> 00:16:18.348
+<v Thomas>So in your soil Bill and your roll out there and you you're talking about your kind of.
+
+00:16:18.294 --> 00:16:23.624
+<v Thomas>Broke the way that you saw the world as bi and data warehouse and so you've been involved.
+
+00:16:23.763 --> 00:16:34.350
+<v Thomas>You know when this part for at least 10 years when you're out there talking to customers do you do find yourself having to evangelize to some extent I know you know about the monetization but saying hey the way that we look at you know.
+
+00:16:34.663 --> 00:16:49.878
+<v Thomas>Business intelligence Armada warehouses think about it differently now you can have vast amounts of data and process if you find yourself you know kind of having to break that mold and kind of new show people hate you know I was I was in your feet but the way that you're so vastly different kind of Angeles,
+
+00:16:49.638 --> 00:16:50.887
+<v Thomas>for that some extent.
+
+00:16:51.116 --> 00:16:54.667
+<v Bill>Clearly in fact what I would I like to do is I like to,
+
+00:16:54.643 --> 00:17:08.956
+<v Bill>with a customer sort of talked about you want to talk about their environment first and more times not to talk about your behind data warehouse environments and their analytics environment you're really no Trend reports and then very loose term Analytics,
+
+00:17:08.891 --> 00:17:13.403
+<v Bill>little paws and I say do you want a report or do you want to predict.
+
+00:17:13.830 --> 00:17:18.913
+<v Bill>Do you want a report on what customers left or do you want to predict them which ones are likely to leave.
+
+00:17:19.088 --> 00:17:24.917
+<v Bill>Do you want a report on what products are like in the breakdown or do you want to predict which ones are so you can prevent them,
+
+00:17:24.941 --> 00:17:35.216
+<v Bill>and you start the mindset this whole concept of how do I get people how do we get people to think like a data scientist to stop thinking about reporting on what happened.
+
+00:17:35.391 --> 00:17:39.951
+<v Bill>Predicting what's likely to happen so I can prescribe action so I can prevent.
+
+00:17:40.270 --> 00:17:48.472
+<v Bill>Best there's it's a mindset changed it if you can get people to make that mind shift that change in mind shift.
+
+00:17:48.869 --> 00:17:58.561
+<v Bill>The Technologies are all out there to help them move along their technology to help you better predictors Technologies to help you better prescribed and there's technology help you better prevent.
+
+00:17:58.706 --> 00:18:08.218
+<v Bill>But if you don't have that mindshift first if you're still thinking that data and analytics about reporting on what happened and you're going to run your company using a rear view mirror.
+
+00:18:08.525 --> 00:18:11.998
+<v Bill>No no you get in so that's by far.
+
+00:18:12.214 --> 00:18:23.252
+<v Bill>I take is by far the biggest challenges hydrated organization to make that my shift because once they do it and I've seen this happen with the light bulbs go off and then go oh my gosh I get it.
+
+00:18:23.391 --> 00:18:27.669
+<v Bill>I'm not I'm not I'm not trying to report on,
+
+00:18:27.532 --> 00:18:36.839
+<v Bill>the time of my 6-year graduation rate I'm trying to predict what my 6-year graduation will be next year and understand the data and the variables that might impact at so I can actually,
+
+00:18:36.599 --> 00:18:45.318
+<v Bill>prevent students from dropping out prevent students from staying longer it's just that once you can make that mind shift everything else Falls in place.
+
+00:18:45.210 --> 00:18:52.294
+<v Cory>So it's a mindset shift obviously amongst the people in the organization.
+
+00:18:52.223 --> 00:18:55.473
+<v Cory>But there's there's something I feel like might be sort of.
+
+00:18:55.444 --> 00:19:08.483
+<v Cory>Missing and I think I think that's where it where you spent probably a lot of time as high as a business practitioner of you know whether I'm up you know a college counselor and you talk about graduation rates are high school whatever I'm trying to figure out how to improve that.
+
+00:19:08.489 --> 00:19:13.903
+<v Cory>Shifting from hey I can tell somebody in it that I want to report.
+
+00:19:14.036 --> 00:19:21.535
+<v Cory>Just so I can look at it is it is a much simpler Argus more Jermaine thing that I T and R and R.
+
+00:19:21.535 --> 00:19:35.289
+<v Cory>Are even our data being are dbas if I have been they've been skilled to to achieve right but to shift and start to say hey I need to understand how to predict these things.
+
+00:19:35.608 --> 00:19:46.436
+<v Cory>That's that's organizationally a very big challenge to go from Pam and I have business Acumen that I think right hypotheses about like I think this is might be influencers,
+
+00:19:46.244 --> 00:19:57.252
+<v Cory>how do you like it's besides just the mindset that somebody says have want to predict versus go over the review mirror what are the what are the big things that organizationally they have to do to,
+
+00:19:57.121 --> 00:20:01.026
+<v Cory>actually an able when they had the light bulbs go off.
+
+00:20:01.141 --> 00:20:10.076
+<v Cory>How do you get them organization to be able to respond to those new kinds of requests as new kinds of your ways of running a business.
+
+00:20:10.377 --> 00:20:18.969
+<v Bill>Remind me to explain to you is so simple that it's really hard to understand why every doesn't do it cuz it companies who do this.
+
+00:20:19.258 --> 00:20:29.834
+<v Bill>What's a made that this this shift execution is simple and what we focus in on his what are your company's key business initiative the next 12 to 18 months.
+
+00:20:30.207 --> 00:20:38.799
+<v Bill>Are you focused on increasing stamps for sale his focus on improving quality of care in a hospital you report trying to improve on-time delivery if your logistics company.
+
+00:20:38.938 --> 00:20:48.348
+<v Bill>What are you trying to achieve in the business I might that's a starting point in the reason why that's an important turning point because because there's money attached to that if I can reduce.
+
+00:20:48.775 --> 00:20:54.783
+<v Bill>L does late deliveries by 10% to some company that may be worth 100 to 200 million dollars a year.
+
+00:20:55.036 --> 00:21:04.344
+<v Bill>But that's a lot of money that's a lot of money so it has to start with the business conversation of what's important to business cuz if you don't have that.
+
+00:21:04.549 --> 00:21:14.144
+<v Bill>It's nearly impossible to figure out how to monetize your data analytics if you don't know what problem trying to solve
+we take it one step further let's see your problem is.
+
+00:21:14.656 --> 00:21:23.909
+<v Bill>Customer customer retention you got a backup retention problem and you're trying to find a way to improve attention by 5% and it's worth something dollar amount the organization.
+
+00:21:24.613 --> 00:21:33.770
+<v Bill>What we then do is we work with the business stakeholders to identify the decisions they need to make in order to support customer retention.
+
+00:21:34.534 --> 00:21:42.928
+<v Bill>It's so for example they will say we got to make decisions regarding which customers are at risk and oh by the way now that you saw the flag what customers are at risk.
+
+00:21:43.235 --> 00:21:50.986
+<v Bill>What's the predicted value of each of those customers if I have a customer who is at risk who's predicted value to the organization is negative I might want to let them go.
+
+00:21:51.431 --> 00:22:06.369
+<v Bill>I need to make a decision about what what kind of offers do I give them in what channels do I reach them through and what time of day and how do I retarget at right so all the sudden if you focus on the decisions if you focus on the decisions.
+
+00:22:06.688 --> 00:22:16.116
+<v Bill>The data science team knows how to optimize decisions you want to flag at risk customers the data science he will help you do it.
+
+00:22:16.249 --> 00:22:27.996
+<v Bill>They will help you figure out and buy the business takeovers have to be involved in that process throughout cuz it's a very key aspect of that process and it's built on this very simple definition of what is data science.
+
+00:22:28.339 --> 00:22:34.251
+<v Bill>Here's my definition data science I share with my students and the exactly so I get into these workshops.
+
+00:22:34.528 --> 00:22:43.578
+<v Bill>Data science is about identifying those variables in metrics that might be better predictors of performance.
+
+00:22:44.744 --> 00:22:46.576
+<v Bill>. that's it.
+
+00:22:47.111 --> 00:22:58.726
+<v Bill>What are using machine learning supervisor on supervised or neural networks or whatever that's all I'm trying to do is to find variables and metrics that might be better predictions performance if I know.
+
+00:22:58.907 --> 00:23:07.680
+<v Bill>What decisions are trying to support and I've got a data scientist in collaboration with the business team to brainstorm what day that they might need I've got a winning combination.
+
+00:23:07.933 --> 00:23:13.509
+<v Bill>Let me let me kind of rooster going to log on this topic let me take you to an exercise to take my students,
+
+00:23:13.539 --> 00:23:23.664
+<v Bill>destroyed that the power of thinking like a data scientist so I take my my MBA students I say okay you've been hired by United Airlines sorry it was only job available it was either that or be homeless.
+
+00:23:23.929 --> 00:23:33.333
+<v Bill>So and your first job your first job is to forecast how many passengers are going to fly from San Francisco to Paris next month.
+
+00:23:34.102 --> 00:23:39.107
+<v Bill>And then I say what date of mind you need might be in the key phrase not playing might in a second here,
+
+00:23:39.108 --> 00:23:51.546
+<v Bill>what day did Mike Zunino to make that forecast this I break them into groups of three or four and they they break off and they kicked there Post-it notes in there and their chart there and their brainstorming data on there in about 10 minutes or so I bring them all back,
+
+00:23:51.480 --> 00:23:59.376
+<v Bill>share with me what data you might need to know to make that forecast and always start talking the same way well how many people flew last month,
+
+00:23:59.310 --> 00:24:11.917
+<v Bill>for the last 12 months into the same month a year ago same month two years ago and I flew by day by time of day but in all the kind of transactional foundational stuff by the way most that transaction the foundations of his phone here.
+
+00:24:12.170 --> 00:24:21.279
+<v Bill>Sorry that you already have it been doing reports on it for 4 years if not decades then there's this kind of this pause and you can literally start seeing the light bulbs go off.
+
+00:24:21.574 --> 00:24:30.509
+<v Bill>And some of those say well what's the exchange rate hasn't changed in the last 12 months and somebody will say well you know how many weekends in a month how many days in a month early holidays in the month.
+
+00:24:30.654 --> 00:24:36.296
+<v Bill>Are there any special events going on in Paris it somebody else will say are there any strikes,
+
+00:24:36.122 --> 00:24:48.410
+<v Bill>plan in Paris in and what was the last terrorist attack and how many Google searches were there on price of the tickets at how many Pinterest pins were there on hotels of all these different data sources,
+
+00:24:48.386 --> 00:24:57.640
+<v Bill>that might be useful might be in the key phrase you want to capture as many ideas as possible cuz we don't know for certain which variables might be the most predictive.
+
+00:24:58.145 --> 00:25:06.311
+<v Bill>The people who will then tell you which data sources are the most valuable are the most predictive are the ones that you're going to give you the most insides of a data scientist.
+
+00:25:06.612 --> 00:25:19.302
+<v Bill>And I'll go through the do all their magic to figure out which of 50 different neural network Technologies me using to mine too deep learn this technology mildew machine right and they will come back and say all these are the five or six most predictive variables.
+
+00:25:20.391 --> 00:25:32.835
+<v Bill>That's what they do so when you combine the business stakeholders let them brainstorm what day that they might need with a date of society will tell you which data source attraction was predictive you have a winning combination.
+
+00:25:33.268 --> 00:25:45.718
+<v Bill>And you have results not on you have better results but you have the most difficult thing to achieve in the big day today to science conversation is you now have business stakeholder buy-in.
+
+00:25:46.644 --> 00:25:53.038
+<v Thomas>No that's that's that's amazing but that's great stuff there it sounds like it what you're saying is.
+
+00:25:52.978 --> 00:26:07.724
+<v Thomas>It's a team sport right data science and you know coming together to find out okay what the business problem is and then one of these factors I mean it's not it's not just a hey we need to salt and you give it to your data scientist and they go off in a room don't talk to anybody and close the door I mean is that,
+
+00:26:07.538 --> 00:26:08.571
+<v Thomas>show me nuts.
+
+00:26:08.559 --> 00:26:17.693
+<v Thomas>That's kind of what we've said about Developers for a long time you know where we started getting into this more Agile development and you'll get everybody in a room and talking together and really trying to figure these things out together.
+
+00:26:18.036 --> 00:26:23.786
+<v Bill>Yeah it's it's it is certainly a team sport the client we see that have the most success.
+
+00:26:24.219 --> 00:26:29.561
+<v Bill>And by the way the date that the marginal Improvement is dramatic,
+
+00:26:29.519 --> 00:26:36.387
+<v Bill>3 to 5% were talking 3 to 5x are the organizations were the business and the data scientist collaborate close,
+
+00:26:36.291 --> 00:26:44.499
+<v Bill>and the under and by the way that's the real key is it can we get the business stakeholders to really understand that analytics is a business discipline,
+
+00:26:44.361 --> 00:26:48.723
+<v Bill>episode discipline as accounting and Finance in economics are.
+
+00:26:48.850 --> 00:27:06.150
+<v Bill>We're not going to make you learn you know it's how to program an inmail parole or job RR python no we're not going to make you do that but we want to be part of this process because we need to understand the decisions you're making a bag of those decisions we need to understand what data source are most valuable if you don't understand in the date,
+
+00:27:05.994 --> 00:27:09.755
+<v Bill>these are the models were coming up with effective enough for you to act on.
+
+00:27:10.249 --> 00:27:12.243
+<v Thomas>Also.
+
+00:27:12.189 --> 00:27:24.039
+<v Thomas>I follow I follow a lot of kind of what you're saying and I chill more to the data engineer side so you know I'm on the technologist kind of working with the check and that's where I start off in my career but one of the things that I've always.
+
+00:27:24.039 --> 00:27:33.521
+<v Thomas>Don't really really great about what you're saying is like you even for an engineer you need to understand what the business value is it so we can all see a lot of the content I followed you know the blocks that you put in.
+
+00:27:33.407 --> 00:27:47.023
+<v Thomas>You really publishing a lot but I mean it's just it's really helpful for the data engineer to say how you even need to know how to explain the problems right so you want you want to use all these cool Technologies you want to be apart you know what's going on with her be with it,
+
+00:27:47.006 --> 00:27:54.781
+<v Thomas>Community but to be able to get your project sold and get your project sign off on you have to explain why this business value to it so.
+
+00:27:54.782 --> 00:28:03.939
+<v Bill>Yeah you said it really wants is a team sport right I got to have a data engineer and a data architect and knows how to go get the data and put it into an architecture allows me to go,
+
+00:28:03.855 --> 00:28:16.402
+<v Bill>Hazel E access it if my data science thing I did decide to do that then they're not doing it with it but they need to do and what is a data science they decide to do the single most important thing they do is they quantify cause and effect,
+
+00:28:16.396 --> 00:28:24.394
+<v Bill>are they build the analytic models that basically tell you which variables are most predictive they quantify cause-and-effect they measure goodness of fit the only do two things right,
+
+00:28:24.310 --> 00:28:33.828
+<v Bill>to really hard thing to do but they do it I want I want my data engineers and Architects helping to build the right platform getting the right data for more data visualization people they're using,
+
+00:28:33.594 --> 00:28:48.310
+<v Bill>pop tools like Tableau and you're my favorite ggplot2 and trying to figure out what date is moving together I want a human-centered design person involved in the team who is going to help me understand how the analytic results are going to be rendered to my users to make an actionable,
+
+00:28:48.076 --> 00:28:49.788
+<v Bill>it's a team sport.
+
+00:28:49.933 --> 00:29:05.628
+<v Bill>And so when I start thinking about that it's just like a baseball team right I can't have my short stop playing first base pitching and catching it isn't going to work right different skill sets different people so it's no different for the data science team it's a team sport of which the business people,
+
+00:29:05.454 --> 00:29:11.968
+<v Bill>have to be on the team as well as any other business constituents God have them on the team.
+
+00:29:12.221 --> 00:29:23.457
+<v Thomas>Yeah I know and like I was saying you know a lot of the stuff that you put you know you're with your blogs and everything you know I try to encourage people whenever I'm talking to you what can I do know a lot of people ask you know how.
+
+00:29:23.349 --> 00:29:33.871
+<v Thomas>Other developers are dating Engineers they're saying okay what should I do what kind of my role and I kind of basically put it down to three different roles if we think about you everyday,
+
+00:29:33.979 --> 00:29:43.485
+<v Thomas>scientist in each one has their own lane or some weed over but I still think there's value and I think you're for the date engineer you do need to know and understand.
+
+00:29:43.594 --> 00:29:45.595
+<v Thomas>The Y of the project.
+
+00:29:45.517 --> 00:29:55.143
+<v Thomas>Did you continue to have some somewhat of an understanding about what that data scientist is going to do and then also the data visualization person too but I mean you know a lot of the content that you're.
+
+00:29:55.204 --> 00:30:00.882
+<v Thomas>That you're doing with your blog and stuff I mean.
+
+00:30:00.582 --> 00:30:09.949
+<v Bill>Haha well I understand that God gave me two ears and one mouth I listen to our customers.
+
+00:30:10.298 --> 00:30:16.523
+<v Bill>Today they tell me my steps only only interesting because of my customers are interested.
+
+00:30:16.638 --> 00:30:28.133
+<v Bill>I will be honest with you anymore almost all of the topics that I can come up with come from customer conversations questions they ask problems I've got it sits if you if you stay close to the customers.
+
+00:30:28.650 --> 00:30:34.046
+<v Bill>And you're really trying to help them and by the way sincerely in my heart I want my customer be successful.
+
+00:30:34.329 --> 00:30:42.314
+<v Bill>I want to have success with it be successful and you know I am by the way I want to be late to that success let them know that hey Bill schmarzo help me be successful.
+
+00:30:42.567 --> 00:30:50.673
+<v Bill>I want if you listen to your customers they will tell you what they need to also tell you what they want and I'm less interested in what they want.
+
+00:30:50.860 --> 00:30:57.962
+<v Bill>I want to focus on what you need so you'll get a lot of cuz I think this is what happened in the early days of big data right you went out and you went out and bought her do.
+
+00:30:58.124 --> 00:31:10.503
+<v Bill>And you threw some data on it and you hired some data scientist righty put on some stories and some servers because that's what the customer wanted to do and the technology committee was more than happy to blindly follow along and do that.
+
+00:31:10.930 --> 00:31:17.984
+<v Bill>That's not that's what they wanted but not what they needed what they needed was somebody to come in and help them figure out how my going to monetize estate.
+
+00:31:18.243 --> 00:31:30.561
+<v Bill>Holiday I take this data to you to make better decisions how am I going to improve retention and attribution and acquisition how am I going to improve the business we we we didn't listen.
+
+00:31:30.748 --> 00:31:37.207
+<v Bill>Well because we we we listen to what they wanted and we blindly fell alongside them instead of taking the time to be a,
+
+00:31:37.268 --> 00:31:40.933
+<v Bill>business partner and say no you said that you just may be what you want.
+
+00:31:41.167 --> 00:31:54.507
+<v Bill>Right here is what you need is this and we focus on what they need and what they're trying to accomplish the whole thing the whole conversation changes my my relations with most of my clients are wonderful because we talk about their business.
+
+00:31:54.243 --> 00:32:05.972
+<v Cory>They also makes me laugh because of what you just said there's made me think of one of my favorite Henry Ford quotes which is if it asked my customers what they wanted they would have told me a faster horse.
+
+00:32:06.514 --> 00:32:13.946
+<v Cory>Bright-eyed science and it's it's kind of it right so you had these customers that you know because everybody the norm was.
+
+00:32:13.803 --> 00:32:19.673
+<v Cory>Hey Technologies going to solve the problem just invest in the latest new technology you know that's what the weird,
+
+00:32:19.511 --> 00:32:31.974
+<v Cory>we were asking for him that's what the technology Community gave them was basically Faster Horses right you could with Hadoop you could handle larger data sets and you could ever Handle With Us sequel database right but I like where you're going.
+
+00:32:31.890 --> 00:32:37.256
+<v Cory>It wasn't necessarily what they needed which was how do you connect.
+
+00:32:37.292 --> 00:32:52.825
+<v Cory>Using the technology to dry the business outcomes I got to ask you work in a Consulting organization right that goes out and then I'm guessing right part of what Consulting does you have smart people can come in and deliver on the things that you're evangelizing,
+
+00:32:52.669 --> 00:33:01.442
+<v Cory>what are the what are the specific sort of like offerings and Consulting like how do they how does.
+
+00:33:01.551 --> 00:33:13.268
+<v Cory>How does a customer engage with you like what is an engagement look like in terms of specific like always with you and what's the process for.
+
+00:33:13.142 --> 00:33:18.802
+<v Cory>Taking advantage of what you're talking about in as it relates to actual Consulting offers.
+
+00:33:19.650 --> 00:33:20.948
+<v Bill>Sure so.
+
+00:33:21.333 --> 00:33:30.827
+<v Bill>Customers come to us in with one of two problems then this isn't this is generally speaking there is little more to this the customers have one or two problems.
+
+00:33:31.085 --> 00:33:38.452
+<v Bill>Either they're trying to do data monetization and they have no idea what the hell they're doing or their data Lakes are not performing.
+
+00:33:38.789 --> 00:33:43.181
+<v Bill>Invited over to someone related fact they're very relatable they're coming from two different perspectives.
+
+00:33:43.386 --> 00:33:56.629
+<v Bill>And so it was the second I hit first as we have a lot of organizations that have built data Lakes Mobile Data lakes and they're not get any value out of it and the first thing I say is that I hear the word I hear the word data Lakes I see you got a problem.
+
+00:33:56.792 --> 00:34:09.837
+<v Bill>Cuz you're replicating the same problem we had with data warehouses we didn't have one day to Warehouse we have multiple data warehouses in data Marts and spread Martin we created this this environment with the business we taught the business users to trust a data,
+
+00:34:09.892 --> 00:34:19.079
+<v Bill>the biggest the biggest flaw in data warehousing is it we taught users not to trust the data because the data was dependent upon which it came from.
+
+00:34:19.530 --> 00:34:25.485
+<v Bill>Huge mistake right we set we sent data warehousing back a decade because we couldn't standardize and by the way,
+
+00:34:25.449 --> 00:34:32.600
+<v Bill>we couldn't respond quick enough in a data warehouse the customers business data needs we just quit here to build a schema first,
+
+00:34:32.528 --> 00:34:43.879
+<v Bill>Hina architected for trying to make a stupid thing one on on databases that were designed for transactional systems like analytical systems but that's a topic for another series of beers and podcast but so,
+
+00:34:43.819 --> 00:34:53.812
+<v Bill>problem number one is customers have a data Lake and they don't know what to do with it. It doesn't scale it doesn't meet their business needs and so we have a whole series of offerings are really guides.
+
+00:34:53.806 --> 00:35:01.119
+<v Bill>Advisory service and assessment a proof of technology did really design a take and their data Lake from a.
+
+00:35:01.330 --> 00:35:09.351
+<v Bill>Stack of technology to an elastic data platform to a Clarity value creation platform I call that last one day too late 3.0.
+
+00:35:09.490 --> 00:35:13.215
+<v Bill>We are data Lake now is a collaborative value creation plate platform,
+
+00:35:13.276 --> 00:35:24.512
+<v Bill>that's a repository for your data and analytics digital assets but I can reuse across multiple use cases that I can monetize across multiple use cases so entry point number one is the data light.
+
+00:35:24.639 --> 00:35:28.388
+<v Bill>They got a data Lake it's not working how do we help.
+
+00:35:28.743 --> 00:35:36.278
+<v Bill>We got some you got some verses to help them do that we can take them from where they are to where they need to be in order to be able to drive no monetization opportunities.
+
+00:35:37.084 --> 00:35:47.455
+<v Bill>The other conversation is really around monetization how do I monetize my data and this is an interesting one guys because we're typically starts off with his I'm trying to sell my data.
+
+00:35:47.714 --> 00:35:48.981
+<v Bill>Wrong approach.
+
+00:35:49.655 --> 00:35:59.587
+<v Bill>And I'm going to go old-school back on you and when I go back to Adam Smith in his book Wealth of Nations written in 1776 they have a Smith and that book talks about value Creation in two ways.
+
+00:36:00.008 --> 00:36:08.120
+<v Bill>One way he talks about his called value in exchange that is what is an asset worth in my ability to sell it or barter or somebody else.
+
+00:36:08.379 --> 00:36:13.090
+<v Bill>And when people start thinking data monetization the first thing they're thinking about it what can I sell my data for.
+
+00:36:14.502 --> 00:36:28.719
+<v Bill>Companies are in the date of business most companies are you just got to come he's not a database that you want to scare the pants off just say one word you say Equifax right and they turn all pale white know you don't want to be in the business of monetizing of value through through Exchange.
+
+00:36:29.266 --> 00:36:37.096
+<v Bill>Adam Smith also talked about creating value through use how do you use your data to drive better business outcomes.
+
+00:36:37.583 --> 00:36:43.886
+<v Bill>That's what we focus in on in order to do that to have that data monetization conversation around value in use.
+
+00:36:44.061 --> 00:36:52.647
+<v Bill>It has to start with key business initiatives it has to start with use cases it has to start with what decisions are you trying to make what business outcomes you trying to optimize.
+
+00:36:52.864 --> 00:36:57.893
+<v Bill>So I can fold them from his ability to take to take either one of those tracks.
+
+00:36:58.110 --> 00:37:10.554
+<v Bill>But you all are designed to get us to a point where we can take and monetize our data on a platform of data like platform it's elastic scale-out and allows it to create this value this cloudy value creation platform.
+
+00:37:11.090 --> 00:37:23.864
+<v Bill>By the way that turned out cloudy value creation platform isn't my term that came from the series a conversation with the IMF against smart customers asking SmartThings demanding SmartThings we all get a chance to learn from them.
+
+00:37:23.660 --> 00:37:32.571
+<v Cory>That's awesome yeah actually it's interesting you said that that one of the things that organizations find out is that their data may actually be.
+
+00:37:32.434 --> 00:37:46.620
+<v Cory>Less valuable than they think in terms of when they think in terms of exchange I was blown away I spent the last three weeks and in Asia and and and the southeast and Southeast Asian in Australia where was a ton of customers.
+
+00:37:46.471 --> 00:37:55.815
+<v Cory>That had that exact thing in mind which is the the value exchange conversation do you actually see other companies that are making money.
+
+00:37:56.055 --> 00:38:02.509
+<v Cory>And that sort of their value of the data is in the exchange of where they're selling it cuz I get asked that.
+
+00:38:02.365 --> 00:38:06.553
+<v Cory>Constantly by cool if I collected the state of how who can I sell it to.
+
+00:38:07.593 --> 00:38:21.077
+<v Bill>Selling data is a very specialized business and companies like you know AC Nielsen and and Axiom and Equifax and such they they they are geared to do that.
+
+00:38:21.233 --> 00:38:25.764
+<v Bill>They have processes for bringing date in cleansing at a line in it.
+
+00:38:25.938 --> 00:38:39.284
+<v Bill>Packaging acting at Salesforce in and out of cell data they got markings on a market data they know how to do Version Control and upgrades and got in most cases they have Security in in in a liability coverage and things like that regulatory coverage and such,
+
+00:38:39.345 --> 00:38:42.307
+<v Bill>that's not something your average company give it a pickup.
+
+00:38:42.884 --> 00:38:57.053
+<v Bill>Killer special ice companies in when a company talk about one of my toys my data is like will give a Salesforce you know how you're going to price it how you going to what kind of upgrade you going to have right what were some Main and stream look like and they have no idea because they're not in that business so so.
+
+00:38:57.162 --> 00:39:06.132
+<v Bill>End of the day your data is actually worth a lot more to you than it is to them because I thought time you remove all the pii and HIPAA information on your data,
+
+00:39:06.223 --> 00:39:15.549
+<v Bill>it's interesting but it's more interesting you before I know what behaviors Bill schmarzo is doing let's just sit in Amazon's world for a second.
+
+00:39:16.288 --> 00:39:26.077
+<v Bill>Amazon has done a masterful job of learning everything they can about every individual customer I just masterful and.
+
+00:39:26.732 --> 00:39:35.763
+<v Bill>They they lie bridge that to be able to predict what products you might want so I can show you when you're on my side what products you might also want to buy.
+
+00:39:36.203 --> 00:39:46.664
+<v Bill>Great right thing they've done that collaborative filtering if there was a match for that for a long time but they've gone one step further like the one of the things that they do and now they have these Depots in certain zip codes.
+
+00:39:46.935 --> 00:39:56.320
+<v Bill>And they can put products in those Depots with a high degree of confidence is somebody in that zip codes going to buy that product how do they do that.
+
+00:39:56.459 --> 00:40:10.670
+<v Bill>The forecast at every individual customer level what products you might want in an aggregate that up and when the air condition gets to a certain level they can safely say that zip code there's enough people there they're going to want to have HP printer ink.
+
+00:40:10.875 --> 00:40:20.056
+<v Bill>I'm going to put printer HP printer ink into that Depot so when you order it it's going to show up you know 2 or 4 hours later or where drones are going to show up 30 minutes later right so,
+
+00:40:19.913 --> 00:40:34.352
+<v Bill>that that very detail profiles is something organizations can do themselves that they can't give to somebody else without violating pie and HIPAA and other sort of rules so the real value in their data isn't the overall market trends.
+
+00:40:34.503 --> 00:40:38.714
+<v Bill>It's the bat individual level I got like to see the big date is not about big.
+
+00:40:39.087 --> 00:40:54.068
+<v Bill>Big data is about small it's about as learning as much as possible about each individual customer their behaviors are Tennessee's repent cities are in collisions are interest or passions relations or associations learn as much as possible about them so I can better serve them.
+
+00:40:54.651 --> 00:41:01.843
+<v Thomas>No that's great bill I mean that's what you're talking about really when you're talking about you know being able to make sure that you have,
+
+00:41:01.609 --> 00:41:11.614
+<v Thomas>the weather be printer ink or wherever you need it in that Regional location because there might be a run on it it's what we talked about a long time ago you know when your business classes with Just in Time Manufacturing right but,
+
+00:41:11.633 --> 00:41:19.486
+<v Thomas>to the suppliers and so you're one of the big things in the last 2 or 3 years is not hey man I want a drone to be able to deliver things right you know.
+
+00:41:19.516 --> 00:41:31.925
+<v Thomas>How's the regulations going to happen you know that they going to allow for drones to deliver your my Amazon packages all the way from Seattle to where I live in Alabama.
+
+00:41:29.672 --> 00:41:32.423
+<v Bill>Yeah yeah.
+
+00:41:32.520 --> 00:41:39.328
+<v Thomas>They're right in my minivan other Concepts and you take out the drones other Concepts were they have.
+
+00:41:39.190 --> 00:41:48.966
+<v Thomas>You know these kiosks or Mobile kiosk is where you're able to go and see you going to be able to pick up your packages you know in your city especially least dense cities.
+
+00:41:49.099 --> 00:41:57.451
+<v Thomas>New York City for example you know they would almost kind of like how you have food trucks that have Amazon trucks right know what to put on there if nobody needs.
+
+00:41:57.458 --> 00:42:08.784
+<v Thomas>The printer ink are nobody needs new headphones why would you put that on the you're wasting that product space and it's more than the competitiveness that you see you know when they talk about shelf space in.
+
+00:42:08.971 --> 00:42:18.597
+<v Thomas>Grocery store supermarkets or whatever they are so you have to be able to know what that what to put on the product Jeff know the business value right for it to.
+
+00:42:21.085 --> 00:42:31.012
+<v Cory>So was going to what are the what are things when you talk about like that connecting the
+the business value in that Consulting process.
+
+00:42:31.018 --> 00:42:32.214
+<v Cory>How are you.
+
+00:42:32.088 --> 00:42:50.523
+<v Cory>Are you seeing that the students that come through your MBA program are they like are they are best like your Best Contacts whenever you'd like are they going out into the industry and that you know you're creating like this this this Army folks that are connecting business value or you seeing other folks like besides just the ones you talk to help get the light ball go off,
+
+00:42:50.277 --> 00:42:52.572
+<v Cory>how are people starting to.
+
+00:42:52.483 --> 00:43:02.085
+<v Cory>Learn the stuff like how are they like what organizations is there some sort of like unifying Trend that you see across the people in the company that you deal with.
+
+00:43:01.977 --> 00:43:04.254
+<v Cory>There are actually getting this quicker.
+
+00:43:05.583 --> 00:43:12.450
+<v Bill>Hi man I am trying to create schmarzo private Army there's no doubt about that.
+
+00:43:12.781 --> 00:43:25.688
+<v Bill>Tutu evangelized is the value of data in organizations in unfortunately Dave and I talk to my students after they've gone to the real world now they run into the Quagmire of the,
+
+00:43:25.779 --> 00:43:34.239
+<v Bill>bureaucracy of large organizations right in and to serviced and this may sound overly harsh but I've I've given up on my generation.
+
+00:43:34.745 --> 00:43:42.448
+<v Bill>I think that the My Generation has and my generation is the is the bi data warehouse generation.
+
+00:43:42.683 --> 00:43:46.990
+<v Bill>Where we were more than happy to report on what happened and thought we had achieved success.
+
+00:43:47.532 --> 00:43:57.284
+<v Bill>The next generation is demanding more and the Millennials and part of that is a Millennials have experienced what and what is it about,
+
+00:43:57.381 --> 00:44:01.677
+<v Bill>think about how their lives are driven by recommendations whether it's,
+
+00:44:01.653 --> 00:44:13.599
+<v Bill>Amazon or Netflix or Spotify or eHarmony or ways whatever they like their entire their entire life is now built around very detailed analytics helps them live their life better.
+
+00:44:14.591 --> 00:44:22.588
+<v Bill>That those experiences have changed their expectations of what they want out of a corporation and I think as those people,
+
+00:44:22.517 --> 00:44:29.487
+<v Bill>has his Millennial start to progress up in the organization they're going to bring that to the business many cios I talk to,
+
+00:44:29.349 --> 00:44:39.834
+<v Bill>you're hopeless they are just marking time until I can retire now they've they rode the wave of data Rawson bi gotten and now they're more concerned about blocking,
+
+00:44:39.685 --> 00:44:47.922
+<v Bill>data lakes and data science and they are about promoting it sorry to be so harsh but we there's too many cios who have outlived their usefulness,
+
+00:44:47.797 --> 00:44:56.480
+<v Bill>in my hope is at the Millennials I pry won't be here to see an experience that but the Millennials are going to because they have a different experience a different mindset,
+
+00:44:56.318 --> 00:45:02.897
+<v Bill>are going to be able to really understand about the power of analytics to really help their customers be more successful.
+
+00:45:02.808 --> 00:45:14.182
+<v Cory>That's really I wanted to hear that the Millennials were the the best the best the best ones to help you drive it for that's that's going to make a handful of folks that are part of the show very very happy that you just said that.
+
+00:45:14.045 --> 00:45:20.618
+<v Cory>So I got to ask someone you're teaching these classes at the exit that you said the University of San Francisco right.
+
+00:45:20.552 --> 00:45:21.934
+<v Bill>Yep that's right go down.
+
+00:45:21.634 --> 00:45:23.941
+<v Cory>Yeah they got the Danse what is that.
+
+00:45:23.671 --> 00:45:30.322
+<v Bill>Dominicans I don't know that's a good question I should know that shouldn't I.
+
+00:45:29.109 --> 00:45:32.240
+<v Cory>The hardest question you had on the entire.
+
+00:45:31.940 --> 00:45:41.756
+<v Bill>I got to look it up now my friend you're not going to let the dogs out I think that's like I have some sort of religious thing I got to look it up on Google really quick.
+
+00:45:43.195 --> 00:45:45.748
+<v Cory>So I got to ask how did you so.
+
+00:45:46.127 --> 00:45:57.460
+<v Cory>How did you how did you end up teaching that's that's an interesting I think for a lot of us at our in and technology and said if if you have a proclivity towards you know dealing with customers and speaking and.
+
+00:45:57.334 --> 00:46:02.405
+<v Cory>Concentration lot of things that you're doing I think that a lot of a lot of us are kind of into.
+
+00:46:02.664 --> 00:46:15.132
+<v Cory>It feels like a it feels like a one while simultaneously a natural progression also a very weird and like almost backward one I don't know how did you how did you end up doing that.
+
+00:46:15.776 --> 00:46:18.738
+<v Bill>Well I was I was trying to do guest lectures,
+
+00:46:18.756 --> 00:46:27.703
+<v Bill>I'm a lot of different universities across the u.s. might my books have been adopted by many universities as part of their,
+
+00:46:27.596 --> 00:46:33.045
+<v Bill>both MBA programs and some of the action part of engineering program so I had sort of a natural,
+
+00:46:32.980 --> 00:46:45.099
+<v Bill>way to speak to people for the first book in particular kind of open the door and then I did a guest lecture at USF had a chance to meet the the fellow who is ahead of the business and,
+
+00:46:44.968 --> 00:46:53.043
+<v Bill>I analytics College there we hit it off well he wanted me to do a class we did a class it was very successful,
+
+00:46:52.918 --> 00:46:55.657
+<v Bill>Tom and desconto coffin there.
+
+00:46:56.247 --> 00:47:04.923
+<v Bill>It's it's been a marvelous relationship because it allows me to no no it's forces me to simplify.
+
+00:47:05.308 --> 00:47:12.188
+<v Bill>The students when I asked the students in the class how many people here no data warehouse is no one raises their hands.
+
+00:47:12.513 --> 00:47:21.520
+<v Bill>No one cares no one cares and we start asking questions about you know what is your most.
+
+00:47:21.749 --> 00:47:26.273
+<v Bill>Impressive experience on the internet they love how how,
+
+00:47:26.166 --> 00:47:31.976
+<v Bill>Amazon can tell me what I need to do or what Netflix will pick movies for me or no they they talk about there,
+
+00:47:31.893 --> 00:47:43.405
+<v Bill>experiences from organizations that have mastered leveraging data and analytics really improve the customer experience they understand that so they it's it's force me to think very hard about what's really important.
+
+00:47:43.899 --> 00:47:49.667
+<v Bill>And how do I take Concepts and simplify them to the point of an executable.
+
+00:47:49.818 --> 00:47:59.948
+<v Bill>Like my definition of data science right did Ida simplify that cuz of students that say what is data science and I don't want to spend 3 hours explain what data Sciences I want to explain it in 15 words or less.
+
+00:48:00.183 --> 00:48:08.091
+<v Bill>What's supervised vs. unsupervised machine learning right I can explain that forward so you know what that's that's what I,
+
+00:48:07.977 --> 00:48:15.830
+<v Bill>it forces me to simplify and when you do that I think all the BS it gets in our way as technicians fall to the Wayside,
+
+00:48:15.891 --> 00:48:18.552
+<v Bill>and now we're focused on the heart of what's important.
+
+00:48:18.793 --> 00:48:21.863
+<v Cory>That's awesome bill.
+
+00:48:22.363 --> 00:48:24.646
+<v Thomas>I know and I just.
+
+00:48:24.598 --> 00:48:37.883
+<v Thomas>Was going to read right I mean I think that's that's great it's crazy to me that you're saying that you're in these classes and you're teaching them and people don't know what a data warehouse is so I mean on the edge of a penny.
+
+00:48:37.752 --> 00:48:45.215
+<v Thomas>XO so just kind of wrapping up I know we're getting close to the top of the hour.
+
+00:48:44.915 --> 00:48:48.153
+<v Bill>Yes sorry you got it your fault.
+
+00:48:47.853 --> 00:48:52.780
+<v Cory>Yes it was supposed to shift gears in a rapid fire they'll be awesome.
+
+00:48:53.033 --> 00:49:08.704
+<v Thomas>Yeah so but before we didn't want to ask one just give you one more opportunity so to the big day the beard Army out there you talking about you didn't get your big date MBA Army so we got to be date of beard Army lot of focus really on the date Engineers nanotechnologist yesterday to scientist,
+
+00:49:08.512 --> 00:49:15.699
+<v Thomas>what what would what would your core message be to tell them why it's so important in their roles to be connected to these business outcomes.
+
+00:49:15.849 --> 00:49:20.764
+<v Bill>So I'm going to make a very gratuitous plug of my book Bengay to NBA.
+
+00:49:21.276 --> 00:49:30.139
+<v Bill>I brought the bigger the NBA as my textbooks my class doesn't read like a textbook it reads a little hope a little better than a textbook but it was really designed to really help.
+
+00:49:30.524 --> 00:49:44.825
+<v Bill>People and organizations figure out how do I take advantage of data scientist data science as a as a monetization platform and I start with that and I think what you'll see very quickly is that when you focus in on the business outcomes.
+
+00:49:45.204 --> 00:49:52.456
+<v Bill>All the technology decisions you need to make architecture decisions you need to make data scientist need to make sure they all become self evident.
+
+00:49:52.721 --> 00:49:58.531
+<v Bill>I like to say no somebody walked me to the Haitian Mars do I need to have spark my interest going to be I don't know.
+
+00:50:00.112 --> 00:50:06.067
+<v Bill>What are you trying to do right do I need to have this I need to have wyota do I need to have cough cut right I don't know,
+
+00:50:06.055 --> 00:50:14.894
+<v Bill>what are you trying to do and if we don't know we're trying to do but we don't begin with an end in mind is still from Stephen Colby then we're going to wander lost in the desert,
+
+00:50:14.955 --> 00:50:25.518
+<v Bill>so it's it the understand the business outcome for trying to drive now it doesn't make our technology did data and data science jobs easier.
+
+00:50:25.747 --> 00:50:39.651
+<v Bill>It makes it more relevant to the business and it by the way as a data engineer also you become important to the business you're not just some guy buried in the balls organization playing with technology you're now a key aspect of the company's ability to drive,
+
+00:50:39.478 --> 00:50:42.470
+<v Bill>revenue and to monetize what they've got his assets.
+
+00:50:42.584 --> 00:50:50.318
+<v Bill>So make the shift and I think you will find the conversations you get involved in will change dramatically and they'll be a lot more fun.
+
+00:50:50.426 --> 00:50:58.183
+<v Thomas>No I agree I mean I read the book but I can I can attest that you know as it engineer Reza developer of any kind.
+
+00:50:58.064 --> 00:51:05.436
+<v Thomas>Once you can start explaining the problems and talking to you know the people above your paygrade you become really more important so that's a great book.
+
+00:51:05.311 --> 00:51:15.369
+<v Thomas>You know check it check it out specially if you're in a date Into Your Role so we're going to transition to the year and were rolling into our rapid fire questions and so these these questions we just have a set of questions,
+
+00:51:15.214 --> 00:51:21.198
+<v Thomas>first thing that comes to your mind and other they're meant to be fun and kind of give us a little more background you too so.
+
+00:51:21.103 --> 00:51:27.616
+<v Thomas>The first one is what year will Skynet go online so what year will the machines take over.
+
+00:51:30.633 --> 00:51:41.317
+<v Bill>So I'm I'm dubious a Skynet Kik say never but I would say if there was a point in time it would be earlier versus later because we be no more naive and we,
+
+00:51:41.215 --> 00:51:47.440
+<v Bill>have built lesson so I think we're most vulnerable probably from the years 2020 to 2022.
+
+00:51:47.855 --> 00:51:52.530
+<v Thomas>Okay there you go man while it's specific conference all I'll be on the lookout.
+
+00:51:53.473 --> 00:52:02.979
+<v Thomas>So if you're able to buy me one book what would it be like what you know what book would you recommend buy for somebody just any book that have to be technology book just where's your head at.
+
+00:52:03.154 --> 00:52:14.096
+<v Bill>Seven Habits of Highly Effective People book changed my life and it really helped me to understand what it was was important to me which by the way led me to teaching.
+
+00:52:14.517 --> 00:52:25.327
+<v Thomas>Craigslist
+what genre of music are you rocking out to so when it when you're on the plane when you're you know I know you're at I think you're a runner right with what kind of music do you listen to right now what genre.
+
+00:52:25.514 --> 00:52:39.130
+<v Bill>So I I like jazz by like big band jazz on a Maynard Ferguson nut but I kind of like it all go everything from Jerry Reed to Aerosmith to ZZ Top I like a wide range of music.
+
+00:52:40.074 --> 00:52:43.913
+<v Thomas>Okay what's your favorite piece of useless Tech.
+
+00:52:44.971 --> 00:52:49.838
+<v Bill>Oh God my at my my Apple watch.
+
+00:52:50.031 --> 00:52:58.629
+<v Cory>So there's been a lot of is it a lot of votes for the Apple watch on this thing and I'll be honest it's the whole reason why I haven't bought one yet.
+
+00:52:58.870 --> 00:53:00.744
+<v Thomas>I want one so bad.
+
+00:53:00.494 --> 00:53:10.022
+<v Bill>You'll struggle to find a good use for it does measure steps very well at tells you the temperature outside in case you don't want to step outside but.
+
+00:53:09.086 --> 00:53:18.243
+<v Thomas>Yeah I'm a Runner 2 and so have a Garmin but I might call if I had that but watching and maybe you know okay what's your biggest Money Pit right now.
+
+00:53:19.770 --> 00:53:22.044
+<v Bill>My house.
+
+00:53:22.137 --> 00:53:23.236
+<v Thomas>House.
+
+00:53:23.058 --> 00:53:29.095
+<v Bill>Yeah we got it fixed the kitchen and the roof needs to be repaired and I don't want talk about it.
+
+00:53:28.795 --> 00:53:31.661
+<v Cory>And it's and it's and it's in California.
+
+00:53:31.457 --> 00:53:35.002
+<v Bill>Next question please next question.
+
+00:53:31.740 --> 00:53:43.415
+<v Thomas>Okay are you going anywhere interesting soon so I know you know I know you got a leg in a boot right now but do you have any trips or anything you're going to see do anything interesting.
+
+00:53:43.403 --> 00:53:53.126
+<v Bill>Yeah I got it I got a really cool end of the month I'm going to Sacramento I've been asked to speak to the state of California senior legislators about Big Data.
+
+00:53:53.240 --> 00:53:57.867
+<v Bill>I'm in artificial intelligence and ramifications going to have in the state of California so I want to know.
+
+00:53:58.144 --> 00:54:10.552
+<v Bill>2 hour Workshop there for and I really jazzed about it because it's it's giving me a chance to really rethink some aspects of the Big Data aai machine learning conversation from a from a,
+
+00:54:10.444 --> 00:54:13.905
+<v Bill>different perspective so I'm totally Jazz about that.
+
+00:54:14.140 --> 00:54:18.358
+<v Thomas>Okay great and then last question what show are you been doing right now.
+
+00:54:18.665 --> 00:54:24.986
+<v Bill>Game of Thrones season 5 season 5 not sure if how are you watching Game of Thrones.
+
+00:54:24.764 --> 00:54:28.302
+<v Thomas>Yeah I'm caught up right now so I won't I won't give you any spoilers or anything like.
+
+00:54:28.003 --> 00:54:42.815
+<v Bill>I don't know but I guess you know season 5 the first you know first 7 episodes were so boring and so depressing I kept turn off halfway through and kick it back on and then the last episode was you know the seed episode 8 I'm going to pay for any more detail I would spoil it,
+
+00:54:42.641 --> 00:54:49.136
+<v Bill>but the whole season turned around and I by the way I have a man crush on Jon Snow.
+
+00:54:49.179 --> 00:54:51.762
+<v Thomas>Alright.
+
+00:54:51.462 --> 00:54:56.651
+<v Bill>By the way you asked me for earlier but my Kane is really special in it I got a Valyrian sword in there.
+
+00:54:56.456 --> 00:54:57.561
+<v Cory>Alright y'all.
+
+00:54:59.090 --> 00:55:01.424
+<v Bill>The white walkers are going to get me.
+
+00:55:00.464 --> 00:55:11.099
+<v Cory>Walt hey Bill thanks so much for being on it was awesome to have you folks wanted to catch up with you on social what's the best places for us to follow you.
+
+00:55:11.514 --> 00:55:17.637
+<v Bill>So on Twitter I'm at schmarzo SCH marzo easy to find me there,
+
+00:55:17.541 --> 00:55:29.853
+<v Bill>I buy post quite a bit on LinkedIn all the blogs I write a right first appear on the Dell EMC sites but I always transfer them over to LinkedIn so you can also follow me there,
+
+00:55:29.776 --> 00:55:36.295
+<v Bill>those are probably the two best places I try to avoid Facebook because it's too political but I do like LinkedIn and I do like Twitter.
+
+00:55:37.197 --> 00:55:50.404
+<v Thomas>Great well everybody got their follow me always get great stuff is always post a lot of different blog post that help you learn you know the reason and the business behind big data so make sure you subscribe to the big date of your podcast never miss an episode.
+
+00:55:50.423 --> 00:55:58.865
+<v Thomas>Make sure you like us a radius on iTunes and then also follow us on Twitter and a big data beer.com for all the show notes and all your big date of beard information.
+
+00:56:05.187 --> 00:56:07.260
+<v Bill>That was fun thanks guys it was a blast.
+
