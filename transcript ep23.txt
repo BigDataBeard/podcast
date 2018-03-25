@@ -1,0 +1,328 @@
+Transcript
+Cory Minton: 
+[0:02] Hey folks Cory Minton from the big hit of your team we are at strata data conference in San Jose California I'm joined by my buddy Robert Hout who's my,
+Cohoes this weekend all the things struck and we're excited to have our dollar join us co-founder and CTO from Cloudera Armour welcome.
+Amr Awadallah: 
+[0:18] I think you could be here.
+Cory Minton: 
+[0:19] So we saw your message this morning you had some conversations to share around what club here is doing with your next Generation products so wanted to talk with you Lord about,
+we saw two big key things I think we're the buckets of the room so seriously around Altus and what you're doing there I know they were announced you know last year I guess Estrada.
+But I want to hear why I also experienced so interesting for you and what your vision is for.
+Amr Awadallah: 
+[0:44] So I mean our name is elder.
+And the reason why our name is Caldera is because when we started the 10 years ago that's how old we are right now our vision was to just be a hundred percent.
+And we both have any nice suck out Service Electric with another account services CCS for 4.
+We started selling it and we got something on its like that's why the Reese's give us money back in October 2008.
+But as we approach the market we found the 10 years ago we found the number of startups here in the Bay Area that we love that too but they wouldn't give us any money because they're startups.
+And then all the big companies when we talked to like that telecoms the government's the banks they said there's no way we're going to give you a date. That's how blood blood will not leave our body so I didn't know was 10 years ago so we had a very big pivot we throw away all the stuff we have built.
+That's doing the club. Cloud service and instead focused on building get the color of bathroom which is c h.
+As a enterprise software that can be deployed within organizations and that was the beginning of us to anybody World in terms of sales does 2009 has when we did that.
+And then about 4 years ago the cloud kept going back and not just for fun than the mobile apps and weather apps but for back hands like back office coordinator.
+And the number of a customer starts asking or saying we need to do this in the cloud so we launched infrastructure-as-a-service we just go to other than actor and that was launched the four years ago and that allows customers and watch out the forklift.
+[2:17] Any existing customers that might have an account but you still wanting the servers all the time it's like you sent using the cloud as he has a hosting provider.
+Cory Minton: 
+[2:26] Yeah it's just you're just it's not your server it's their server.
+Amr Awadallah: 
+[2:30] Yes.
+So that was that wasn't good enough for all these cases because we ask for these kids 24/7 operation all these cases that make sense but for the useless what do you want to scale upscale down and dirty diapers cloth for its ability that was an option.
+So two years ago that's why we need at least you don't have 2 years ago and the office is really about enabling or platform-as-a-service.
+My chest is an extra prayer service and to run natively against the knitted cowl storage environment so you don't have to copy little out of S3 in AWS or out of a TLS and I sure did the next door in and you can run out that's when they totally against it.
+And that was really the biggest change that we did that.
+Cory Minton: 
+[3:16] Yeah cuz you're basically changing the storage substrate cuz it's basically the way I understand it it's a pass in the sense that it's a,
+it's an orchestration and management way of spinning up the I think what are causing the date of pipelines write the services the basement things that run in yarn,
+but you're changing the storage substrate which is that's a big shift right that's not small cuz you're not it's not actually hdfs at this point which is.
+Amr Awadallah: 
+[3:40] It's running yeah that's why I had that strange so many dimensions I mean strange on the,
+hdfs Hadoop was built for the Steeler party thing that we know don't need any more of the caliper say and then it strange on the security that mention like how do you ensure the security now that we have this big model.
+It is strange in the workload management they mentioned how do we ensure that now given the disease has old shirt back next week or any less so yeah I have complications but we figured out so we have it now.
+For the first office release was for what we called it engineering opposite engineering which is focus more on back to the processing still spark Matthews High.
+But that's workouts.
+And then a couple of months ago released in beta going to be almost done that office I need to go DB which is our Impala service.
+Running as a service so I bought An ancestry and Andy can get performance from it as good as what you would get if you were to use ratchet so with Richard.
+Do you have to copy the data from S3 into the church.
+Before you can use it they have another option where you can write me to be about 3 years now and even if with Impala not coming into Impala 03 are benchmarks achieve similar results to retrofit source.
+Yes so on.
+Cory Minton: 
+[4:56] And see that's that's surprising to me cuz that's one of the things that over the years is a you know as a dude focus on the administration of Hadoop clusters and and then environment we were always concerned about that decoupling computer from storage and getting away from like you said the date of locality thing.
+It is it is it the black help me understand how the head like what did you have to change.
+Amr Awadallah: 
+[5:14] So think I'm actually not that don't think I saw you think Amazon than you think Google is Google a Microsoft what they have done is a significant 3 architecture of the network backbones.
+Traditional Legacy Network backbones are essentially the The Hub and spoke architecture when you have a central.
+Backbone that every couple black switch going to connect back to and that clearly cleats bottleneck at that backbone.
+And what they have done is they reacted their backbone that our entire infrastructure to have many many at connection Point Cycles old Rex.
+So the probability of situating Any Given link becomes very low and that's why the network no longer becomes about tonight.
+In fact an Amazon and in the apartments what we're finding is you're better off getting as many as straws meaning connections into has to be as you can so for example if you trying to go out for a very hard at computation.
+Over a long period of time then it's much better to get a hundred small notes that you get 10 big notes.
+Cory Minton: 
+[6:18] Yes I got Daddy of parallelism right so that's that was one of the time. I don't think you guys were always about right. It wasn't huge but the fact that that's insane shooting itself in the cloud is it's interesting.
+Amr Awadallah: 
+[6:28] He does prednisone to get more network connections because you could have got you can have 10 powerful now is with like heavy Coors and many many quarters in each one,
+but at the end of the day you're limited by the network connectivity back into S3 so when you spread it out over how to know if you get a lot more strolls into the back and network infrastructure and that's why I can still get very very good performance.
+The truck is about doing that is about trying to get as many connections back until she get gaming the system.
+To get as many connections back into the S3 backbone to get your unfair kind of Advantage intensive bandwidth.
+Cory Minton: 
+[6:59] So that's what that's cool for those customers to maybe they've developed applications are a lot of their data lives in us through your lives in you know they a TLS.
+But what about those customers who you know maybe they went the more traditional CDH route they built their own environment in their own data center or as a service somewhere.
+And their dad is not an extra letter that day does not industry in there in hdfs is there a is there a path for them to.
+Take advantage of it cuz one of the one of his arm. After you laid out which is you have these persistent long-running clusters for those jobs that are like the need to be around forever or is like my data Hub that I needed to be my record of Truth.
+But the the value I think and I'll just at least early on is that ability to spin up transient clusters to test things without the.
+Have you left and had to go buy new hardware not stuff but is there a path to have those kind of be a hybrid world.
+Amr Awadallah: 
+[7:48] That the path of The Harbours word is the option I cover the early I would just go there that extra so yeah it does the prominence cluster running with hdfs and Provisions all the servers.
+Anchorage Alaska office partitions and so on so that's the path for murdering whatever you would have on premise to be Center to the cloud and then all this is more focused on the the the flexiblest get upscale plus Weather Service architecture that's the difference.
+Robert Hout: 
+[8:13] And so it would only take that like one step 1 step forward right so the idea than having cuz I think one of the things that we can conversations with what quite a better be of peers of hours.
+[8:22] Around is having that platform like platform-as-a-service like capability inside my four walls of the Datacenter old will your customers have that can I keep bility of treating it as a platform being able to go do self service.
+Amr Awadallah: 
+[8:35] Not yet not yet.
+That is something being off for right now because many organizations are realising that the cloud is not going to be the only answer and the cloud is the right architecture but it's not the only answer like I would have.
+Some of my work clothes are in the cloud on have some of them right lung impairments and I would like their own parents wants to operate in a similar way.
+Cory Minton: 
+[8:54] Yeah that's actually one of the things I.
+Amr Awadallah: 
+[8:55] What's happening it's coming.
+Cory Minton: 
+[8:57] That's cool cuz that's one of things I think you're in for it practitioners that are trying to support you know these in these next Generation data applications that there's this this idea that cloud doesn't necessarily predicate meaning a place it's an operating model.
+Rights of the cloud could be your Cloud it could be somebody else's Cloud but you have to have that experience now so tell me a little bout with my six. Started makes me think about some of the shared data XP.
+So help me understand what the share did experience product line and what it's trying to accomplish for Cloudera customers.
+Amr Awadallah: 
+[9:27] So it's worth taking a step back should have experience is something that we always have been doing since they want to close her we only started calling it that from a from a Dermatology point if you about a year ago when we supposed to be using that label.
+Cory Minton: 
+[9:41] But that wasn't the name you wanted to call it a night.
+Amr Awadallah: 
+[9:43] I want the smart one of Big Data.
+Cory Minton: 
+[9:45] Smartphone evicted I like.
+Robert Hout: 
+[9:48] I have to go.
+Amr Awadallah: 
+[9:50] But you coming to get the company that the concept of what we're trying to do is enable you to operate on your data in many different ways meaning to the science machine learning batch processing in a text without having to keep reformatting and recapping they turn around.
+Best way to the fundamental promise of sdx because in our Legacy architectures information of Textures in organizations you have one system for Sequel and then he have another 142 science they have another one for sure.
+And you end up getting all these recommendations all the data with the application with inconsistencies and with fiction to agility to give it to you like to do new things quicker.
+And we won't solve that problem and that was that they the key Secret Sauce that I think Maids color of success was we are today.
+Is very early on in our life cycle because we were working with some large government send large financial institutions that they put us very hard on solving that problem not just for the middle layer but also for the security light.
+Which are the two key functions you need to do right I want to be able to have a common scheme a that crosses all of these different formats,
+and expose the schema to sequel to Impala Four sequel to solar four sessions on and then you want to have a common X control mechanism that can enable you to limit access.
+Cory Minton: 
+[11:01] Security for governance.
+Amr Awadallah: 
+[11:02] And have that be shared across all of your file formats and all of you were close.
+So why that is what I said so as the ex of that on premise very well and it's one of the key differentiators of the key differences that we have right now and then as we move into the cloud realize that the problem is * 100.
+The problem is much worse than the cloud because you have all these temporary clusters so I'm promise maybe you have like some of our largest customers maybe they would have 300 in tomorrow's 400 tomorrow.
+And the cloud is sits the tens of thousands because many of these not be tomorrow so it is systems are running for a few hours I'm going away hunting for a few hours and going away so you end up getting all of these.
+Dancing put on nature where do you want to be able to collect data and collect all the information security governance information across their lifetime.
+In a continuous way and that's exactly what we discussed at this conference so we released.
+Acura STX office at The X which is our sdx cavity in the cloud as a service.
+And then today talks up directly into our I'll just services in the cloud but the golden the future is to expand it to cover.
+On-premise act out so we can have a single-pane-of-glass you can have a single pane of glass that covers all of your material and X control and governance for both the impairment accounting by me.
+Cory Minton: 
+[12:18] So across those distinct storage dive Steven cuz you're talking about dealing with data that was in S3 and wow that's that's very cool.
+That's what I heard that was an extension of the back to the office thing and extension denounced this week something about data science so it so help me understand what that is not that they decide.
+Amr Awadallah: 
+[12:36] Yeah yeah of course I sure hope so.
+We have a number of core capabilities that we offer another on-premise platforms platform the core capabilities the chip without my phone if I might use that terminology again.
+Are the the the batch processing capabilities and these are not produce and the and the spark that data science cavities which are primarily Spark.
+And a sequel cavities which are primarily Impala but I've plays a big role there as well and then the operational serving capabilities and that's the advice that's one of the four key kind of.
+Services that we ship it out that now as we were getting them for the cloud we decided to sick of getting them from each other and lunch them one by one so we can get to the Marcus Foster.
+So first released to the autistic engineering one so that's all right. That's what luxury NGA many more customers use it and there was a release date a year-and-a-half ago or a year year-and-a-half ago roughly.
+And then a couple months ago but at least the the sequel cavity which we go all the time is cardi B and that's a bit right now but you'll be in very soon.
+And then what we announce that this conference is sometime this year I don't think he knows the exact date I haven't looked at the press release I know what I know the exact day but.
+Is this year is this year but when this year is that is that be? We were released Altus data science which it takes our online an hour or so do our Datacenter on-premise I can wait for the science which is that color that beat us Alliance workman's.
+[14:11] And enables a type of service as a web service and in the car.
+Cory Minton: 
+[14:15] Oh really so you're Clow Define data science workbench so basically taking those services that the people know and love her Miss EDH perspective porting those into the cloud offering okay.
+Amr Awadallah: 
+[14:25] To work on the consumption model with apis where you can launch it in a more in a driveway.
+Cory Minton: 
+[14:31] Yeah I was like so a lot of the the announcements and it feels like a lot of that when I walk around the exhibit hall a lot of folks seem to be trying to simplify the operation.
+Of these environments because we're trying to it feels like everything we do is trying to make this more it and like more of an infrastructure you feeling things that we go work on the value the Top Value so.
+But there's one thing that I got to ask because I see y'all this this move towards operational efficiency which is good.
+And move towards the cloud what to get for spin upside down one thing I haven't I haven't seen a lot of is are there any sort of interesting things that Cloudera is doing to empower.
+Data science machine learning deep learning that takes advantage of some of the recent,
+and the account of the more interesting developments in Hardware like so things like GPU and CPU right is there anything cuz I don't see a lot of that going on here but I know that that's something that when I go talk to practitioners they like man I got to figure out a way to Port.
+You know this model into another strain is it into a gpu-powered cluster is that still interesting for Cloudera is there.
+Amr Awadallah: 
+[15:29] Absolutely absolutely understand that's how we are at the infancy of that space like I would say less than 10% of our customers would be doing something like that.
+Leveraging Advance Auto okay with you as you might know and tell is a major shareholder until there are they I think they are actually I would love to share holder and they pushing is very hard to raise in gpus on touch.
+We already supports gpus and designs for bench so do the science workbench can Target execution of work clothes within GP us Harbors in the end in the end of the science word men's cluster.
+We are also one of the key advantages that the designs workbench brings is it allows the scientist to install their own packages.
+And they're all new new and kind of adjudication of cancer floor.
+Without having to go through approval from the cluster Apartments first and that was that. That's one of the key powers of the branches the key the key part of the ventures knots that you have a graphical user interface.
+The power of the Science World Ventures how it takes that and integrated with a Cooper Nettie's cluster so that everything a scientist can get their own Docker container.
+That isolates it from the main environment so you can prevent a video from unstable new code.
+But maintain access to the original data in the main environment because what they decide this used to do before that is they would go to the cluster apartments on say please install this new version of tensorflow.
+[17:06] The closest Red Mountain go away cuz I want to.
+Cory Minton: 
+[17:09] That's not a service that I want to do for that.
+Amr Awadallah: 
+[17:11] That's what the design is being smart and motivated they make a copy of the data on the laptop.
+Think about the poem install tensorflow and then do whatever they do obviously that's a major security risk because now you lost it you know Stevie lost.
+Stattrak and control over the data so this is the power of this branch of solving that problem of how can we enable data scientist to be innovative.
+To be as long as creative without compromising the security and stability of the main environment.
+Cory Minton: 
+[17:40] So does that besides workbench does it does it run in the same again if we go back to standard CDH going to the point does it run in the same cluster and it's simply runs kubernetes in the background of 7Up Edition separate.
+Amr Awadallah: 
+[17:52] No it's beside this besides would have like a hundred know it's running CDH and then you have beside them five notes for this nice workbench.
+Cory Minton: 
+[17:59] Which those are than allowing you to take advantage of things like containerization technology so you can do that's been upside down.
+Amr Awadallah: 
+[18:05] And refuse to go and do servers they were not going to make coasters.
+Cory Minton: 
+[18:09] Because she still going to design it correctly though cuz if your gpus over here your date is here you got to have Network.
+Amr Awadallah: 
+[18:13] Yeah you're right that's a good point.
+Robert Hout: 
+[18:16] So that that that that Ed system then that other system is is not only the new Play Someday my work is a data scientist but it's also the the workflow orchestrators the arbitration Engine 2.
+Amr Awadallah: 
+[18:25] And execution as well but depends so if you're using it it's park with that's already in the plaster then it will get pushed around and paddle in the closer but if using your own new version of hack.top spark then it will run in your container let's make it the rest of Both Worlds.
+Robert Hout: 
+[18:38] And it in the security control over there in that in that too as well to build a figure out which piece of data access.
+Cory Minton: 
+[18:43] Is a shared experience handles that can that governance very cool that's pretty interesting.
+Amr Awadallah: 
+[18:48] Most relaxed control and the other thing of who access with Manwich.
+Cory Minton: 
+[18:51] So you're starting the integrated have these least container conversations on this side thing in data science is there a future where you start to think about building your own container integration for CDH for those customers.
+Amr Awadallah: 
+[19:02] Yes that's okay I ask what you want to do earlier.
+Wait what where you were saying a lot of which one of you mentioned this but it came up with this conversation you were saying that people expect to run their own premises just like they within the couch.
+And they were seeing is very big movement towards Docker containers or coconuts in general whatever with with carbonated soda bread is really getting also traction light.
+So if you want to stay up late the trend for words we see the conversions happening at some point we're both on premise and Cloud will be built on top of it is and.
+Predicting that Trend means that we need to adapt many of the core service that we have to be very very container friendly.
+Cory Minton: 
+[19:45] Brickell on the other conferences have you had a chance to show me the 10 some sessions check some things I have some meetings.
+Amr Awadallah: 
+[19:52] I haven't actually thought the only thing I got to do is give a keynote in the morning that you were the first two and then customer meetings back to back.
+Cory Minton: 
+[19:58] Well that's awesome so I'm curious like what you're so so I want to get because you're in a roll in a CTA when I read your blog from a couple years ago out the role.
+Of a CTI which I thought was,
+yes I'm curious when you think about the Visions in Clearlake B you know but it's in this is public domain but like what are the things that you're kind of watching or interested in your kind of you think you're going to be pressing it for for folks like us that work in this space.
+What are the what are the things we should be watching the go to the trends that you think are going to be interested in the next 12 to 24 months.
+Amr Awadallah: 
+[20:26] That's pretty much what you brought up right now I mean.
+Cory Minton: 
+[20:31] Oh man long as I'm going to record that play it back for all my friends I just got to all the kids awesome.
+Amr Awadallah: 
+[20:36] Yeah it's watching watching out for the general purpose Hardware Trends and making sure that we are ready to take care of that man doing it when something off.
+Watching out for the localization train than the clearly that is something that's going to be coming even more widespread over the next couple of years so if I would summarize it will be many of these two things.
+Cory Minton: 
+[20:55] The seats are pretty models and Hardware okay interesting that's very cool we.
+Amr Awadallah: 
+[21:00] And I picked up a part of the city of job is exactly that meaning looking at Key and Industry inflection points and then making sure that form a product Direction and product requirements we are.
+Getting ahead of the curve so we don't get caught by surprise.
+Cory Minton: 
+[21:16] Yeah absolutely that's very cool well I appreciate the conversation I feel like it's to me it feels like this.
+All it's coming together nicely for the announcement said all this is helping cloudify many things you've done well on premises before.
+You're paying attention to the need to bring some of that back in and the harbor Transit that's the Super Chief thank you for spending time with us if it's okay with you I want to shift gears to something kind of fun it's it's collar Rapidfire section.
+Amr Awadallah: 
+[21:40] Okay that sounds scary.
+Cory Minton: 
+[21:41] That's not they don't don't be scared it's only cuz we're nice I promise.
+Amr Awadallah: 
+[21:44] After.
+Cory Minton: 
+[21:44] Pictures of pictures of three bearded dudes hanging out and talking that's all it is so Rapid Fire Works.
+We ask you a few questions that are not too personal but a little personal because we want to get to understand a little bit more about you and I think it's interesting especially for folks like yourself who have a strong presence socially about what you're doing for work.
+But I think a lot of us are curious about things that you do on the side so let's let's get into it first question what year do you think Skynet will go online.
+Never really.
+Robert Hout: 
+[22:15] Now I appreciate that.
+Cory Minton: 
+[22:16] That makes me especially from your seat it makes me feel a whole lot better did you see the things about Alexa this week the the most yeah the laugh of the creepy laugh.
+See that scares me that's that's why I would I think it's already online it's called Alexa that's right what's the last good book you read.
+Amr Awadallah: 
+[22:34] Sapiens.
+Cory Minton: 
+[22:36] Sapiens that is an awesome book I agree of Music are you currently listening to.
+Amr Awadallah: 
+[22:42] Some of the music gets me going so my two most recent favorite songs would be Havana I really like the Havana song and the other one is the shape of You by Ed Sheeran how do you like that one.
+Cory Minton: 
+[22:56] Those are too. Like to be elected beware heads up what is what piece of technology is currently making your life worse.
+Amr Awadallah: 
+[23:07] That's a good question.
+[23:13] I mean I got you I can't think of an answer for that one I don't think I only see the country or something making me better.
+Cory Minton: 
+[23:16] How many ants are we get the one we get a lot of theory of the Apple watch cuz I guess people like a serious 80d or you can say Alexa cuz it's creeping you out.
+Amr Awadallah: 
+[23:26] No I love Alexa I have I have all of them at all and I have Alexa I have Siri I have Cortana and Google home.
+Robert Hout: 
+[23:32] Conversation sometimes.
+Amr Awadallah: 
+[23:33] Yeah I make them talk to you after I made it if you could look at my Instagram feed I have a video of Alexa and Google home going an infinite Loop telling telling telling each other they love each other.
+Cory Minton: 
+[23:43] All that is all okay I'm going to have to get the link for that it showed I was going like that to me I've never thought it would make you can play with each other that's that's like the chat Bots.
+Amr Awadallah: 
+[23:52] Developing your own language.
+Cory Minton: 
+[23:53] Yeah they had to shut them down are you sure about that Skynet cost to answer what is your / your biggest personal Money Pit right now.
+Amr Awadallah: 
+[24:04] Video games yeah I'm addicted to videogames.
+Cory Minton: 
+[24:05] Video games what are you playing really.
+Amr Awadallah: 
+[24:08] Everything everything you can think of right now my most favorite so game is OverWatch which is by blizzard and she's one of those big customers I love this.
+They make amazing games.
+And then like more PlayStation one of my teasing games there is what I sent you don't like this one coming out this year should be a Red Dead Redemption 2.
+Which is supposed to be an amazing game so yeah that's kind of plate type of.
+Cory Minton: 
+[24:35] Nice very cool.
+Amr Awadallah: 
+[24:36] But that's my biggest want to get to know.
+Cory Minton: 
+[24:37] We're going to see if I can find you on Xbox Live it'll be fun are you.
+Amr Awadallah: 
+[24:40] I'm everywhere I'm Xbox Live PlayStation PC virtual reality Oculus Rift you name it.
+Cory Minton: 
+[24:43] That's awesome oh nice virtual reality that's why we should have talked about more is like I wanted the virtual reality and data thing is it's getting pretty interesting will it will.
+Amr Awadallah: 
+[24:51] Yeah but I don't like I'm looking forward to us having contact lenses we wear that I can just look at you and remember the last time I met you the name of your kids the name of your favorite book.
+Cory Minton: 
+[25:04] Altered Carbon on Netflix yet.
+Robert Hout: 
+[25:07] Also gradebook.
+Cory Minton: 
+[25:08] The thing that they snack on the eyes like it's exactly.
+Amr Awadallah: 
+[25:09] Yeah yeah yeah yeah.
+Cory Minton: 
+[25:11] Actually I think that they had that was so fresh it was like the fact that you could have ads in there and could you imagine how awful life would be if you had to walk around it to Seattle.
+That's awful.
+Amr Awadallah: 
+[25:21] Yeah Yeah by Usher there be an ad blocker as well.
+Cory Minton: 
+[25:24] Slept on the back of the head only perfect are you going anywhere interesting soon.
+Amr Awadallah: 
+[25:29] And next week I'm going for the first time so I drop it off as part of my job at Caldera in fact I frequently joke and say a c t o stands for chief travel officer.
+Cory Minton: 
+[25:37] I can imagine yeah.
+Amr Awadallah: 
+[25:39] Cuz I've been at my job is evangelism right to a meeting at going meeting with customers attacking a public events like this one and so on so next week I'm going for the first time to South America have never been to South America.
+I've been to every other continent except South America so I'll be visiting South Paulo and Brazil and San Diego in the city.
+Cory Minton: 
+[25:55] That's Brian Yeah we actually had it was so we have a whole bunch of customers and stuff that have been in in Latin America four years leading some of that is not actually a large number of are phds from the folks that we deal with on a regular basis.
+Which is awesome good I look for to hear about the triple follow you on Instagram the last question what show are you binging on right now.
+Amr Awadallah: 
+[26:15] I mean you mentioned altered carbon which I finished very quickly the other one actually already sent one on Starz what's it called counterparts.
+Robert Hout: 
+[26:24] Oh that's good now.
+Amr Awadallah: 
+[26:25] She was so good.
+Cory Minton: 
+[26:27] Really okay I want to watch it.
+Amr Awadallah: 
+[26:29] Yeah buddy buddy it's that that that did the thirty years ago there was an experiment that split the Earth timeline in two timelines so there's Earth one and there's two.
+Cory Minton: 
+[26:39] Oh it's the dude from the Yankees.
+Amr Awadallah: 
+[26:41] Yeah I still got he's so good he makes two characters and literally you can tell this that you would say these are two different people there's no way that's the same guy he's so good.
+Robert Hout: 
+[26:48] Body language way carries his face I mean is everything.
+Cory Minton: 
+[26:50] Oh that's awesome I'll look forward to it will keep up with you the best way to follow us on Twitter and Instagram everywhere your social not on Facebook too are you on Google Google Plus that's only for Google employees.
+Amr Awadallah: 
+[26:59] Yeah we chat.
+Cory Minton: 
+[27:07] Neiswonger thank you so much for being on it I certainly encourage folks to check out and follow armor and what he's doing for clutter a CTO we certainly appreciate you hanging out with us and we hope you have a great rest of the shell.
+Amr Awadallah: 
+[27:16] My pleasure thank you very much.

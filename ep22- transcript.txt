@@ -1,0 +1,548 @@
+Anthony Dina: 
+[0:15] I know what you need for Christmas A clapperboard.
+[0:21] I would like a little beard where the mustache comes up and then it slams down.
+Cory Minton: 
+[0:25] Oh my God that's incredible.
+Rob Hout: 
+[0:33] Your own light up merchandise.
+Anthony Dina: 
+[0:36] 7th grade Woodshop you can do anything.
+Cory Minton: 
+[0:39] 5 minutes incredible,
+well on that note we are at strata conference in San Jose California and it's it's not even day one day when is tomorrow today is the wrap-up of training.
+But we.
+Meaning Rob help the streaming data Scruff mr. Anthony Dina Anthony how are you.
+Anthony Dina: 
+[1:07] I'm doing good thanks for having me.
+Cory Minton: 
+[1:08] Excellent so we've asked Anthony to come on because one we like Anthony but to he works in Big Data but he's also,
+got a sordid past enough even more interesting future I think so Anthony tell us a little bit about what you do.
+Anthony Dina: 
+[1:23] Well what brought me here is a dinner and the reason why I'm uniquely qualified is I'm a whiskey sommelier.
+Yeah well I'm in the the bio reads data analytics director Moonlighting as a whiskey sommelier but I think it's actually.
+Rob Hout: 
+[1:43] There's two sides it's better the other way.
+Anthony Dina: 
+[1:44] It's it's I'm coming daylighting.
+Cory Minton: 
+[1:47] We're not drinking whiskey yet,
+that's interesting because I would argue that most folks and Technology generally kind of sort of interested in whiskey at some level to get some or some interesting connection point so you work for Dell as a director Big Data,
+I said a job you got a team focused and some stuff that will get to but the event tonight is it's kind of interesting what is what exactly does a whiskey sommelier do.
+Anthony Dina: 
+[2:14] Well we lead people through a journey what most people don't understand is that whiskey is fine craft to the craft Distillery has come up through following the craft breweries.
+And as a result a lot of attention is put into it and like anything else where you have.
+You know something that's complex and worth understanding getting a guide to take you through from the beginning.
+Start you on your journey really help so Somali a in many ways is a Showman.
+A historian knowledgeable about the craft and really at the end of the day wants to inspire somebody to go on it on the road.
+Cory Minton: 
+[2:57] Interesting so you have an interesting background cuz most folks that we know that working and they did I certainly don't carry the title whiskey sommelier but they,
+what's a good don't come out of the background that I think you kind of educationally in your history isn't the typical Tech dude.
+Working at Big Data tells a little more about that.
+Anthony Dina: 
+[3:16] Well so I think the real secret is every artist needs a job and so when I found that identity.
+In sophomore year of high school I said I need to draw comic books I wasn't that nerd and as a result.
+Spent 6 years and earn a master of Fine Arts in the NBA 10 years later and was at a company called Compaq computers and fell in love with,
+the idea of you know distributed processing computer science works then it led to,
+fascination with data analytics and now I have the pleasure of meeting really an amazing team in the United States focused on things like Splunk in Hadoop and no Sequel and those kinds of things.
+You know the beginning but honestly is a sense of curiosity and I think that is the secret to success here.
+Rob Hout: 
+[4:10] That's more interesting the question I'm going to ask you but I had to ask me what does keyword jumped off by Hezekiah book so you want to talk comic books what was your favorite color.
+Anthony Dina: 
+[4:18] X-Men of course.
+[4:22] No I mean that the coveted issue number 65 right now I think I spent $100 at when I was 13 who has $100 from the 30.
+Cory Minton: 
+[4:32] A lot of yards to mow.
+That's awesome but it is funny that you say artist needs a job because my daughters and then she's going to be a painter and I told my wife Mike well we should start saving now cuz we're probably pay for her cell phone bill,
+next 30 years or so so the connection point between art and that creative you no energy,
+it's not lost on the back to the community I've actually seen a bunch of articles on the breast references and in previous previous podcast that you need that creativity to make what's happening in Big Data what's happening in in machine learning connected back,
+I think that's the kind of an interesting story that connection point between art and Technology but the connection point between whiskey and data analytics is one that I'm,
+I don't know if I know as much about and I think you wrote a Blog recently that was supposed to be published but we got a chance to read it I want to dig into this bug because,
+the connects data analytics and whiskey so I don't know which one,
+didn't Linux and whiskey have so much and.
+Anthony Dina: 
+[5:36] What song is he clear every artist in all human beings are pattern recognition machines the difference between.
+Most humans and the Ark human is that we express it and we do it in a way we train in a way that we're evoking an emotional intellectual response.
+And so it became really clear to me sitting in the chair that I have that as I'm going through blind tastings and truly trying to understand what's underneath the surface metaphorically,
+that a lot of those skills and practices actually show up.
+In data science and all the things that are not building up to artificial intelligence so I threatened my friend bill tomorrow that I was going to end and Waylon data scientist that I would.
+This blog so I did.
+Cory Minton: 
+[6:25] Excellent okay so I actually got it we got a copy of it and I like the Preamble which I can't that can occur took enough to read it will be up on the big to the beard here shortly but three of those grateful history love that they actually want to dig into the specifics of it because you outline,
+10 criteria that are parallels that they have absolutely no prescience in both whiskey and in,
+data analytics to the first when you talk about is deductive reasoning so help me understand why I mean obviously I understand that I could reason I think from them.
+Anthony Dina: 
+[6:58] Sherlock Holmes is famous for deductive reasoning which is the reason why he looked at the strawberry jam on your cuff and imagine that you had an argument with your grandmother or something right he could he could fine and a shred of evidence and get back to a story and.
+Deductive reasoning differs than inductive reasoning in fact this was a deep conversation I had with Luke Wilson new data scientist in r.
+High performance Computing lab.
+Cory Minton: 
+[7:23] Not the guy from the movies I've been way to learn to sing a song If you had like a necklace and you got.
+Anthony Dina: 
+[7:32] Well so we have this we have this debate about whether you know machine learning to pulling is is an offshoot high performance Computing or I'll shoot off of data analytics and of course it all depends on.
+Your point of view and a part of you that I share is in a we've been collecting on this clickstream of information and we're looking for patterns reducing,
+what's in there and what happens on the other side of the equation is that when you have researchers that are deep in theory and they want to prove it true.
+They basically generalize off of a specific idea like the protein could be folded this way and then I'll run a simulation to see if it actually does happen that way so deductive reasoning comes in the whiskey.
+Because we're looking for a creature features.
+Rob Hout: 
+[8:21] So whiskey cuz that's where my brains out right now.
+When you when you approach a new whiskey so it looking if you got that kind of features that in your head do you take a like a set of things are going to taste and flavors in Origins and things into that tasting.
+I'm looking for these words of things so does origin ingredients play into your idea what am I taste like before you ever.
+Cory Minton: 
+[8:45] Is it bias do you walk in your whiskey.
+Anthony Dina: 
+[8:47] Yeah you do have a cognitive bias which is why a blind testing is is helpful because just like the voice we're all of the artists are looking away you can't hear by the way that was not a new idea that was something that was used in Europe to make sure that we were,
+evenly balanced between male and female performers so yeah you can come with a bias.
+I think the the the key is a really looking for something different.
+And really anticipating one of the things that I have talked with my fellow Somali A's and it hit me up pretty hard when a good friend of mine named Kate.
+Turn on lifted her glass of Highland Park 12 and announced to the world in her description.
+The sea salt because it's position in an island north of north of Scotland so far north the Vikings had more say in and having a gallstone.
+What was interesting about this whole discussion cuz I was leading her through a practice of matching it to food is that she has something I do not which is spice blindness.
+2 spice blindness is this description of not having the the vocabulary and experience that a someone who spend a lot of time in the kitchen so I can detect a tarragon versus the basil easily.
+For many just is like grass so just things like lawn.
+Cory Minton: 
+[10:12] By the way I guess it weird to have you heard the the spice spice spice blindness where cilantro tastes like soap.
+That to me is unreal because that one is.
+Rob Hout: 
+[10:23] Ever be referred to as the vile weed.
+Anthony Dina: 
+[10:23] Cancel Cricket so Corey can I level with you.
+Cory Minton: 
+[10:25] Hopefully soon.
+Anthony Dina: 
+[10:29] I have now about 10 times told everybody that Cory Minton is like cilantro 20% of the population.
+Feels he's like soap but 80% of us absolutely love it and can't have enough I'm not making this up.
+Cory Minton: 
+[10:48] That's incredible I did not.
+Anthony Dina: 
+[10:49] I never told you that.
+Cory Minton: 
+[10:53] I like that it's at least not 50-50 so that I'm good with.
+Rob Hout: 
+[10:56] We need a new sticker now.
+Cory Minton: 
+[10:57] Does NIA cilantro that's brilliant I love that.
+So you actually brought up a good point. Which is your secondary II of the Year 10 points which was this idea of feature detection or feature selection zombie understand like how does how does that would eat what do you mean in the whiskey come texting has a connected data analytics.
+Anthony Dina: 
+[11:15] Naruto for whiskey perspective you think of a flavor wheel as a series of control concentric circles in the center or major categories like medicinal wood smoke.
+Fruit and the rest of the Rings progressed they get broken down and be more specific.
+What you're looking for is key attributes to the to the flavor profile might not just be the specific aromaz and flavors that come off the spirit but it could be the viscosity the color and those are things that we can compare.
+In that relates back to analytics because at the end of the day A lender wants to know are you worthy of a mortgage and so let me just ask you here's a pop quiz for you name.
+According to danske Bank in Denmark one of the top features qualities that will determine that you'll repay your lawn.
+Cory Minton: 
+[12:15] Education level.
+Anthony Dina: 
+[12:17] That helps you out Rob absolutely that's that's why it's one but it's.
+Rob Hout: 
+[12:26] Time in time employed in single.
+Anthony Dina: 
+[12:29] Yes that that those are all very helpful but that is not though.
+[12:36] Do you have a relationship with the bank or not.
+See now when I say it's like oh yeah of course duh but sometimes it takes Matt to figure that out.
+Because when you have lots and lots of data points you can't process it on your own which is why it's going to the process itself of of detecting this is we do this all the time.
+Cory Minton: 
+[13:00] So the likelihood that I'm going to buy a rye whiskey has a lot to do with my relationship with old Fashions is that what you're saying.
+Anthony Dina: 
+[13:09] To be how many how many episodes of Mad Men have you watched.
+Cory Minton: 
+[13:12] That's awesome okay so then the next topic that you said was similar was classification why is classification interesting in the whiskey context of what it what are we doing there.
+Anthony Dina: 
+[13:23] Well it can kind of help you understand so for me a classifications useful for pairings so for example dry.
+Has a certain quality a lot of rice to me like a bullet Ryan which I favor.
+Is Arnold a lemon in its nose what it has a ton of a licorice like quality so I know that anything that might hint at licorice is going to go with the Bulleit Rye so it's a class of whiskey.
+That I would determine to know if it's a certain profile to profile what Netflix is saying we classify you as a kind of person who likes certain things,
+therefore.
+Cory Minton: 
+[13:59] Is it a way of taking large groups and kind of clustering them together is that what you mean by constipation like large group of whiskeys these kind of have this thing in common so they.
+Anthony Dina: 
+[14:09] And the purposes is a mission is to deal with them in wholesale fashion to say and you look the easy one is birth cohorts you were born before 1980 your gen-xers if you were born in the 50s your Boomer.
+And those are cliche in Inman regards unless you're dealing with Biology issues like I don't know you might want medimmune Souljers.
+Cory Minton: 
+[14:32] I just saw one in the airport today is it something like 75% of people with hepatitis C were born between like 1955 and 1965 or something like that nitrogen.
+Anthony Dina: 
+[14:42] Vasco dilators do really well with older people.
+Rob Hout: 
+[14:44] Before you get on the bus I'll be there was something about the data classification piece that they were going to speak about it later but I wanted a snail's like in the sort of General bulk to classification.
+3D tend to lose in the supplies both in the date and whiskey I think a little bit do you lose the outliers do they gets moved out hard to find or.
+Anthony Dina: 
+[15:04] No well so the traditional statistics.
+Cory Minton: 
+[15:08] Look at that stopping by and saying hi timeline alumni of they get a beard show nice to see if this is the fun part of recording at a conference.
+Anthony Dina: 
+[15:16] Yeah so that's the fun part about outliers is.
+Number one in the world of statistic outliers are just a pain in the neck so we cut them out cuz its cues the the outcome in the world of data analytics.
+Mom didn't let me include them because we can learn stuff from them there are lots of products that were never designed for what they are but they're being used in if you if you.
+Cory Minton: 
+[15:44] Pranks that aren't being used as they were intended.
+Anthony Dina: 
+[15:47] Yeah well ask ask Pfizer about viagra it's was really design for lowering.
+Cory Minton: 
+[15:53] Now that is kind of like a station no it's your son wasn't designed to do something else.
+Anthony Dina: 
+[15:59] It was designed to lower blood pressure.
+Cory Minton: 
+[16:02] It does that but I think that's good.
+Anthony Dina: 
+[16:04] I moved the blood in a certain direction.
+Cory Minton: 
+[16:06] That's one that's really.
+Anthony Dina: 
+[16:07] Tabasco dialer it's meant to expand the blood flow.
+Cory Minton: 
+[16:10] I want to go to the one in Material Science class that tells about the story of sticky notes at 3M the dude was trying to create like a.
+Something to replace super glue but he messed up and he made this like sticky stuff that kind of just didn't stick all that well but a little bit Safelite at the paper now have sticky notes okay so the next one you had was propensity the phone word I don't use that I like words like that propensity.
+I have a propensity.
+Anthony Dina: 
+[16:36] And it's just a fancy word that means you're likely to do something.
+And it you should come to the rating like the percentage you know it's like it hey we have a propensity to 75% and 75% propensity to rain it means out of 75 possible or a hundred possible instances 75 will come true.
+Important if you're dealing with issues of loyalty and from a customer perspective.
+It's propensity comes in the play of whiskey and we kind of talked about the matching that if something is like something.
+And if a goes with B&B goes we'll see the name is likely to go see it is a propensity Cubs score.
+Cory Minton: 
+[17:15] Alright so then interation is your next one so it aration means.
+Anthony Dina: 
+[17:19] Other than drinking a lot.
+Cory Minton: 
+[17:20] No I think that's that's inebriation.
+Anthony Dina: 
+[17:22] Yeah I don't know it so in this particular context if you if you ever have a chance to meet the chief data officer for.
+I'm a stay home Alone Come Away.
+[17:41] The service that allows you to rent a bed Airbnb if you make the chief data officer Airbnb he'll tell you that he works for Founders that went to the same school I did Rhode Island School of Design and the challenge part is the amount of iteration.
+And think of A and B testing.
+I think about how many colors of a blue that Facebook has put on Amazon put on to make sure we get the right reaction.
+And this level of iteration and experimentation which comes from inner like right up the road design thinking.
+Where you're trying to slowly make it better and.
+If you look at a brilliant producer Compass box Connecticut guy who's who's got a Distillery one cluster he's a he's a whiskey maker by taking other people's products,
+blending it in his way maybe reaging at our aging at longer he'll make new products so he's constantly trying to.
+As I say perfect the blenders arts and create a new experience.
+Rob Hout: 
+[18:42] Savvy double much and whiskey blending on your own and be.
+Anthony Dina: 
+[18:45] That's level 4 in the whiskey school yeah.
+Cory Minton: 
+[18:48] I was at the Vets next year let your not level four yet it's which levels it's not like colors of belts like you don't get a gold one like your bronze now the neck.
+Anthony Dina: 
+[18:56] Runaway I I know you've been eyeballing the sick spell bronze medallion.
+Rob Hout: 
+[19:01] I need me one of those.
+Cory Minton: 
+[19:02] I'm not going to say it looks like whatever it took to get that is totally worth it.
+Anthony Dina: 
+[19:07] Well what is as each level progresses you'll get a different accoutrement so the first is a just a plain black ribbon with the.
+Bronze medallion the chain comes to level to the the star Heroes level 3 I'm expecting a cup Shaker or maybe a nice bag for the head I don't know,
+what comes next.
+Cory Minton: 
+[19:28] Bottle of Excedrin but speaking adorations funny talk about blenders because that's something that we're seeing in the date of Science World now get interesting as the,
+not just the idea of running multiple iterations to simulate something which obviously the ubiquity of Computer Resources now the power Computing the scale Opry much is enabled kind of this new scale of of iteration,
+but it's also this this concept of.
+Iterating against new features in a rating and blending not just one model but many many models.
+And that's what I think you're out there with the whiskey thing I took to make the connection cuz one more things we talked with the guys from Mom datarobot and they're their whole thing is they try to help you build,
+predictive models faster right so they the automated love the model process and one things I do a good job of a state blend like it's not just a convolutional neural net or a you know you know.
+Decision gradient boosted trees or a random Forest it might be many of those depended upon the features so is like.
+Anthony Dina: 
+[20:29] It's basically it's the mutual fund of models.
+Cory Minton: 
+[20:33] They called Ensemble until like he's in.
+Rob Hout: 
+[20:35] Maybe a fund of funds.
+Cory Minton: 
+[20:36] That's right sewing in whiskey do you see that is there that on someone that happens where you're bringing multiple kinds together multiple like aging process.
+Anthony Dina: 
+[20:45] Where was it it was the damn a English that really caused it but couldn't handle the single malts so the lowland producer to started blending them to.
+Broaden the palate are friends you know Tito Beveridge out of Texas wanted to make a very attractive.
+Whiskey I'm sorry we very attractive vodka so he round up picking.
+Corn as for his Mash bill to make a vodka and that's really what you make moonshine in moonshine stickers are for whiskey so it's all about approachability and put the blending.
+And the in experimentation is about getting a Dipper different in deeper experience.
+Rob Hout: 
+[21:27] Are you smooth comes out of an Infinity bottle.
+Cory Minton: 
+[21:31] It sounds incredible and I'd like one.
+Anthony Dina: 
+[21:34] I like to drive an Infiniti but I'm about the affinity.
+Cory Minton: 
+[21:37] Affinity bottle.
+Rob Hout: 
+[21:39] It was a pretty scribers Infinity bottle so it's the bottle that you have in your house that you didn't start to as the leftovers of whatever you have is her to blend together so it'll be kind of is than yours.
+Anthony Dina: 
+[21:49] Yeah we call that blend again so if you go to the to the whiskey marketing School whatever is not finished in the glasses gets dumped into a a cask.
+And you need a little courage to just you know some swell like that but it's it's it is a Technicolor rainbow.
+Rob Hout: 
+[22:07] Yeah it's it's it's pretty late and a little bit of a trend right now it's taken out of him.
+Cory Minton: 
+[22:09] Anthony Barr I can see that kind of fun that you dinner like I can have to.
+Rob Hout: 
+[22:16] Will be onesie would have in her house when we write so it wouldn't be stuffing.
+Cory Minton: 
+[22:20] It's not like going to the bar in like I don't remember college they had the.
+Rob Hout: 
+[22:23] Oh yeah right.
+Cory Minton: 
+[22:23] The bar mat you remember that like the over pouring of the shots you could actually drink the.
+Anthony Dina: 
+[22:28] What was that what was that what was the movie the movie where the guy drank the the the wine bucket from you're talking about.
+They spit bucket.
+Cory Minton: 
+[22:41] I think that's worse than the bar mat that's that's that's a lot of them.
+[22:49] So that to the next one you talked about was which in this case I would we need to be supervised is supervised learning or establishing a baseline so what does that mean in whiskey like what are you going to Baseline.
+Anthony Dina: 
+[23:01] Well you know you're like you liked it you tried.
+Cory Minton: 
+[23:06] I trained myself.
+Anthony Dina: 
+[23:07] Do you like you tried it you got a few times and you understood that yeah I generally like a cheese pizza so I'm going to have cheese pizza that's my Baseline and then you go out and you say look I know.
+I'm going to the.
+To this new restaurant Newtown and I want to try this cheese pizza because you are looking to establish is this one any better than the last 105 I've ever had in the world of.
+Of analytics we do that but we do this again in a way where we're taking a set of data and known outcomes.
+And where else asking the algorithm to determine which of the aspects or features will lead to this pick it up come in this is useful let's say.
+If you are trying to determine cardiac disease and you're looking at blood pressure triglyceride levels etcetera your establishing Baseline we enemies to do this you know mechanically.
+Manually and now we've got computers to do it super fast.
+Cory Minton: 
+[24:08] That's okay and then when you learn things you look for anomalies and that was your point number 7 so anomaly detection.
+Anthony Dina: 
+[24:16] Yeah I know anomalies.
+Cory Minton: 
+[24:18] Just stinky whiskey like we like in the wine or overlooking.
+Anthony Dina: 
+[24:20] No anomalies get in the post I get a bad rap you know I have a good friend who says every parent wants their kid to be normal but they never want the kids to be average and it's the same it's the same thing.
+Cory Minton: 
+[24:33] Have you heard the term the pig for describing your children like me describing your children parent identified gifted there pigs normal just not average.
+Anthony Dina: 
+[24:47] Write the function of talent scout but we're looking for things that are unusual,
+animal in the world of of whiskey and whisky fish and olives if you've listened to pop music and the same beat it sent you're looking for a fresh.
+Take a Fresh Approach a way to online or Waking and and you know I remember drinking wine I know that may be hearsay but there are some ones that have a banana like quality green spot as an example has a green apple.
+You might say Wells the green on the front that might suggest it but I swear it's like a Jolly ranch Jolly Rancher green apple candy.
+Cory Minton: 
+[25:31] Have you tried to Clyde Mays Alabama style whiskey Distillery in Kentucky but it's made to a,
+the recipe that was an Old Alabama like Moonshiner and I got really thought he was actually very highly rated A lot of the things with one who thinks they're their main,
+Alabama style whiskey green apple all the way like it Suburban that literally tastes like a green Jolly Rancher.
+Rob Hout: 
+[25:57] Eglin going to same way or any means it's that I cooked a small on top of a stainless steel sheet with Pete as opposed to smoking so I just get that pretty ass on the grain same thing with the weed beer right just a little bit of that switches back in so you better flavor to it.
+Cory Minton: 
+[26:11] It's good that you got all excited he's ready he's ready to go to the.
+Anthony Dina: 
+[26:15] Bartender Brentford.
+Cory Minton: 
+[26:15] So these are interesting for finding something new but do they help us find something but we don't want to do like a bad thing.
+Anthony Dina: 
+[26:25] Can't be know for sure so if you look at iot use cases and you're looking at temperature ranges any kind of telemetry if you are noticing other drivers veering off course or an aircraft in its sortie is,
+didn't follow the route you were going to ask why.
+An internet sit and and this is Bryan post by friends Jeffrey Bryan Eisenberg talked about the need.
+For the human element the human story behind the data because that's usually when things come alive.
+Cory Minton: 
+[26:55] Yeah absolutely so normalization is your point number 8 so I I don't know enough about normalization tell me what you mean cuz I'm not normal.
+Anthony Dina: 
+[27:03] Have you looked in the mirror there's nothing about normal that's going to come coming shooting back out of that glass.
+I don't know what station is the process by which we wanted can even things up if you want to draw conclusion and average her or some kind of mathematical result you don't want empty cells,
+you know you want all the zip codes filled in so that you can make a strong conclusion when you compare anything you wanted even playing field trip comparing aren't you want the lighting to be the same.
+If you're driving a car drive on the same road you're tasting whiskey choose the same class the same pour it let it be in the glass the same amount of time.
+Cory Minton: 
+[27:40] Totally normalization of like the date I saw in the dating site it's like data wrangling can I normalizing it may be making some inferences to fill out your data set to come up with the chief of jective,
+but in the whiskey sense what you just said that I need to drink out of the same glass of the same temperature help me unpack that what does that mean like how much impact does that sort of thing have on Whiskey cuz I don't I don't know by that at all.
+Anthony Dina: 
+[28:03] Note to self example and this is what we do classically although tonight work in choosing for Pick 3 Whiskey's put them in a similar shape class because most of what you're experiencing is the volatile that come off.
+The whiskey and that's lifted by the alcohol and there's three things like any perfumer will tell you there's a top note a heart note and a bottom note.
+And he's got different rates of evaporation and you're trying to compare.
+You know single malt Irish whiskey you'll have it completely different experience so it's it really behooves you to try to think like a scientist in and try to keep it clean keep as many variables out.
+Cory Minton: 
+[28:43] Does not only normalizing the data normalization France's normalizing The Collection process,
+do we also normalize what is referred to or how much of impact does things like blood in a whiskey set the glass Choice based on the kind of the bulb shape in terms of the like you said the evaporation,
+how much does a does that affect what is loving the referred to as the Kentucky hug you know that good warm feeling you get all down your chest when you have a drink a straight whiskey.
+Anthony Dina: 
+[29:09] Well okay so out and then the primary component of of a spirit is the width is is alcohol,
+the different kinds of alcohol to take protect the bad alcohol out first those with the low wines and they get to the high winds but when it comes to it a spirit itself it can be served at different,
+concentrations of alcohol tends to be above 100 not typically above 120 proof.
+And like anything else if you're not accustomed to loud rock music and you down it as an example you're not going to hear it.
+If you don't eat spicy Thai food and you come from Bangkok.
+And you eat something you're not going to taste the flavor so it's really important to try to level out and balance out which is why if you.
+Are doing a comparison with something that has high alcohol at The Cask strength whiskey against others that are not.
+It makes sense that little water because you want to be able to experience and get it down and you'll know overtime what your baby be tolerance or preferences that's the alcohol by volume.
+But yeah so the glass makes a big difference cuz it evaporates differently in each glass the amount of alcohol and you know I didn't know this but.
+Going through an exercise on comparing.
+Distillation techniques and trying to really understand how it changes the flavor profile I would set a long time with three Irish whiskeys and when I noticed that in the first 5 minutes.
+The personality was much different in 50 minutes in the good ones.
+[30:45] Like you know any good character in a novel emerged transformed and deeper to experience the the ones that aren't as interesting turn out to be a lot more flat.
+And they started selling down to just one or two basic notes and then the higher quality or that more enjoyable didn't.
+Rob Hout: 
+[31:03] What's your favorite tasting glass.
+Anthony Dina: 
+[31:05] The Glencairn glass of course.
+Cory Minton: 
+[31:07] Don't know what it is.
+Anthony Dina: 
+[31:09] Glencairn glass, looks like a little hurricane glass or miniature bulb.
+Cory Minton: 
+[31:16] Sweet number 9 is in Richmond.
+So in Richmond in the data World means don't just have one set of data means having multiple sources of data says you have more context rent you can understand the over on Vine.
+Anthony Dina: 
+[31:31] That's that's right.
+Cory Minton: 
+[31:32] I'm interesting what that means to Whiskey.
+Anthony Dina: 
+[31:35] Well so I can't go back to the blenders arts and to the choices we make when we make the product.
+So it take a producer like Hudson advertised.
+But if you go in and have circles you'll hear that they're choosing different size barrels with different Char qualities with different kits they're using.
+These different aspects to ladder upper layer up and much in the way of Chef will do it so they'll take something like an apple pie don't introduce an unusual spice I can see down at laundrette in Austin Texas.
+Jamaican apple pie with sage,
+what does eulogy of the size you have with roast chicken and then you know put something in the whip cream that might be you know Vanilla some sentiment so it was some other things and and in combination you what is going on here and you can do this in the spirit world 2.
+Rob Hout: 
+[32:25] So we can light up the sky it's just been the agent of Sherry Cask sometime.
+Anthony Dina: 
+[32:32] And now we're seeing triple Cask on top of that certainly Johnnie Walker and in the rest of the old timey blenders were doing much of that.
+Cory Minton: 
+[32:40] It's funny you said in the first part of the day off and you said something about how craft distillers kind of Follow The Craft brewery scene.
+And I just saw a commercial this week from our friends of Jameson which I don't know how you feel about Jameson but they have they jumped on the bandwagon of the popularity of the IPA.
+And they've got another now they're they're advertising a Jameson Whiskey that has been aged in IPA barrels.
+Anthony Dina: 
+[33:06] Now this is this is like Reese's you got IPA in my whiskey know you got whiskey Maya pay your phone and going both directions.
+Cory Minton: 
+[33:14] That's awesome so the last point which I think is interesting because it has absolutely nothing to do with taste but it has to do with the world around whiskey and analytics which is that both whiskey and I did have been shaped,
+by taxation unpacked.
+Anthony Dina: 
+[33:29] So text and then a lot I mean certain we are country is founded by representation.
+Because without black represent station in river with important here.
+Is that terms like bottled in bond which is a way of paying the taxes later things like the fact that the Whiskey Rebellion which we can think.
+The Broadway star Hamilton for doing as his as the first Secretary of Treasury all of those things change and and and really energized people.
+And as a result you know things like the little label.
+That surrounds the top that you go why do we have the piece of decoration it doesn't prevent me from getting into the West approved the tax was paid.
+On that bottle so it does shape much of the you know.
+Consumption patterns how we experience it and into some degrees even change some of the recipes but in the world of analytics We Came Upon,
+statistics in and counting in math because no Kings wanted to know how many citizens there were.
+And they want to charge the tax accordingly and that process took more than a decade so we get things like statistics.
+Because we can't wait 10 years to do a census or we can't count everybody even in the 10-year time Horizon so there this is Need for Commerce and dividing resources evenly and paying for the government services AKA.
+[35:09] Taxation has an impact on both sides.
+Cory Minton: 
+[35:11] So wanted to take that a step further I would say that they have another thing in common which is not just shipped by taxation but shaped by regulation.
+Right because if you think about the the history of many of the whiskeys that are popular in America today they're based on.
+The prior to Prohibition they're based on just people in small parts of the world that were under populated didn't have access to the logistics to get good bottled whiskey in town they would make their own in these you know pot stills out in the middle of the woods and then whenever prohibition happened they obviously.
+Became highly in demand because then they were producing whiskey outside the purview of the government and then,
+did it looks kind of the same thing like if you think about a lot of the topics were talking about it they are based on.
+Government regulation like it's oh my goodness what are we going to do how we going to continue to look at an enriching and having multiple data sources in context of things like gdpr.
+How are we going to Control Data access and security with the fact that him and we seen Date evaluations that have been.
+People are saying data is valued at billions of dollars for corporations.
+And there's multiple examples that. Think we can we can watch but there that becomes a risk also Ryan and so I think it's with whiskey same thing these risks associated with.
+How does a government you know are they going to shut down and not allow it to be sold in certain places to interesting just make it down to the bog and put mine in.
+Anthony Dina: 
+[36:32] Well yeah absolutely so what are the.
+What are the things you you may find out is that at a point in the eighteenth Century the English government was paying.
+Narcs is what we would call and we would pay people to turn in a Stills because you're you were being taxed on the size of the still and what they didn't realize that the Scots were so crafty that they were taking old unusable stills,
+selling it to the government taking the money and building a new one.
+Rob Hout: 
+[37:00] What was that pretty time but actually really truck down the the the whole Scotch industry right and neither were if I recall I forget the number but the number was Hillary's before that.
+And then after leg is kind of what happened during provision here almost right that they a lot of them crash and burn them just went by the wayside.
+Just a kind of a handful of but the old scotch distilleries are still around.
+Anthony Dina: 
+[37:22] Yeah I feel like we've seen we seen expansion and contraction a few times war was a major factor as much of the grains had to be used for rations.
+We knew that up in the highlands particular women were often times in charge of creating the spirits because the men were out trying to get independence from the southern part of the island.
+Yeah there's a lot of The Human Condition if you will that will factor into this but one thing for sure.
+We didn't give up the promise or the effort to try to have it hey it's War we're not going to.
+Cory Minton: 
+[37:59] Google home,
+so I do it so that I love the conversation this is super fun now one thing you really doing when you leave here as you're going to run and be part of an event and it's I think it's a it's a Dell EMC,
+Intel Cloudera and MasterCard sponsored event so tell so about what you're doing there and what should we talk about.
+Anthony Dina: 
+[38:17] Yeah we have about 96 people registered which is probably the largest whiskey tasting I've ever seen much less delivered.
+Know what makes me nervous is being able to stand in a central location to everyone so I can be heard know that idea is.
+You don't answer just discussing the block What's really topical right now is things like artificial intelligence machine learning and whiskey.
+We want peer-to-peer conversations our friends at Intel who have been design partners for many years we have a rich partnership with with MasterCard nakuru.
+Shut up the Kinect Catera we've had a partnership since 2011 recognize the importance of early.
+And so we're still coming together to kind of share what we know and we have a hidden guest.
+I don't want an answer cuz he may have plain troubles but we have somebody from the inside of Dell Technologies who's leading the data science team.
+Who's actually applying the convolutional networks to solve some really basic problems to add it up more valuable service and so we're hoping he he can make it and share some stories.
+Cory Minton: 
+[39:33] I did that so then I want to talk a little bit about the team that you laid cuz you don't know which text Alex came up sleep here but you do leave the team of of specialized Technical Resources,
+that I think folks there,
+there in around the space there thinking about investments in infrastructure to support some of these next-generation applications these new analytical capabilities they need to know that there's people out there that can help and it sounds like missing one another thing that's kind of what they do Tulsa bit more about,
+what your team is about in and what they do for their customers.
+Anthony Dina: 
+[40:03] Yeah so that the team was formed to support the advancement of modern analytics through things like a dupa no sequel.
+I when we started this journey and many years ago we had some really basic questions about how do I get started.
+What kind of use-case should I have how do I configure this thing over time we've seen customers mature they started putting in fast 8 or streaming.
+They're now exploring at the end of the maturity model with things like a GPU technology and they're asking for more questions of what's the best way of doing it how do I maximize my spend.
+What the team does his because you know we get around.
+We can share experiences cross-industry we can share experiences from customer customer and our job is a 100% dedicated to this topic we work at it infrastructure and Services Orange company.
+And we get to do this and I mean get to do this it's a real treat to be able to spend time and be solely focused on that.
+Cory Minton: 
+[41:02] That's awesome super useful because I do know at least a working with your team that's where do have some interesting questions and there's some things that are happening within companies like Dell EMC that are,
+Investments that are being made with Partners like Intel and Nvidia that I think are going to be super interesting to customers to our partners in the years ahead.
+Anthony Dina: 
+[41:20] It was one of the things I'm just going to leave it there cuz I'm pushing her or data scientist Upstream there helping develop the.
+The bundles for machine learning deep learning so we've got a project that we've had about 12 or so specific use cases.
+They were taking those use cases and we're breaking them down into constituents Parts I'm calling at the prime factorization you know like,
+the number 64 can be broken down into prime numbers 2 x 3 x 2 x 2 and Enzo most problems.
+Yeah that involved in it which can be broken down into a similar function.
+And so we're going to an exercise now to be able to take something is really popular use cases like detailed and optimize Knowledge Management.
+The race for fixing things or curing disease kind of take those things down into its constituent parts to make sure that the technology supports it in a way,
+and we can we can democratize this approach so that's what working on right now I'm hoping I can come back and show the results of that and other time.
+Cory Minton: 
+[42:22] Absolutely well I will say folks we are we are going to be Pope publishing actually Anthony is going to be publishing on the big data beard the full blog about the reasons why whiskey and David Lennox have more in common than you think but it won't shift gears,
+we have a we have a section of our show that we do it with every guest it's called rapid fire then what I want to do sit back relax I wish you had some whiskey,
+but sit back relax.
+Anthony Dina: 
+[42:46] I've heard the rapid fire.
+Cory Minton: 
+[42:48] No sweets prepared all knowing.
+Anthony Dina: 
+[42:49] I never met her. I'm nervous this is the part where.
+Cory Minton: 
+[42:52] I know this is this a problem we have with me a people that.
+Anthony Dina: 
+[42:54] I'm like oh my God he's going to ask me about my favorite music of Michael cuz I blank out at those things.
+Cory Minton: 
+[42:59] Watching working if you want to start because because of the topical nature of our conversation favorite bourbon.
+Anthony Dina: 
+[43:06] Oh just left me just bourbon or can it be right too.
+Cory Minton: 
+[43:10] I can book it will expand to try American whiskey will say.
+Anthony Dina: 
+[43:13] Well you know the real treat for me is the rum Cask Rye from Angel's Envy.
+Cory Minton: 
+[43:20] Excellent very cool what year do you think Skynet will go online.
+Anthony Dina: 
+[43:25] In 2020.
+Cory Minton: 
+[43:27] What's the the best book you've read recently.
+Anthony Dina: 
+[43:33] Good one it's all good I just finished the wind-up bird Chronicles and I like I like the way the Japanese and have a very fencible wave of a kind of exploring,
+I like evolve your brain by Joe dispenza or talks about the biological chemical reasons why we have emotions so there are a few out there.
+Cory Minton: 
+[43:53] What genre of music are you currently rocking.
+Anthony Dina: 
+[43:57] I have had a Resurgence of listen to Lyle Lovett so I've rediscovered the Texas sound being an Austin Texas so I'm really enjoying that.
+Cory Minton: 
+[44:07] Lyle Lovett go back to keep getting the Robert Earl Keen oh yeah I'm with you bro I would School in Texas and I grew up there I'm from their native Texans I get it what is your favorite piece of an early useless technology.
+Anthony Dina: 
+[44:20] Hellboy I don't know that there's so many that so useful.
+Cory Minton: 
+[44:29] Or you don't have an Apple Watch which is the leader in the clubhouse like more people than not have said Apple watches.
+Rob Hout: 
+[44:35] It is entirely useless.
+Anthony Dina: 
+[44:37] No I think that you always go to that kitchen stuff so single-purpose kitchen items but we we tend not to it's not too late though so.
+Cory Minton: 
+[44:46] Hey got what is your biggest personal Money Pit right now besides bronze medals.
+Anthony Dina: 
+[44:52] Let me sign outside of the kids.
+Cory Minton: 
+[44:56] Best value oh yeah there you go that is.
+Anthony Dina: 
+[44:59] No it's it's it's definitely the pool I swear the only thing that keeps me maintaining was I just imagine such a giant cocktail that is constantly in his free swizzling otherwise I'm so not in.
+Cory Minton: 
+[45:08] That's a good that's awesome so are you going anywhere exceptionally interesting soon.
+Anthony Dina: 
+[45:20] Well we're going to head that to Breckenridge to hit the slopes and it's happening next week.
+Cory Minton: 
+[45:23] Sweet that's what's I like it's not bad and then last question what show are you currently or recently binging on.
+Anthony Dina: 
+[45:34] Stranger things.
+Cory Minton: 
+[45:35] Oh good choice are you through season 2 yet.
+Anthony Dina: 
+[45:37] I'm just starting season 2 I'm trying to follow what the kids recommend cuz you know you want to read their books and watch their show so you have connection.
+Cory Minton: 
+[45:45] You're a great dad proof that you can enjoy whiskey and be a good father thank goodness,
+what Anthony has been super awesome to have you on but I highly encourage folks to to check out the blog by Anthony about the things that whiskey and data analytics have in common if folks want to find you and social follow you keep up with what you're up to,
+what are the best ways to act to connect with you.
+Anthony Dina: 
+[46:07] I'm on Twitter at Aunt Dina.
+Does AT&T Diana certainly will put in the show notes all the contacts for the team and for me but yeah LinkedIn you know so and has a pretty robust communication vehicle so.
+Will be talking to the channel 2.
+Cory Minton: 
+[46:26] Absolutely why Anthony thank you so much it was awesome to talk with you about why whiskey and analytics have more in common than you think thanks for listening.
