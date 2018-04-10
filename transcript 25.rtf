@@ -1,0 +1,562 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl560\sa321\qc\partightenfactor0
+
+\f0\b\fs48 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Dell EMC Fights Bladder Cancer\
+\pard\pardeftab720\sl280\sa240\qc\partightenfactor0
+
+\b0\fs24 \cf2 \
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 Transcript\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\fs24 \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [0:03]
+\fs24 \'a0Hey folks this is Cory Minton from the big date of your team we are at strata data conference in San Jose California.\uc0\u8232 I'm joined by my almost bearded brother and shape of the few days he's looking Lil Scrappy Rob hot welcome to show we also got two special guest today from Dell EMC.\u8232 These guys are actually what we referred to in the industry as unicorns cuz they're data scientist so we're out super excited we're of a capture you and spend some time talking,\u8232 the temperature session this morning we're going to talk about that today so thanks for being on with gotten Mauro Damo from Dell EMC is data science and Consulting team as well as whale in Chief data scientist.\u8232 You're doing see welcome to the show gentleman.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [0:42]
+\fs24 \'a0Grant will be here.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [0:43]
+\fs24 \'a0I'm glad to hear that but thank you.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [0:45]
+\fs24 \'a0Subway tell me a little bit about what you do for Dell EMC.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [0:49]
+\fs24 \'a0Is how my name is waiting I am chipped a scientist will you see not LMC Consulting.\uc0\u8232 A walk is a client facing so we devised a solution and crew that continents strategy.\u8232 They are science and engineering for the customer and take then the truth we caught up with a temperature taker run the business inside out way too attached information.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [1:14]
+\fs24 \'a0Excellent so that's similar to something I built marzo.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [1:18]
+\fs24 \'a0He is my girlfriend.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [1:19]
+\fs24 \'a0Okay excellent so he's an alumni of the shell we always like I was catching up with folks who he use those models tomorrow what are you do for Dell EMC.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [1:26]
+\fs24 \'a0So why working today in Wayland at the science team so I'm working.\uc0\u8232 Provide service to our customers so we we are provided kind of solutions for a lot of different types of Industry banking Finance.\u8232 Retail and it's kind of a customer's we provide them like a.\u8232 The most advanced analytics and knowledge about to deploy machine learning and and this kind of think so.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [1:57]
+\fs24 \'a0That's what's interesting cuz you know most folks when they think of Dell EMC they think you know hardware company right you got some action Technologies a lot,\uc0\u8232 as the companies are come together there's a there's a lot that the offer but Services specifically run data science I thinks it may surprise her folks so what are things that you guys were doing here that we saw earlier was you got selected to present,\u8232 are you scared that I thought was super interesting it was around how do you identify and maybe catch bladder cancer.\u8232 Don't talk about what you were what what this what this talk was all about and how it how it came to be.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [2:31]
+\fs24 \'a0So what's happening that you have a sum of datasets open to public.\uc0\u8232 Nets game from Summer and diversity then I'll decide to have the image from patients that has has or had cancer.\u8232 And also so do you do use that you have to use case.\u8232 We got began in 2016 and then we realized that we can do something better for try to write a prediction model that can classify specific type of.\u8232 Cancer sign and bladder and then in for the weed out any kind of human intervention so this is the way maybe we can apply to you soon.\u8232 On the domain but we can try to apply do sound devices or invented this kind of yogurt inside of a.\u8232 MRI machines that can provide you automatically watches the classic tee off the type of the cancer that specific patient has.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [3:27]
+\fs24 \'a0So what so you say public images like what sort of pictures are we looking at here cuz you're using what you're saying is you using some sort of machine learning algorithm used built to basically look at a picture.\uc0\u8232 Without human intervention intervention I think you said.\u8232 And that it's classifying help me understand like what like where do you get these pictures I should have opened it it said they let some pack little bit like what does that mean where they come from.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [3:48]
+\fs24 \'a0So this is from Terry's of some hospitals in one Brazil think so it's 102 in United States.\uc0\u8232 They provide is e mc they open open source this.\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [4:00]
+\fs24 \'a0Image and video princess to diagnose up with you about this position so we have to buy at bi so we don't know who is the patients O2 something that is confirmation.\uc0\u8232 Let Media providers to do open source data to try to get the community and try to do some analytics over there.\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [4:18]
+\fs24 \'a0Next so it's an open data source so it but you said it doesn't have any of the patient identifiable information so no no GDP GDP are concerned that's good but so this is like a art of the possible like it wasn't.\uc0\u8232 Was this a customer-driven thing where you had a customer that was trying to do this and you help them or was this more of like we wanted to show an idea of what we could do.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [4:40]
+\fs24 \'a0Yeah it started with an idea that we like to show that we have this capitalism and skills to do that fake butt.\uc0\u8232 It's it's it's gold Footers I like that spread to other customers to order Christmas like to have interesting about it so we'll just start in January when we do sir have after we had this a use case.\u8232 Begin to start some positions with customers about this listing.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [5:03]
+\fs24 \'a0These are practical Rock ideas also coming in.\uc0\u8232 I passed the paper of last year so we went sweet picture perfect. Do you say idea and the way your star offered Lisa 12 customer.\u8232 So the concert but he is not only for bladder cancer is All 4 or am I related so they can be identified as wrong so they have labeled information about those account of yourself then we can use outside PK has a training.\u8232 Total scale use up a security at Transcendence from the statistical but you're learning and it was way too. Featuring hurt you and the whole 40 yard combine all this week.\u8232 Provides a week old actionable information which of facilitate in the sustained even distribution of a doctor's.\u8232 So enjoy major city Potter concentration is really high you have Specialties that they can titanosaur these are number for.\u8232 I entered all the pincer but the all the other urban area Lucy's or something that can be help her supporting system.\u8232 \
+
+\b Rob Hout:
+\b0 \'a0\uc0\u8232 
+\fs20 [6:09]
+\fs24 \'a0Yes I did the formula can a developed so I don't know what he's word model that does that imply something else,\uc0\u8232 what did the South America developed then it will be kind of easily trainable to do other other kinds of medical research or more medical identification identification off different kinds of cancer or other things even.\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [6:25]
+\fs24 \'a0I got.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [6:26]
+\fs24 \'a0Yes sure we can we can we can we can if we thinking about.\uc0\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [6:32]
+\fs24 \'a0Vector so we can run record at different types of organs so we can try to to to have different types of models that.\uc0\u8232 Predictive some type of cancer has different type of organs that we can figure out it's just because.\u8232 We use at one specific playing off of the MRI image so we can I use all the type of planes.\u8232 So so what is the planes look like in the depredation we talked about Colonel planes and transverse plane so we can use different types of friends around we have 3 so we have we can.\u8232 For example we can have one Pacific breast breast cancer we can have three planes or three models that together run together we train together this models and then we build a simple motor that put all the street together and.\u8232 \
+
+\fs20 [7:18]
+\fs24 \'a0We can try other types of retraining architectures on all the types of Architecture is to improve the accuracy of the model so this kind of think it's possible to do.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [7:30]
+\fs24 \'a0Yeah so I consider this a disease I need you to become a nation and.\uc0\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [7:36]
+\fs24 \'a0So that that application is Reedy abroad so you can use us as medical data that will be for all your cares industry.\uc0\u8232 \
+
+\fs20 [7:44]
+\fs24 \'a0Basically the giant intake Mi machine to take those picture so the second why you so you can transform that we call that I'm serious later vibration data into 2D spectralink you speak I know you made you from there you can lay boy.\uc0\u8232 \
+
+\fs20 [7:59]
+\fs24 \'a0Training.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [8:00]
+\fs24 \'a0That's kind of cool that the other thing I thought about when you were talking about the.\uc0\u8232 No I've been under the three for the sagittal the coronal and the transverse so you could possibly be creating 3D versions of the model that are 3D images of the organ that you could then run a model can you run a model in 3D is that even possible.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [8:18]
+\fs24 \'a0Yeah we can return of the treaty for example have a sum of image recommendations for when you talk about color images.\uc0\u8232 So is RGB so we each of these.\u8232 Red green and blue so which of these callers R11 Matrix inside of the counselor so it possible to do a 3D 2D game which one thing that I would like to to add this.\u8232 We are using just MRI in which but we have a pet scan we have different water types of devices that we can.\u8232 Don't feel different models and then and then puts all the skin together and is this going to work.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [8:53]
+\fs24 \'a0So tell me the name of the model cuz I think I wrote it is a multi is it multi no no no no meal convolutional neural network is it.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [9:00]
+\fs24 \'a0It's a it's a congressional network is it that connection and the correctional not took his emotional relationship crashing so they don't have to.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [9:13]
+\fs24 \'a0Xbox now when you when you started thinking about it cuz I love you this very kiss very cool art of the possible like.\uc0\u8232 It's almost like you build a prototype car cuz if they agree to let you know in like hey mr. Custer or you could do this and this is a way to leverage your team knows that you put up there was you started talking about architectural building that you showed some Hardware.\u8232 It looks like did you guys run this on like a desktop computer with a GPU on it or did you run into Datacenter like how big was this project and how how large-scale did you go with.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [9:42]
+\fs24 \'a0So we we we working with the server server it says.\uc0\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [9:50]
+\fs24 \'a0A Chorus and a 380 City 4 gigabytes of storage.\uc0\u8232 \
+
+\fs20 [9:57]
+\fs24 \'a0And we run into the two gpus agreed with two gpus.\uc0\u8232 And what is its cable we can't because we was not so flow so just flew can I build like a country Malton distributed way.\u8232 So we can like I have a blister off House on the Left these machines and down train model of course which I have data and I'll just try to do approach that you can.\u8232 Ron different models of different configurations simulation your hyperparameters and then you can I need the computer power cycles and this kind of thing that you going to need.\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [10:32]
+\fs24 \'a0Ryan so I one sings all that. You know my to you so you have need to have a minimum viable product.\uc0\u8232 These things are you can deployed in the city in the hospital you can also deployed in more like Urban setting that. Which is a.\u8232 Maybe use a family physician hot take care of the whole baited you you never said.\u8232 This type of machine does not take a lot of effort to install incomplete of course you need to have to be so cold out. Connectivity that that you have a lot to infrastructure that I can connect to the hospital Center technical support.\u8232 Butter for that particular one that you can start from that simple computer Asian and growth from it.\u8232 Even some of the customer to help when they would like to perform the POC they were not willing to a python larger pipe of because of cost or how much you might be right down the road so it so you better Asian is a bare minimum this is a meme I buy Apple products.\u8232 Who is this you can standing up in the world.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [11:34]
+\fs24 \'a0That's very cool this one things.\uc0\u8232 What things I think that maybe is a bit misunderstood in the the concept of like when a data scientist helps develop a model when you talk about deployment at the edge my mind goes to.\u8232 It from a hardware perspective in architecture if if the model is being trained in an in a Datacenter where there's.\u8232 You know resources were that's not Arts are you able to say you have a large-scale tensorflow environment or or whatever your chosen platform is you do your training there we have large amounts of storage and memory in computer resources that can do you do your work to go to the model.\u8232 What is the model for deployment is it light or wait at the edge meaning you know if in your case we talked about going to a rural environment where it lets say they have a specific.\u8232 You don't think that type of machine or whatever imageclass that they're trying to use to identify some specific thing.\u8232 Even need all that hard work doesn't the motto is the model capable of running on a running in a much lighter weight weigh than it needs to run in a training set.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [12:27]
+\fs24 \'a0Yeah I see now this is a good question basically a week actually / Motor Corporation that's a whole Bravo deployment concert coming in user being where is the layer as well as wwh which is what I heard.\uc0\u8232 Been wheezing that have a we caught on the latex fabric.\u8232 And the date is February 10th or two we could have made out of the fabric and then finish that is called Arizona.\u8232 Who sings data and processing power.\u8232 It's always in that you can share the accountant for them how do you spell particular Hospital have a bladder cancer am I.\u8232 You can HRT Transit model and move tomorrow because of the weight and that's where it's at a little complication for net worth.\u8232 Is total DPI phai independent you cannot. Translate that to which customer you can move it tomorrow though you're not moving the theater.\u8232 So that's number one the second one Lisa so not eat you can be tooth who sings Why you so we called her to let him transfer so you train the Tacoma model.\u8232 This, model may be recognized as I said all the things are by the DC area for a dimple in the Long Island before the place breast cancer is a one of the highly concentrated area then they can attach is a second they walk into it.\u8232 Training breast cancer specifically for that so now that you have a large Network and the large computing power can do we call that.\u8232 And then they tried that and the small one they can attach you that a general concept will use a smaller specific they have said that they have insurance through it so it is.\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [14:06]
+\fs24 \'a0It is a very versatile model in and out this way.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [14:09]
+\fs24 \'a0That's interested she brought up something called worldwide heard which I think we may be heard of before I want to tell me a little bit more about worldwide heard where that came from I just at a high level.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [14:19]
+\fs24 \'a0Well I heard h o t is a panda by Patricia she is at the one that actually comes across as a concept of the current situation.\uc0\u8232 Most simple example of why I want to calculator brighter cleanser worldwide distribution how can I do it right now the French and the German British in North America South America what is Zone you can now move the data out.\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [14:48]
+\fs24 \'a0So in the way that you need to break a top reason to send her and the teacher be apart.\uc0\u8232 So what I will be are you say you so that we could have met earlier that I actually spend Eliezer categories so you don't send me your whole thing formation.\u8232 You send me it's okay. Worries and accounting belt the categories know that it will get it into the distribution now that I know the better cancer over the world.\u8232 So that's the accountant over.\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [15:14]
+\fs24 \'a0So it allows you to basically use.\uc0\u8232 In some cases in some way have multiple Hadoop environment some sort of the large-scale perseverance but having communication between them pulling out a small number of key value pairs like likes accounts.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [15:30]
+\fs24 \'a0Yeah yeah yeah I'm or less because we are not able to to retrieve the data from the data centers in and put on centralized at 4.\uc0\u8232 So what we are doing is redesigning now they're all great analytical agrees that can do the following you can like send the information that is it is it cute or seen each of these data centers Dan do we have alpacas Central or mustard.\u8232 Are we going to push like a bush like a deer in the in the age we need to.\u8232 A processing and do all this to physics and send back to the to the central district is All rights summarized it so.\u8232 For example if you think about the mean or average or just kind of stupid statistics you need to do this kind of processor back and forth in between the edge and centralized it to not to.\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [16:25]
+\fs24 \'a0Sorry to not to have problems.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [16:32]
+\fs24 \'a0Yeah it's almost like you know if I think about the mapreduce process right yeah this map and you can spread it out amongst the workers it's almost like you're going to layer up and said.\uc0\u8232 We cannot produce across many men produce capabilities up is that an accurate assessment.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [16:44]
+\fs24 \'a0Yeah we don't move the data.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [16:46]
+\fs24 \'a0Cuz you're just you're you're you're bringing back some amount of a summation or some calculation that's very interesting so you did mention VMware in there what's a VMware contribution there like.\uc0\u8232 Cuz of what most people think of him or they just think VCR or you know kind of those operations what is he and where is contribution in this context.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [17:02]
+\fs24 \'a0Virtual Computing note so I basically across all the different. It has on you. But this cold and it is fabric.\uc0\u8232 Easter break they can have a week or the almost like Yellow Pages you know where is a resource so basically got in this particular sense how we feel the same thing called.\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [17:22]
+\fs24 \'a0Medical candidate is Factor.\uc0\u8232 \
+
+\fs20 [17:27]
+\fs24 \'a0Midland Adidas Factory can you say this particular Leia when will provide to talk to not only that I may have made a pothole so that that test product these are three people in the center so now that you can use the resource in the dispersed for men.\uc0\u8232 Play Tempo you have cohesion and his Factory by the tester that the testing this they have said is belong to that is all.\u8232 So there's no GDP are concerned because this person is physically there other users being well so we can have a cohesion processing.\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [17:59]
+\fs24 \'a0Okay I'll help with Orchestra.\uc0\u8232 \
+
+\b Rob Hout:
+\b0 \'a0\uc0\u8232 
+\fs20 [18:01]
+\fs24 \'a0It's so you actually something there that I thought was in your presentation earlier so that the analytics Factory could you talk about that little bit because the the picture that I saw and the words are going to run with it was really cool and it could you describe a little bit more.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [18:14]
+\fs24 \'a0Show in the 90s Factory was so this is a 2.0 specific for medical and it is Factory.\uc0\u8232 But he's lying to you so you suck on site by superscalar basically if your phone into Super scared of pipeline you feel up the pipeline you can cut down those are so put latency so much.\u8232 So while we sit at the Wii building stage of you so we saw we clean the latest beat and the Premier League and the Usos versus minor.\u8232 Stop in the street because I opened the connectors and the wheezing the call he is missing his energy sign in ID and those are we going to have scientists and then the tester.\u8232 Hey. Has a cold portion so they cannot take it that way then put the medical part of this quite a lot of used case they need to be done yesterday so.\u8232 Subway Temple prediction and the house why do the physician nurses scheduling out why to Medical restocking how do I admit that a patient what is our only patient see.\u8232 So how do you say very cold outside he Pig and the sensor Cerner type of medical software.\u8232 By the way you feel. In this reporter is it because of congestion of an ad a taser case was a padlock so long they lost week all that action about window.\u8232 It's always this then we know the how much are resources you need and how much time do you quit you spelled it all kind of it what was the testing quality across of the appropriate for you require one.\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [19:48]
+\fs24 \'a0So the concert by yourself is a picture of yourself on Victory point of view.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [19:55]
+\fs24 \'a0Excellent that's very cool so what's next with that so you guys said you talked about you know you've got this this interesting model you develop your perfecting it right you're getting better.\uc0\u8232 You got some technology underpinning at that that that's pretty interesting right that can allow this model to be deployed and interesting ways across borders that's all very cool.\u8232 What's next like what are you guys going to do next when you get when you leave here and you and you take what you if you what you presented or maybe you're already working at but like what what are you guys going to do next in terms of art of the possible or in like actual practical implementation.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [20:26]
+\fs24 \'a0Yeah I think you said that's great question I see a Visa. That's why I saw you called up.\uc0\u8232 Still have 5:30 and she have the same mind about tomorrow you can describe a working progress by the basically skill out.\u8232 And not only that we can do we say one we already proved you have a minimum viable product you can do it now that you've always screw out what kind of super that you can have.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [20:54]
+\fs24 \'a0So I bought the right bundle with my working with the hash and the Samaritan on the way in.\uc0\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [21:01]
+\fs24 \'a0And I order folks home today also a lot of people sorry if I don't pop machine everybody here.\uc0\u8232 But we are we are we are at the first results of the project is a wee wee.\u8232 \
+
+\fs20 [21:16]
+\fs24 \'a0We pick up our training model from resnet is that the one that would.\uc0\u8232 \
+
+\fs20 [21:23]
+\fs24 \'a0Most famous architecture in their Network architecture.\uc0\u8232 That I forgot we're having you much and I will what what it does it's not recognize hard object inside of the image and we should do this in this afternoon at Boca lstm neural network.\u8232 Dad's just want image give me the contest what the action side of Animation so for example if we imagine that we have.\u8232 Boy and the dad playing in soccer.\u8232 If I have a list of red nuts running and Pathfinder this image you going to see just a boy and a boy a ball and then the.\u8232 So in this case we going to Great captions we can create at the counter so we going to say okay Dad playing soccer with the boy so just using the image and using I miss Coco it someone of another set from Microsoft.\u8232 And so we are able to run these on 300 machines inside out for our lab it's took 15 minutes to run.\u8232 And 81000 English so we classify do Saturday 81000d wages in 15 minutes running on 300 machines you use a tensorflow.\u8232 And I know you must contain a true we have similarities one container so so we spray we start the job writing this container and Elsa flow and all of 300.\u8232 Service and then we got this 50 minutes so he's a very good approach because we we haven't used gpus in this cage the CPUs because it was something that we like to assure that we can be.\u8232 \
+
+\fs20 [23:04]
+\fs24 \'a0Fast enough to sport like a oldest kind of deep learning.\uc0\u8232 \
+
+\fs20 [23:12]
+\fs24 \'a0Techniques in the CPU environment.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [23:14]
+\fs24 \'a0Yeah so CPU and GPU there's obviously erase going on there cuz machine learning yell in videos clearly doing some great things in the GPS face clearly and tells you know the LED in the space AMD certainly making some progress,\uc0\u8232 it's just that you talk about hardware and you just put her in with any of the like the Google TP use like the tensor specific processing units yet.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [23:34]
+\fs24 \'a0And not yet.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [23:36]
+\fs24 \'a0Yeah that'll be interesting to see what happens in one thing I took away two from a again to be the hardware geek in the room the the thing that you guys called out in the in the.\uc0\u8232 Presentation about scaling out performance design was.\u8232 You talked about the importance of memory which surprised me I guess I don't I don't guess I thought that memory would be the thing I thought GPU processing would be the capability how did memory impact your processing throughput.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [23:58]
+\fs24 \'a0Yeah so in our case that we have a network have a thousands of different parameters to to update so.\uc0\u8232 So far as for me another case is better to have more RAM than Cycles because even have to take weeks or out not weeks but oral hours a day at least of them are going to run or you can bring them all.\u8232 If you don't have RAM memory in your case this happened.\u8232 The tranny face is saw you give you a lot of memory ever in so you can confirm them all that has a lot of problems have to reduce the framework had to use this the layers so it's a painful.\u8232 So sorry something that way like I like to do for him we run this all this is all good without.\u8232 To shrink the image just not used to the real date that really raw data so he's at the rink because when you shrink your loss information so it's something that is going to be good to try to run it is on a beaker.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [24:50]
+\fs24 \'a0Yeah so it's not good so it's not just the number of machines in the cluster but actually the memory density per machine has an important feature which is good that's a lot of folks.\uc0\u8232 When they thought about General kind of big data or close they've got a thought why you need fast CPU and recently passed this can Emery's okay but it's not like the big long pole in the tent,\u8232 I totally see that should be especially as you start to look at things like video and audio or video on and picture sort of as your source.\u8232 That becomes very interesting so you're working on ready bundles for machine learning your dude can I come up with those next are you like are you working directly with customers on on projects that are interesting that you can extract and tell us about.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [25:32]
+\fs24 \'a0That's a okay yes we do for you then pull out is also his health care place to eat in addition to the ocean we also do I sear it later each EKG,\uc0\u8232 they only do you create a seizure when do you please take that to heart attack for them both those are specific that age should have come back. We call.\u8232 I just seen that ETA. They actually have very very similar driver.\u8232 In the way that we are biological entity which our sensitize in the log where the other might be at the screen the digital based on the sample rate.\u8232 So those things are increasing my work shirt and yeah they are song.\u8232 Some will cut that we cannot discuss further to Walgreens everyday that's who I hope we lose application maintenance.\u8232 Airplane the poison pool and how to use potato what is a different altitude even the velocity.\u8232 Those are Samsung because the Rail Event detection though so you think when you have a vibration data.\u8232 And are those things I can be recognized easy D but you'll have other people in them.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [26:48]
+\fs24 \'a0And we we have we have a working working as partners so is a Healthcare company service.\uc0\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [26:55]
+\fs24 \'a0And we use a look at them Fallout 3 spark will you play a vital role inside of the partners to provide them like a some.\uc0\u8232 What kind of House of Lies they're cold or how to how to help them into some kind of electric spark effect.\u8232 And after that we we are we are already working in the newspaper in the college.\u8232 \
+
+\fs20 [27:21]
+\fs24 \'a0So it's about tg-2 electrical supply Graham.\uc0\u8232 And I will try to creating we could all this all this information side off all these EEG files I think it's through that 13000 patients and it's more less something 200 gigabytes of storage memory does a really really really big.\u8232 And I we run these over spark and we use it at BDL has a pepperoni framework so we are trying to redo that prediction model for using try to predict seizures for patients use in deg.\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [27:52]
+\fs24 \'a0Christ Asia the other one you so so very interesting is airport we also are used to report a tip on the sensor popper Taqueria video potion.\uc0\u8232 And identified the event and then translate that you saw, and translator that you been.\u8232 Into a recorder to action about which is a user iOS ATM which is translated accounting.\u8232 But I understand what's trending on the airport emergency menu so that they can translate that the event and Aunt were executed, I see you been analysis.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [28:25]
+\fs24 \'a0Very cool so automating the response to what could be critical events.\uc0\u8232 She talked about you working on your next paper and it sounds like you some of the stuff is come from competitions where you want are you are you guys competitive data scientist are you guys doing things like a goal and and competed in those sort of things or is this a different competition framework.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [28:44]
+\fs24 \'a0Yeah that's a good question it is at LMC I imagine once a year that's our major one because of that these are persistent ranking of our of paper we can refer to that that's why paper.\uc0\u8232 How to pass the two-year are we have A2 paper I told you is a piece of paper or potato.\u8232 Why you so mad at you a photo customer trim model how do you protect the damn you so we could I find model recency frequency amount to remodel across a different aspect Rock the other uses a prototype off operator cancer.\u8232 Architecture.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [29:21]
+\fs24 \'a0So how do how the folks that are you know our other customers that are people in the industry how do they engage you like how does how does somebody get your team and your folks involved to help them solve.\uc0\u8232 You know these problems that you guys are kind of you you've done something school art of the possible but how do they actually get you to come help them like what's an engagement look like.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [29:42]
+\fs24 \'a0That's a good question.\uc0\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [29:44]
+\fs24 \'a0Engage my ears are going through we called the shelves Channel and then search Anna will reach out to us right now they told ya we stepping into the Seltzer Channel and now so if I say that say that I appreciate.\uc0\u8232 So that's wrong as a customer I have neither the reach out to any of us or any of our sales Channel we will be our wedding at work I'll talk to them and the Sheraton.\u8232 Identify the root cause and then execute a plan.\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [30:13]
+\fs24 \'a0Nice once again I think a lot of folks when they think of Dell EMC they don't immediately think.\uc0\u8232 Wow these guys are could help me with data science problems I'm trying to solve so that's good to know especially as you know these digital transformation objectives are at the top of the line for some of the folks.\u8232 So thank you guys for being on I want to shift gears here for a second when I get a little personal you have told us about what you do.\u8232 What value you're bringing the customers and the interesting work that you're working on which can't wait to see what the next papers all about so this is called our rapid fire session so.\u8232 Basically it's really easy all you got to do is sit back relax and tell me the first thing that comes to mind when ever ask you these questions and I'll start with you and then we'll go to you tomorrow back and forth.\u8232 What year do you think Skynet will go online.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [30:58]
+\fs24 \'a02015.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [30:59]
+\fs24 \'a02015 alright want you tomorrow.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [31:02]
+\fs24 \'a02060.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [31:03]
+\fs24 \'a0Alright so you guys are thinking it's her that makes me feel better.\uc0\u8232 \
+
+\b Rob Hout:
+\b0 \'a0\uc0\u8232 
+\fs20 [31:06]
+\fs24 \'a0A lot better.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [31:08]
+\fs24 \'a0And a lot of people are like it's already online so I'm thankful that you guys are thinking that that's good for you what's the last good book you read.\uc0\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [31:20]
+\fs24 \'a0Are your favorite book you read last year.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [31:26]
+\fs24 \'a0Tipping Point by Malcolm Gladwell.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [31:28]
+\fs24 \'a0Yeah big fan of Malcolm okay what about you why.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [31:30]
+\fs24 \'a0Victory is a paper it's okay so for polka polka frog it was reading about.\uc0\u8232 \
+\pard\pardeftab720\sl260\sa240\partightenfactor0
+
+\fs20 \cf2 [31:43]
+\fs24 \'a0How people can reminder themselves when they can how to remind people to do the best and it is a very small article but have impact.\uc0\u8232 \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf2 Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [31:54]
+\fs24 \'a0Really powerful okay cool what genre of music are you currently listening to metal under that's all.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [32:05]
+\fs24 \'a0Gosh me too.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [32:11]
+\fs24 \'a0Data scientist go hard alright so what is your favorite piece of technology that's kind of useless.\uc0\u8232 So something that just get its technology but it's silly you don't you know you don't love it but it's do you like it.\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [32:28]
+\fs24 \'a0It's silly but I.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [32:29]
+\fs24 \'a0Yeah it's like a little piece of technology so the common answers like you're like the Apple watch like it it's it's that useless if it's actually had a negative impact on my life.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [32:40]
+\fs24 \'a0I think it's a good David pineapple Apple watch or something that I don't know why maybe I like it. It's really beautiful but I think it was.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [32:50]
+\fs24 \'a0Yeah that's right way what about you any any technology that's making your life worse.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [32:55]
+\fs24 \'a0Rachel is watching ladies a digital clock that I told you I can broke ass and tell but it's a Google home just taking over the whole nine yards.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [33:05]
+\fs24 \'a0Google I got it okay what is your biggest personal Money Pit right now what are you spending all your money on.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [33:14]
+\fs24 \'a0My youngest son he have autism.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [33:17]
+\fs24 \'a0Okay I thought that's definitely can be expensive understand that with you.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [33:22]
+\fs24 \'a0And my kids and my wife and my family they drain all my money.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [33:24]
+\fs24 \'a0That's good that's good things to spend money on you get it you could be doing really bad thing so you listen to Hard Rock and you do nice things that's good are you going anywhere interesting soon.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [33:35]
+\fs24 \'a0I'm going to go to Europe Portugal.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [33:40]
+\fs24 \'a0Portugal nice very cool how about you anywhere cool.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [33:44]
+\fs24 \'a0I intended to are taking my son to put your pain he is a big fan over Japan so we have a my teacher due to the travel so he would like to see that.\uc0\u8232 The architecture he would like to Orlando Japanese and that he would like to in case you always such a penny song animation.\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [34:04]
+\fs24 \'a0Oh yeah very cool house in Japan a few months ago on it took my kids with me and it was an incredible to me what a beautiful country okay what show are you currently binging on where have you been done recently.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [34:18]
+\fs24 \'a0Define the Benji.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [34:19]
+\fs24 \'a0So what's your what's your favorite TV show you're watching right now.\uc0\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [34:26]
+\fs24 \'a0I did not watch TV often.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [34:27]
+\fs24 \'a0That's a good answer that's it that's a good answer what about you tomorrow everything.\uc0\u8232 \
+
+\b Mauro Damo:
+\b0 \'a0\uc0\u8232 
+\fs20 [34:31]
+\fs24 \'a0I like to see the talk shows and I like that you can Jimmy come out and this kind of thinking.\uc0\u8232 \
+
+\b Cory Minton:
+\b0 \'a0\uc0\u8232 
+\fs20 [34:36]
+\fs24 \'a0Okay I'm late night shows very cool.\uc0\u8232 Will gas thank you so much for being on it's it's interesting as a said to hear from from folks that are Dell EMC guys that aren't Hardware sellers that are doing interesting things to solve interesting data science problems for a customer so thank you so much. I hope you enjoy the rest of strata conference.\u8232 \
+
+\b Wei Lin:
+\b0 \'a0\uc0\u8232 
+\fs20 [34:53]
+\fs24 \'a0Thank You song Thank you so much.\
+}
