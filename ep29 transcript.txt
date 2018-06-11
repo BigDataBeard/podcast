@@ -1,0 +1,289 @@
+Transcript
+Rob Hout: 
+[0:07] So I got married the audio on the video stuff.
+So if it sucks and I can always over there.
+Secure side 24 you.
+Hitler started this.
+Cory Minton: 
+[1:07] From Dell Technologies world and it's it's day what day of the conference is it to three.
+[1:16] So fast and so much fun so excited to have my good friend Rob thank you so much you're finally growing.
+Rob Hout: 
+[1:20] You so much you're finally growing a beard.
+Cory Minton: 
+[1:28] Actually going to full beard status I'm very very excited to have you.
+[1:34] First we got John Lambert representing SASS and so we're going to talk with John about SASS and Sounds by and what their do they jump thanks for joining.
+[1:44] Excellent and Matt McHale Matt McHale is lead for a big data pre-civil Go shoes and Consulting team and is responsible for our lastic data plan.
+Matt Maccaux: 
+[1:52] Hello Matt maccaux is the pronunciation sorry it's all good we can edit that out right.
+Cory Minton: 
+[1:56] No I just want to leave that in there to prove a moron.
+Matt Maccaux: 
+[2:03] All good things.
+Cory Minton: 
+[2:04] Excellent won't very good since you don't want to get started with just a quick understanding cuz you know there's a lot of.
+Well acronyms there's a lot of Technology there's a lot of company starting up SAS is not one that seems new but it seems like one that we should all know but in in terms of the Big Data contacts in.
+First company everybody thinks about John so tell tell me what about SASS and could have your focus in the beginning.
+John Lambert: 
+[2:27] You bet Corey so you know when you look at SAS Legacy of about 42 years in the marketplace but I think more importantly over the past three years we saw.
+We saw an opportunity really.
+Looking at the open source community and development platform that really works alongside and Embraces the open source community.
+We were really one of the leaders in in memory technology and database technology and sit this third generation of our platform of via.
+Gives us a cloud ready environment that now most of our sales and pre-sales organizations are pretty excited about.
+It's relative to the marketplace open-source dominant conversation and I think via gives us an opportunity to level the playing field.
+It's really a breakthroughs and in new technology in terms of some of our new Algos what we're doing around machine learning artificial intelligence is some really exciting use cases that were really starting to see some traction within the mark.
+And I think that's generating a new level of excitement throughout the organization.
+Cory Minton: 
+[3:34] Actual successes is not one of those if you said 43 years of business and I sound like a point player SAS is truly a platform right it's more than just a visualization tool analytics to it's it's brought her.
+John Lambert: 
+[3:46] About it from the perspective of the yellow ducks life cycle so across the platform over.
+[3:54] Plus years we've developed expertise obviously in the Alex Facebook really did a manager.
+[4:04] Visualization is also a critical component of that platform so when you look across the end.
+[4:12] And Assassin's really Stitch that together in the marketplace over the past 40 42 years.
+Rob Hout: 
+[4:20] So it's.
+Cory Minton: 
+[4:21] Complete analytics life cycle quite more player got it and it will say that the platform word like that's almost as overused is cloud at this point it's incredible has I think everybody's new favorite acronym will just now we're having big data passes I think you guys are obviously one of those.
+So I'm curious you said satisfied as 3rd generation and it's more you know obviously plays nicely with the open-source vendors and it's cloud-ready explain what that means a little more.
+John Lambert: 
+[4:47] German architecture standpoint we really opened up the platform to a restful API integration with python Lua Java so it when you look at SAS now you can literally look at it as a.
+Where previously where we're pretty much locked down from the development communities perspective so now you have the ability to be really interface an interview.
+And develop new Platforms in new panel.
+Cory Minton: 
+[5:16] So when you say pop or like this is not just we're not talking about like it's just big and it's it's like been 43 years ago or 42 years ago it was small dinosaur like clearly a hook into like database like Data Warehouse in technology yesterday.
+John Lambert: 
+[5:32] ETL capabilities integration with your teradata is your oracles and then is the distributions came across the pipeline we built access engines into those.
+[5:46] In those data sources as well so you minimize the latency in the movement of data across the network so you were doing your your analytics in the date.
+[5:57] More.
+Cory Minton: 
+[5:59] So what are things that you said there was so it yeah there's a lot of people in the ecosystem that you have to play with it so I'm curious to hear what are things that you guys have I've heard talk about lately is this is concept of like there's new deployment methodologies there's dude ways to manage and Orchestra.
+Typical didn't want to talk about it no more detail why is why is a relationship like that interesting.
+John Lambert: 
+[6:24] Finding is those are market-driven initiative so our customers are coming to his telling a.
+Rob Hout: 
+[6:34] Hibbett develop those cloud.
+John Lambert: 
+[6:46] We're running software-as-a-service platforms we're running.
+[6:54] Running up managed analytic service provider mod.
+[6:59] In their IP technology wrap it around fast and then roll that out to the marketplace and then we look at it shared Revenue model basically in terms of.
+Cory Minton: 
+[7:12] Text like I said something about your your role in one of them telling she cuz I'm curious to hear what you do broadly but they don't have.
+Matt Maccaux: 
+[7:23] Yeah so I had up our big data Consulting practice we were responsible for big data analytics iot and all of the good Buzz words that follow along.
+Cory Minton: 
+[7:31] Wait let me guess machine learning.
+Matt Maccaux: 
+[7:36] One more one more.
+Cory Minton: 
+[7:37] Older woman smart what does it mean Cloud now.
+Matt Maccaux: 
+[7:41] But actually we are conversing a training Cloud which which is interesting we were looking for deep learning their core deep learning.
+[7:54] We are out there talking to customers of all shapes and sizes of different levels of maturity.
+[8:02] We listen to hear where customers are struggling and our goal is to provide solutions to them solutions that involve partnership.
+[8:12] Everyone talks about data monetization or getting value out of data and everyone is struggling with how to do that and so someone that what we're seeing now the trend with the buzzword with machine learning tutorial let's just.
+[8:25] What was that even mean how do you do that what is your plan to get there do you have the underlying technology and how does this interact with everything else in the ecosystem so by and large within the Enterprise most of the customers I talk to these large Enterprises.
+[8:41] They treat it as a silo of information generally.
+Bunch of folks that we trained over years it came out of the college with SAS kills we got our SAS team and they're doing descriptive analytics maybe building some predictive models with that and then we've got.
+Totally different setup.
+We're looking at me like how does that work you gots a stayed over here you got big daddy here you still got your Warehouse there you got Silas of these organizations how does that make sense reordered how do you scale that we have to call that in an Type A.
+The silos of information is is not a good way to approach if you're a c-level you want these teams thinking about working together bring together sharing.
+Processes and ultimately applying the right technology for those were closed its last week.
+Cory Minton: 
+[9:27] When you look at the ecosystem I mean there's a lot of people that we can choose to be partners with her I think of you made it really kind of a person seem like everybody has sassy.
+[9:38] Something there by thinks about I go to think saskpower so why is it that you fart.
+Matt Maccaux: 
+[9:51] Find cycle for most of these organizations is.
+Open replace it's sometimes to sort of pushed to the side and let it die but Executives don't like to do that they want to leverage the existing assets but most important the people right where SAS has an advantage in the marketplace is there are hundreds of thousands.
+I know how to use the platform they know how to be productive for their companies using that and so the idea is that we want to help these customers Leverage The investments in them.
+Technology and science is just low-hanging fruit just like teradata in the teaser green plumber low-hanging fruit a few years ago sauces that next analytical worthless as organizations have got their foundation for Big Data technology it's all I got everything to do with her dude just roll now it's about doing the animal.
+So they naturally turn to where the skills to do analytics they usually sit on this ass.
+Two things going to talk that's why we're so excited about viah is it brings more modern techniques and Tools Plus the skills so I saw survey recently there is currently a shortage of a million data scientist out there right now.
+Organizations are looking to hire data scientist and there are a million wrecks that cannot be filled what if we could take people that have analytical capabilities maybe they don't have the title date us.
+Leveraging the techniques and tools in the understanding to do some of that work as they become scientist or whatever that net.
+Cory Minton: 
+[11:13] Edison data science.
+Matt Maccaux: 
+[11:14] When that one that seemed like a better use of your Investments.
+We're having this conversation so so sad for us is just an absolute natural fit and then with via as a more modern platform to do that on we can start bringing.
+[11:30] Eagle Landing place where data comes together give people easy access to that with the tools they want to use they can quickly get to those inside.
+Cory Minton: 
+[11:38] Dempsey's typically.
+Rob Hout: 
+[11:40] No big deal.
+Cory Minton: 
+[11:53] Leo's is like the actual just like deployment methodology like how do we get Inner pie Enterprise it practices applied into.
+[12:04] Environment.
+[12:07] Hey we need to you know we need to deploy these.
+[12:11] Guess what we want to look at things like modern deployment like either virtualization or containerization like what's that conversation like for you is.
+Matt Maccaux: 
+[12:18] Yeah so within the Enterprise space and I keep saying the word Enterprise I really just need organizations that are more mature on the journey they've sort of got big data foundations in place.
+Through the struggles of getting data into the platform rationalizing it putting governance and mostly the low-hanging.
+Write the algorithms the predictive models that were built before are a little smarter the running a production and now organizations are going now what what do we do now is it well where to go hire some data scientist okay we got how do we make.
+That is the next question that every large organization struggling with his we just paid a lot of money for this person that was frankly really hard to find we convince them they're going to solve really cool problems working for a company how do we get them productive as quickly as possible.
+[13:04] D'Amato.
+It's what we hear organizations coming out this pain with his we want to do machine learning and deep-learning and II okay so you got a data scientist how do they actually started to that we're going to go get some we got to get some gear.
+Most likely cause of privacy issues and in those were two things that a lot of the work load is still within the customers private data centers this other stuff moving to the cloud week we can talk a bit about that but the idea is.
+Data still has Gravity from a computer specs to the most of that personal and the critical date is being within the Enterprise's within the data centers okay we got it.
+We now need to get permissions to have access.
+An access to that data and then we got to get the date of provision in there you just have to bring their tools and all the sudden it's like well I can't give you direct access to that data cuz you want to use a tensorflow out with Anna hasn't been certified in this is the struggle.
+The business trying to be productive 90 sang I can't have you.
+[13:55] Analytical platform that I've invested the last five years I can't have some data scientist just hammering on this thing so this is what we see the idea of virtualization are containerization technology come around.
+Let's separate the the compute from that data like so that we offer up sandbox environment for these data science.
+And sometimes it's destructive right sometimes they make mix oil and vinegar.
+Rob Hout: 
+[14:24] Vinegar and baking soda.
+Matt Maccaux: 
+[14:30] And so if we give them container is environment so they can bring their own tools to quickly and rapidly iterate while protecting the Integrity of the date up then.
+Rob Hout: 
+[14:56] The data scientist might do really shouldn't smell like what we.
+Cory Minton: 
+[15:04] Coming in and work you know we're providing a.
+Matt Maccaux: 
+[15:14] So let me ask you a question so I'm doing you are so you're doing iterative data science work right you got an isolated environment to do that the data that you need access to however it's probably the production data is that a production environment.
+[15:39] Isolated we put her on that what's her to safeguards do we put around that so that we can have that productivity so we need to think about in terms of our operational system.
+[15:51] And we think about things.
+Rob Hout: 
+[16:05] How did they get to the problem for they've got people they can do work but they don't have access to,
+they were talking about.
+Biggest phone number somewhere else but those are all those are four different platforms.
+They're all actually doing same problem.
+Matt Maccaux: 
+[17:08] Gdpr says what.
+John Lambert: 
+[17:11] Prince police are coming for you.
+Cory Minton: 
+[17:36] It is such a concept is it solving a problem that people need to solve.
+[17:45] On its own does it make sense for Dell EMC to partner with other organizations to.
+Containerization in.
+Matt Maccaux: 
+[17:52] It was a great point so we do not recommend organizations roll their own kite type of capability here we've seen a number of organizations try and the reason many or.
+[18:03] Open source tools to build this capability are not mature enough yet now they make.
+[18:13] So what we have found is this pattern emerge of organizations.
+[18:21] They want whether it's a smile or something else it's a we partnered with companies in the marketplace likes ass to do that until the doctor or.
+[18:32] Bluedata they abstract away from the infrastructure to.
+For these various type of work looks like Vaya containers in hortonworks and Cloudera.
+[18:48] Do but with this you got enterprise software with a phone number you can call and they are innovating where you don't have time to as a an Enterprise organization like Dell EMC customers like to do that they like.
+[19:02] Cion I see them on panels a conferences they are synced.
+[19:09] If they don't want to build their own technology anymore they they have very small budget constraint it teams they want to innovate on top of technologist they want to buy technology where it makes sense and the second is there looking to buy technology from vendors.
+And that's why this partnership model with SASS and blue data and hortonworks in Cloudera and brutalities other companies in the marketplace is so important or working with market leader.
+Ability to our customers in a way that extends and augments existing invest.
+Cory Minton: 
+[19:39] But what you're talking about the blue date is clearly a powerful orchestration to all week we've actually had some their team on.
+[19:49] Install their epic software and walk away I can what you guys.
+[19:56] Run into this which is I've got these I've got this this. Of tools and get these silos in.
+[20:04] What others have somebody step into this.
+Matt Maccaux: 
+[20:08] Good question so are our goal is to be nimble upfront and so you got an existing platform an existing investments in skills and you want to get to this sort of next-generation so how do you get from here to there and so we help we consult were Consultants we help you to find what that strategic Solutions.
+[20:25] I mean it's not a heavy lift usually a couple weeks of sitting down with the smart people from the customer making sure that we understand what you have and we give you a.
+[20:34] It's whatever those tools are if there's new.
+[20:49] Servicenow when they talk big data but if you ask organizations about how they generally do.
+[20:58] With a say let's add some modules to servicenow so users can have that same fulfillment experience tied into existing Investments orchestrating that end-to-end so users can literally.
+[21:14] And then that Enterprise Integration.
+Cory Minton: 
+[21:19] Because you talked a lot throughout this conversation around where Enterprises are in their maturity level.
+[21:26] It's only like that the Dell EMC Consulting to do the only really go into those accounts that are really mature and kind of date they're down the path in there.
+Deployment or is it like is there something where maybe you could help somebody that says like a we're just we're getting started help us avoid the pitfalls that other people have already run into is there one will you feel better or worse.
+Matt Maccaux: 
+[21:47] Exactly we help customers all stages in the journey with a generally fall in the store that you can sit at the very early stages of the or the later stages we've been talking about the latest.
+Next level but for organizations that are still just getting started we've got a methodology to help them make data-driven decisions you ask anyone in an organization what they should do with analytics you're going to get a lot of really good ideas.
+Question is how do you take all of those ideas synthesize them to make data-driven decisions about what product you build next how you go into the marketplace and do even really sing.
+Three step process we look at one of the analytics say let's take a look at your data is is there there there the second that we look at is do you have the technology platform to deliver the outcomes that you're hoping for and then the third is do the numbers line up if there's a financial model.
+Cause this much of the profits this order the revenues much is that is their profit cuz nothing comes for free there's almost always an investor.
+[22:41] Three of those criteria and we run that through with each use case in parallel we do this rapidly over a 6 week. So we do this three or four of these.
+[22:51] Healthy ideas that has mustard around do the analytics exist do we have the technology platform desert financial model and then we can line those up to me.
+Rob Hout: 
+[23:03] Far Cry from.
+Matt Maccaux: 
+[23:22] Technology Investments you already have given existing data warehouse probably right so how do we extend that is there an opportunity to draw that down to pay for this next Generation platform again we have those the architecture.
+Rob Hout: 
+[23:37] Shiny object in the room by 6 years right.
+John Lambert: 
+[23:42] And many of our customers from a SAS.
+Made investments in the distress whether it was work Works Clara map are and what we found is many of those districts are sitting on the sidelines unused.
+[24:00] It really was a 10 weave.
+Surrounded driving Hadoop adoption where we'll go in and put together a knowledge transfer will do some Consulting as well to really help our customers understand what they use cases are because I think that was part of it take me under.
+Use cases that they were trying to solve for when they drop everything in.
+Cory Minton: 
+[24:24] Exactly so SAS be in the size and that the mature.
+Rob Hout: 
+[24:25] Amateur.
+Cory Minton: 
+[24:30] The great education capability for Verde users and blisters the show they want.
+Technologies as a relates into the big get a spaces is that something you guys offer is the server.
+John Lambert: 
+[24:40] We do we've got a pretty comprehensive Global Learning and it.
+Deliver that kind of knowledge transfer for our customers we've got a fairly sophisticated presents online as well and then it start visibility at events like Dell Technologies world we sponsor a number of executive and user forms ourselves we collaborate with.
+Intel's another key strategic partner forest and wheel ever.
+Rob Hout: 
+[25:06] Mobile.
+Cory Minton: 
+[25:11] I heard everything correctly and I probably didn't but if I would have some of that bud say that sews ass clearly mature set of tools 3rd generation of the platform satisfy as out now or coming out soon now now in Perth.
+Super cool if you want to deploy at the right way in the context of a larger Enterprise following Enterprise it best practices setting the groundwork for not only using SAS but other big data tools.
+Consulting in the elastic data platform packaging boot it a pretty interesting story so are there any customers out there they're doing this today.
+[25:47] And that have been successful in.
+Matt Maccaux: 
+[25:51] So we had a we had a customer speak on our behalf at strata in New York City last year Barclays out of the UK spoke about their deployments of the elastic data platform they had a very.
+[26:06] They got in there like they wound down the data warehouse as much as I possibly could and they were looking to massively ramp up the data sign.
+[26:17] Analytical users within the bank including that the SAS team which was most of it and their look.
+Data scientist and they were really struggling with how do we provide that cell service access to all of the day that we spent so long curating a governing and getting into this Lake how do we met.
+Barclays got up and they talked about their Church.
+Journey from starting to do back in 2012 2013 all the way to now offering this self-service and I think it's probably it's not a unique story but it is one of probably the first in market-leading to do this at Enterprise scale.
+Cory Minton: 
+[26:52] It's not only a great platform great tools Services capabilities help customers achieve the great outcomes and guess what real customers of xrt done it so it's already proven that's very cool so that's like you so much.
+[27:06] I'm going to get to know you we had a great conversation professionally-made will get to know a little bit more about you personally so weird.
+Rob Hout: 
+[27:09] Brett Favre High School.
+Cory Minton: 
+[27:16] Say an answer this lady wants a picture back fucking his chair.
+John Lambert: 
+[27:34] Good answer grandma.
+Cory Minton: 
+[27:47] What year do you think Skynet will go online.
+John Lambert: 
+[27:52] I'm saying 2021.
+Cory Minton: 
+[27:56] What's wrong it's already on my.
+Rob Hout: 
+[27:57] What is the last book wax really good looking.
+Matt Maccaux: 
+[28:13] Noir by Christopher Moore.
+[28:18] Genre that is sort of detective agency but Christopher Moore is from the humor writer so he tried to write a new or book it just couldn't do it.
+Because he's just he's too funny so it was meant to be the sort of Dark Knight detective things said in the post World War II San Francisco but then he threw an alien in there and it just it was a little weird.
+John Lambert: 
+[28:47] Country wrestler.
+Rob Hout: 
+[28:50] Rich.
+Cory Minton: 
+[28:52] Currently making your.
+Matt Maccaux: 
+[28:57] Artificial intelligence machine learning and.
+[29:01] Nobody knows what it means and nobody knows what to do with.
+John Lambert: 
+[29:06] At my VCR it still flashing 12.
+Rob Hout: 
+[29:10] Call your personal biggest.
+John Lambert: 
+[29:24] I would say my fleet of automobile.
+Rob Hout: 
+[29:27] Wait OK Google give me the top top.
+Cory Minton: 
+[29:36] To do that are you going anywhere really interest.
+Matt Maccaux: 
+[29:41] Hawaii I got off that's interesting though it's great.
+John Lambert: 
+[29:46] We're going to be.
+Cory Minton: 
+[29:51] Oh are you currently binging on right now more recently benched.
+Matt Maccaux: 
+[29:59] Re-watching all of Rick and Morty pickle Rick.
+Rob Hout: 
+[30:04] Billion billion so good very cool.
+Cory Minton: 
+[30:07] So if we wanted to find you guys out in the social sphere what's the best way for us to engage with with you guys in Social the Tweeter.
+Matt Maccaux: 
+[30:13] Matt underscore Macomb.
+John Lambert: 
+[30:17] Run swim 24.
+Cory Minton: 
+[30:22] I hope you enjoyed the time thanks for joining us in The Luminaries booth at Dell Technologies world and we look forward to seeing you.
+Matt Maccaux: 
+[30:28] Thank you are luminous leader.

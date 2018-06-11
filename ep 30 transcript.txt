@@ -1,0 +1,565 @@
+Big Data Beard Episode 30 - Scott Kahler from Pivotal
+
+Kyle Prins: 
+[0:00] Overly.
+[0:07] 2 I don't know what I did but I had a couple shots too many the other morning and.
+Cory Minton: 
+[0:11] Wolf watch shots.
+Kyle Prins: 
+[0:12] Espresso sorry it is Vegas yeah yeah.
+Scott Kahler: 
+[0:15] We are in Vegas.
+Kyle Prins: 
+[0:16] Yeah yeah and I I was pretty sure my heart was pulsing out of my chest.
+[0:24] I think it was yeah yeah.
+Cory Minton: 
+[0:27] Rob has a tendency to over caffeinate that's awesome.
+Kyle Prins: 
+[0:35] I did find those walking over here to to get to work and there was a gentleman you just cracked open a fresh SweetWater 420 at 8 a.m. the dedication that gentleman.
+Cory Minton: 
+[0:45] I always do. Like I mean don't get me wrong I like I like a drink every now and then but that like the folks at literally get on those 6 a.m. flights and they're like you know of a bourbon and Coke are you sure.
+Kyle Prins: 
+[0:59] Spell a bit of orange juice in it you know.
+Robert Hout: 
+[1:01] That is dedication.
+Cory Minton: 
+[1:02] Yeah that's that's really good at something.
+Robert Hout: 
+[1:04] It was easier that it is just people who aren't used to the first class things or like I have to abuse all the Privileges right now is a.
+Cory Minton: 
+[1:11] Oh yeah that's.
+Scott Kahler: 
+[1:13] I've got drinks tickets and I'm going to use.
+Robert Hout: 
+[1:14] All of them.
+Kyle Prins: 
+[1:15] Mr. fancy over here in this first class.
+Cory Minton: 
+[1:17] That's first class Rob I'll let you know that.
+Robert Hout: 
+[1:20] I don't know what you talking about.
+Kyle Prins: 
+[1:21] Happy with an exit row.
+Cory Minton: 
+[1:24] Actually I had a boss one time that he he flew Southwest so much and they used to do those three tickets that don't expire.
+Before that so he would like once like when I get there maybe like once or twice a year he didn't drink.
+But what he would do was he would literally save the tickets and then at like 1:20 or get on the plane and hand the flight attendant that's like literally a hundred and thirty of them in a stew.
+And be like everybody's drinks are on me and when it was handed to him and then there was like all of them.
+Scott Kahler: 
+[1:53] Most popular guy on the flight.
+Cory Minton: 
+[1:55] There's like I made a lot of friends loves Bill since I did that if I get out of bed.
+Kyle Prins: 
+[1:58] Wow.
+Cory Minton: 
+[2:01] It's pretty solid deal right I mean.
+Kyle Prins: 
+[2:03] If you were the flight attendant though how would you take that like oh crap now I'm pouring drinks the entire flight you know.
+Cory Minton: 
+[2:12] Or let's get this party started we are at Dell Technologies World which is giant conference we're on day 4 of the conference officially I believe and I'm officially over Vegas.
+And here's how I know I'm over Vegas I literally I haven't thought about how much I was paying for coffee until literally this morning I went and bought, and I coffee in a bottle of water and for two coffees and two waters was 32.
+I'm over this place I can't imagine how much that.
+Robert Hout: 
+[2:41] The glowing green juice $12.
+Cory Minton: 
+[2:43] $12 for juice.
+Robert Hout: 
+[2:44] I'm going to fall over if I don't have something that's got a vegetable in an inmate.
+Cory Minton: 
+[2:47] I had a salad yesterday which made me feel much better about life.
+So we are excited to have a gentleman join us from the pivotal team is in Scott Kahler but the interesting thing about this conversation is that Scott,
+was one of the folks that reached out to us on Twitter whenever we put out the put out feelers I said hey if you're going to be at at Dell Technologies world the big get a beard teams going to be there and Scout reach down so that man I need some chatting.
+Robert Hout: 
+[3:12] Sub-4 second of all things aside he not talks more than four times about trying to get him onto the schedule until it says my bad about not having money.
+Scott Kahler: 
+[3:23] Well yeah it probably going to reach out and see if there's this thing that's called big date of beards I'm like hey I do that I got their beard and I do the Big Data thing so yeah.
+Cory Minton: 
+[3:34] We're super excited to have you around so we're in the the luminary Studio that the Dell marketing team is provided for,
+the influencers that out there talking in the market and we're excited to be part of it so it's got to want to give you a chance to just tell someone about who you are cuz it candidly we don't we don't know too much about you know Rob knows you,
+but I don't think maybe we don't know him already to love to know who you are.
+Scott Kahler: 
+[3:54] So let's hear Scott Kahler I live in Kansas City so I've been there about 20 years originally from Lincoln Nebraska so I've been in the midwest all my life.
+Born Husker fan still Husker fan so.
+I guess I'm at the Tipping Point right now where I've been in Kansas City almost as long as I was in Nebraska so I'm trying to figure out if I'm more Chiefs than Husker but I I was born Husker so that's that's got to stay.
+Let's see here background I worked 10 years for online company we took comics from like.
+The newspaper where you turn it over and you read your comments or The Syndicate that did that called Andrews mcmeel they had a digital arm to put those comics online.
+I'm called you click so I put Garfield Doonesbury Calvin and Hobbes there's a small team of us to put those online.
+Cory Minton: 
+[4:44] Jimmy Like Comics a comic strips. Comics like Marvel Comics.
+Scott Kahler: 
+[4:47] Right, like comic strips right and that's probably my first run into Big Data.
+Actually because we had multiple web servers running trying to capture all that way to take all the logs and process them and figure out how many people are looking at Kathy on the USA Today side or the Washington Post.
+All of that right.
+So all that dated had to go to a log server we processed it we couldn't process it on or log server so I split it all out to multiple servers do the processing and bring it back so that way when.
+A batch would take less than 10 hours to run we could potentially catch up like if we ended up a couple of days behind or something how I'm so I did that for about 10 years.
+Dove there was some database stuff in there there was infrastructure stuff if we kind of covered all things cuz it was a startup right for people doing everything.
+Cory Minton: 
+[5:35] Why do I have to wear.
+Scott Kahler: 
+[5:36] Right so from there I went to advertising company where we generated we targeted users to give them campaigns and things like that the targets that we generated were in the range of 700 million targets per day.
+So we were doing that and I do and my started it was nattie's and Oracle but we switch that Alta green plum.
+So was an early adopter to do cuz this was 2010 ish I would say.
+We were doing that the initial clusters that we would spend up we would do an Amazon before they had the good.
+Yeah you Mark didn't exist it was all just spending up machines and crating to do cluster and then spending it down so.
+We transform that we actually brought some old servers that we had on the floor and made our own Hadoop stack inside.
+Cory Minton: 
+[6:28] Call the roll your own.
+Scott Kahler: 
+[6:29] Right and we did like it was a mixture of 19 fifties and 29 fifties and things were aging out.
+And we found the it was a hundred plus that we would spend up an Amazon to do the due process thing we could do inside in a rack of like 12 servers.
+In less time than we were doing out an EMR so the internal just having the internal network connectivity in the speed of the disk to be local and all that.
+Made that much better I'm so at that time was also doing the dude stuff I did greenplum clusters that we had thought processing we were doing an Oracle in the teaser we had a batch cycle that was in like the Twin Towers Rush range.
+We drop that down to 20 minutes.
+Cory Minton: 
+[7:09] Wow that's a little bit of improvement.
+Scott Kahler: 
+[7:11] Yeah that's one of the things we talked about transforming technology right so there's a whole bunch of companies that are in that.
+It takes a day to do this it takes two days to do this if you want to see like what customer service is is two-day-old reports right.
+So you transformed would like a parallel technology a good Big Data technology and you knock that down and now you're running stuff you know multiple times per day eventually per hours everybody can see almost like things right.
+So I see from there I did that for about 3 years was it at knowledge and I went to work for pivotal and pivotal start it up.
+So that was a was kind of a strange thing at that point cuz when I joined pivotal head and actually rolled out.
+They said we're going to do this thing we're going to take some assets for me and see if there's pivotal Labs greenplum I'm going to take some stuff from VMware.
+Which was I believe that was Jim power was with in VMware at that point in time the spring development stuff and then they said we're going to take all this.
+Well yeah there was the cloud Foundry thing too but that was kind of Skunk Works at that point in time right there so we're going to take all this stuff and roll it into a new company under a bummer it to was really about delivering Speed and Agility the businesses.
+And really.
+I've been doing that I worked on the green plum side and work in the field doing sales and then I was going to pass me on Greenbaum stuff and now I'm a project manager so the features that are going into Greenville my help decide how to make Rainbow Loom a better tool for.
+[8:45] Customers to use out there right now.
+Member really continue along that path of speeding up how the Enterprise make decisions how they deploy apps all that kind of stuff so used to going really really well so.
+Cory Minton: 
+[8:56] So remember that date the good always had this like triangle with it talk about it was like was it like it was data.
+Apps and it was yellow.
+Scott Kahler: 
+[9:07] I think was inside was was a third one yet.
+Cory Minton: 
+[9:09] I threw that thing faster I was like that idea actually Palmer it's is the.
+Piikoi are you made the statement that I've literally used like a hundreds of times and conversations but I think it sums up what big data is about which is.
+Did anybody that the it was either like the an investor call or was it may be a bit of a conference.
+He said we think about dating what we're after is we want to catch someone or something in the act of doing something and affect the outcome.
+And I thought man like that captures and so effectively so you've had a history and doing exactly that which makes me laugh thinking about Comics being data-driven but a bit of bruising data driven is.
+Can be applied anywhere that's super cool so great thanks for the background so I'm curious so don't acknowledge his work clearly pivotal part of the Dell Technologies family so what were you doing here like what were you doing running around or are you presenting this week.
+Scott Kahler: 
+[9:59] So why I had two things I wanted to do one was a 10 sessions right like everybody else.
+I might if it's around that was a lot about what's going on with Nautilus ECS isilon like these data platforms that are out there and Justin date on how well that's going the other thing was I gave a couple of the same talk twice which was on.
+Integrating greenplum with ECS.
+Yes so the idea behind that is well so greenplum has the concept of external tables.
+It so that what that means is the data itself like normally the date for the database lives on disc inside this parallel cluster a postgres database.
+It's when you query goes out in parallel and reads off of disc and then on all the databases and then some of that back up and give you the result.
+So that idea here is as you have Legacy data don't necessarily want to keep all the data in the database because I can get kind of expensive is your data you know.
+Get the three years of iot dated I can get fairly large footprint and databases are not the cheapest thing in the world to buy right so that do you hear is you start the lever that in a platform that's made more for holding that type of data.
+Which would be easier yes.
+Cory Minton: 
+[11:13] So when I ask you a question no cuz only clarify just one point I heard so.
+So you don't know about greenplum and the database technology it's it's kind of interesting cuz it's different than what most most databases that we know about right so,
+you said that it sits Sports things up green phlegm is considered I think the term is massively parallel processing MPP.
+So hot so I'm packed it was it was it mean summer level.
+Scott Kahler: 
+[11:36] So MPP is massively parallel processing in that means that what happens to the data is actually green plum.
+When you interact with it it looks like a postgres database was based off of postgres so it's going to be really familiar to anybody that's used that before when you're using standard seat will send tax nothing fancy you know weird languages.
+What it does is your query goes into the master or you would put data into the system.
+Behind the master you have multiple servers each of them running between 2 and 20 some-odd postgres instances depending on what you want to do all your data model is what your use cases.
+Angela green bumbledoo is in parallel when you submit your Quarry at the master the data is hashtag across all of the segments and then we'll read in parallel across all of the segments so the idea behind this is like in postgres database are your standard database if you put.
+10 terabytes into it and you do a select * from table that has to do a single scan across all of that data right and then send you the results back.
+Patty and green plum is it it paralyzes us across multiple systems so you have let's say 128 segments.
+Each of them is reading from their own disc and your scanning that's in terabytes in parallel to get your results.
+Cory Minton: 
+[12:53] Okay so so Somebody explain it to me one time and let me clarify this is right it's like you handed the traditional databases are like you handed somebody a deck of cards.
+And said find Ace of Spades and that one person has to look through the cards and going to go through every card until they find it where is MPP is like what if you gave four cards to 13 people.
+And ask 13 people simultaneously to find the Ace of Spades is that accurate.
+Scott Kahler: 
+[13:16] Yeah that's that's.
+Cory Minton: 
+[13:17] But it's it's it's using standard sequel nothing fancy like you said so so just mean that people that like it's a pretty easy to adopt a greenplum database technology if you're not familiar with it.
+Scott Kahler: 
+[13:29] Yeah I would say for users it's especially easily easy to adopt there's I mean you get in there it's postgres command line standard syntax Nothing Fancy on the.
+The admin side it's pretty easy do we have like an it just put everything out across the Clusters you don't need any special Hardware it's open source so you can go out and download it and try it.
+Then we have our version is so yeah we develop on GitHub like the master is the latest things we put in get up first and then we put that in those we bring that back to what we actually deploy is our Enterprise version.
+Right so you can go out and get and deploy and try the stuff it's pretty easy to do we got a Sandbox VM that you can download.
+Robert Hout: 
+[14:12] I want the real off the the day departed but you were talking about infrastructure piece-by-piece earlier and he said something about ECS on the back end of it no I know we'd always talked about.
+[14:22] Using external tables to get the day that wasn't exactly sitting inside greenplum to get that other stuff there was some talk to my point about running green plant on top of hdfs like as a as an entity or or other stories platforms other file systems is there still.
+[14:36] Work being done on that pass or.
+Scott Kahler: 
+[14:38] We did work on a practice called Hawk for a while.
+Which we took the postgres storage layer out decoupled it and made it essentially poster statement on top of hdfs.
+And we will run with that for a while and that project is open-source and out there we've stopped working that on that is a path internally at this point we left it for the open sodas were.
+You still work on it a little bit what we found is that more people want a they want bring Plum right we go into places and they want well.
+This is kind of like sequel but it doesn't have all the semantics of sequel.
+The read right stuff is different and how we can we want to update things like that right so it work for the quarians I but we ran into was people really wanted all the power that they see you in a standard database.
+Winter interacting with people so we left that in the open-source world and we're still supporting it or not developing that actively internally any.
+Some more of its at this point it's more than connected story right you know will greenplum read at reach out to hdfs in Belen.
+Cory Minton: 
+[15:44] Social sticking to that so so so pivotal's mppd Greenlawn Maybe.
+Speed things up what is it like where the big places where you see venues like you give me an I use case today cuz I'm leaving talk about databases going to do it but I want like what are the things that people use it for and the reason people adopted.
+Scott Kahler: 
+[16:02] Okay so if you heard of thing called the IRS right.
+Cory Minton: 
+[16:05] I don't know if they'll see you've done. There's only to certain things death and taxes yes.
+Scott Kahler: 
+[16:09] Yeah so when your taxes go in and they look for fraud in your taxes that's green plums doing that that's one use case see another use case is.
+We have a trucking Rider out there and as their trucks go out and about and do stuff they need to roll all that day to end so there's the first part of streaming the data in and see what's going on in real time that's not the green plumpy's.
+Figuring out the models on what to alert on and how to handle things.
+To create those predictive models they do that in Greenville on so the date of Screams end and they put it down to Greenville and then they use greenplum to create those predicted model that they push back out into the air.
+I'll talk to you later figure out what's happening.
+Cory Minton: 
+[16:50] Okay so can we use cases and many more things you talked about before with and what you were like your session you're giving is.
+Yes these databases are cool yes they're fast but that maybe it doesn't make sense to keep all the data in the database because I can be challenging from a size or an infrastructure cost perspective.
+So why would somebody or how would somebody take data that so maybe aging or how would somebody to leverage something outside of green plum.
+To offset the cost or going to take to help obvious Kate maybe that building a giant you know multipet of my database how does somebody do something like that.
+Scott Kahler: 
+[17:28] So I guess what I would look at is.
+A lot of people are already screaming the data initially into like a hdfs or S3 or something like that and it's Landing there.
+So a lot of times it's not even you have to take the date and push it out of green plum it already existing that other platform so in green plum your partitioning the day that which allows you to break it up and it kind of logical chunks by day and maybe you roll those internal partitions off.
+You're not referencing that data internally anymore and then you create a partition that points to the external data to go out get that data and the real used to that is like.
+I'm wearing the advertising industry most of the stuff that we did was within the last month.
+Right but we did have things where you're over here what happens at Christmas right what happens during Black Friday those types of things we can't really keep.
+3 years of data inside the database do that comparison cuz we're doing 700 million targets a day right that ends up being a lot of data.
+So that's where you archive that date off into these external platforms and then you can use that.
+External tables to go out and read that day day and do those types of comparisons cuz usually those aren't something you're doing day today but you have an interest in looking at that at this point in time and it it makes sense.
+Yes the other the other use case I use for that is myself have a bunch of SmartThings devices in my house and take all that data and I throw it into an external Source because my green plum instance that I have at home I'm a p.m.
+That's what I'm doing is I'm testing stuff up and I'm tearing down my database and bring it back up I've Got Bugs I destroy stuff.
+[19:03] If that date it was in my database it would be gone but I've been collecting SmartThings dated for 2 years right I don't want my data to go away so that stops me from having to rely on I have a I have a database that I can tear down and don't care about.
+Right and it makes a disposable and that's the data science use case.
+Robert Hout: 
+[19:22] So you keep me up really well cuz I talk about we're huge fans of computer storage amongst all the conversations we have.
+[19:31] A lot of other people we talked to over over the course of time there's some sort of policy engine that's been there to help us move that data from from.
+The hot warm seeing where I'm actively working and stuff to something that's more cold or archive.
+[19:43] Are you at do you have that do you have that aren't that policies are you working on it or is it still sort of Emmanuel like I know this stuff is old and I'm moving it or do you have something.
+Scott Kahler: 
+[19:53] It's such a manual process right now to boost up from one to the other I don't think we've automated that because we find more people have the data already exists outside so it's more about just generating access to it not having to actually move the.
+Robert Hout: 
+[20:08] So having the capability.
+Kyle Prins: 
+[20:10] Xfinity on ECS as well so we know ECS has multiple protocols to access the data what One is greenplum using two.
+Scott Kahler: 
+[20:17] So the demo that I did I use S3 to get at it and the reason behind that is because I'd use S3 for other stuff.
+So actually I have some where the data is in s3ason where the date is and stuff right all those are S3 compatible and so the demo that I've got I can put the data in any of those.
+It also has speaks hdfs protocol and that might be a choice that somebody could love her too because they know how things are set up that way.
+Am I also use the NFS protocol just to load the data for my demo because I've got a bunch of data and I need to get it and he said yes so I just Mount up the NFS.
+Drop it in there and then I can use the database sticker yet do you have the S3 API which is one of the things I really like about S3 is it being multi-protocol right.
+If I don't like green plum the potentially needs to get at it right you might have mapreduce project you want to run on it or something else to get a spark right.
+So having all these protocols I can get at it is fantastic.
+Cory Minton: 
+[21:14] So is there one is there is a protocol differences in terms of how well they integrate with green plum like is it better to use hdfs or S3 is there any difference if I were to use those two for external sources.
+Scott Kahler: 
+[21:27] So
+I guess I'm going to think so S3 we have green phlegm is a parallel processing system right multiple segments so when he goes to access the data the thing to know is that all of the segments are reaching out to get the data.
+Okay so if you have 192 segments in your system.
+In parallel 192 segments are going to reach out to whatever your storage is be that hdfs or S3 whatever and pull the day to end so when you use the S3 protocol.
+I guess the backside the external tables have to figure out a logically split up that dated a go out and get it.
+On the S3 side what it's doing is it's for that API it doesn't buy file so each segment will go out and get a file on the hdfs side I can know by file split where to go out and get stuff so I can break it down into a little bit Miner green chunks in order to get the data.
+Cory Minton: 
+[22:16] Okay interesting that's cool.
+Scott Kahler: 
+[22:17] So you can get a little bit more paralyzation using ATF SAR then using yes 380.
+Robert Hout: 
+[22:22] County I did yesterday that they know because we talked about like layers of complexity than introducing into an environment that removes a lot of that right just having an Optiplex from saying they're even if it is a little bit slower.
+Cory Minton: 
+[22:33] Yeah it's one of those things where you're like okay so so I've heard I've heard this over and over and we talked about decoupling that's one but you hit on something I want to unpack a bit so there's this concept of like persistent versus transient.
+Both clusters for processing but also kind of data.
+So in like a lot of the Big Data conference is like the cloud dudes you know whether in a matters gcp it's a WIC charger to talk about like you can build these big persistente the stores where,
+you need like this master record you got me to date a persistent which is kind of your SmartThings thing right which is I need to stay there I want to go do other weird stuff here break things kill things.
+Does a transient so so S3 Tumi helps build that like okay I can sort it out here for a long.
+But what I don't understand that was like so why wouldn't it won't hurt ization like in real time not just a SmartThings use case why would somebody want to spend up and spend down new databases to go after external tables.
+Scott Kahler: 
+[23:28] So give it a science project that's a right and your day science project has a limited lifetime.
+So you spend up a cluster to achieve that that project that you're trying to go out for now.
+Like something with green plum what you could do if you could start going after the data and say wow this is an order to do a regression on this it's taken like.
+30 hours Rite in the day too so big well maybe I need to expand my Groupon cluster so you add more notes to the system scale it out so that you can make that those training sessions go faster.
+So that's the idea is it can I use in order to run a data science project you can spend up a system do something with the data that exists in a central repository then spin it down and wipe it out or maybe you decide at that point production Eliezer.
+Right or do something different I prove the value of this now I can take it down to figure out how we actually use it.
+Cory Minton: 
+[24:20] So what so what tools in the truck body to science I want to poke it that's a little bit.
+What tools do you see data science teams using on top of the greenplum database for building things like training so I'm thinking like there's machine learning libraries there's some of that.
+How to how do people use green phlegm in that pipeline.
+Scott Kahler: 
+[24:39] Like I said there's a one of the tools that we make a lot of use of is what there's a open-source go out there called madlib.
+Madlib can be applied to just post grass and I can be used in green plums.
+And it does a sequel bent on a lot of machine learning things that you can do a lot of the algorithms that you can run.
+Right and I'm not that's not my space like I don't know a lot about that so if you want to I can tell you I kind of have a k means clustering works but if you want to if you want to dig into that and I've got a guy I've got a guy.
+Cory Minton: 
+[25:11] Probably he probably has a Ph.D I'm guessing.
+Kyle Prins: 
+[25:13] Weather for today in Vegas that's the best way to Deep.
+Cory Minton: 
+[25:18] I'm lost in a random Forest.
+Scott Kahler: 
+[25:20] Mad Libs with a lot of people are utilizing to go out and do some kind of pre-packaged things right and that's like when we have.
+Yep I like to have standard in my library to do things that's going to look mad that provide you we also have inside a green plum like in postgres you can use.
+Languages P languages that execute code on the data in parallel in the cluster so if you want to write code that's python code our code actually do see Java parole If You're In The Boro I'm an old-school Pearl.
+So yeah so you can execute all that stuff inside the database in parallels or seen a lot of people using.
+I would say R and python are the two hottest things inside the database.
+Cory Minton: 
+[26:02] And for data science like pie and Pie torch super.
+So so I want to back into hardware for saying cuz I like the I like the designs use cases that's very interesting.
+So green poem from a hardware perspective it's it's running on a description open-source platform but also proprietary of the version Hardware do you run a green pond database on is it just like commodity servers,
+or is it like is it love big giant beefy gpu-accelerated servers like.
+Scott Kahler: 
+[26:31] So you can we like to say runs on commodity servers I don't think they'll like the say what they have is commodity servers Enterprise.
+Cory Minton: 
+[26:38] Nobody nobody who makes anything once they call the commodity.
+Scott Kahler: 
+[26:42] So I think my favorite platform to run things on or the was r740xd.
+Cory Minton: 
+[26:48] So big baby boxes.
+Scott Kahler: 
+[26:49] Yeah so you want a decently beefy box with a lot of drives cuz people tend to have a lot of data.
+All right the more RAM you having it the better we do but none of this is like special Hardware that you have to order.
+Specific things were right and I mean truth be told and people running on HP people run on Cisco we run it in AWS on machines out there I'm there's no special system that you need the hardware that you throw at the system.
+Is going to give you how far you can go so we've got a new architecture that's coming out called Groupon building blocks which is based on.
+1940's I believe and the external attached to raise so that you can get like 4 Chords for CPUs in the box and was like 96 cores or something crazy like that.
+1 1/2 terabytes of ram per node in green, because of the parallel processing system making make use of all of that Hardware.
+So the more green pond the more Hardware you throw at it the more it can do but we can also run it on we got people to burn it on a Raspberry Pi also right not sure not sure that's just cuz it's it's software-based right you by like.
+Saturday night usually it's Hardware basement comes in an appliance right Plum software.
+Yeah that's where we started out at you weren't nvm's you can run it you know in the cloud you can run it on your own Hardware.
+Cory Minton: 
+[28:11] Containers can you run in it.
+Scott Kahler: 
+[28:13] We're working on that on containers right now so and it's not that we can't run it in containers a lot of that comes down to the the day to proposition right so what happens when you're running a massive cluster and something with inside the cluster fails out.
+Doing recovery in those types of.
+Cory Minton: 
+[28:28] Data persistence in.
+Scott Kahler: 
+[28:29] Yeah a lot of it.
+Cory Minton: 
+[28:30] Translation still.
+Scott Kahler: 
+[28:31] The persistent storage thing is kind of what we're we're working with silver there we can deploy it make it run and it'll go but it's it's the recovery side if that's making it more user-friendly.
+Cory Minton: 
+[28:40] Okay so you should G7 lots of lots of lots of RAM is green plum how is green plum taken advantage of some of the later the latest Innovations in Hardware like GPU is that is just GPU.
+LG help.
+Scott Kahler: 
+[28:55] We haven't done anything with gpus yet yes so like that the building blocks stuff when you build that out.
+Dropping Damian card nvme card in there and one of the things that you can do in green phlegm as you have this concept to file spaces that allows you to decide where you're going to put your data at inside the database we going to talk about Cold Storage before where.
+You put it outside the database inside the database you can use file spaces to say I want this to go on my massive raid array of magnetic disk cuz I can do a lot of squint to read,
+it's going to be deep data.
+Cory Minton: 
+[29:28] You know your oil pattern now got you.
+Scott Kahler: 
+[29:30] So that the other side of that is you think about space and you can put in vmate nvme card in there put up a space on that so that your fast agents need quick access to.
+All the data for that is actually put on those nvme cards.
+So we can make use of the hardware in different ways and really excited about like the price and SSD is going down has been really cool and the price in India Meez and their application inside servers has been kind of going up right.
+So I seen you look at extreme my OCH cards when I was a customer and going that route and it really neat but they're really expensive so like doing a cluster of 16 servers all with extreme IO cards in there was a bit tough but.
+Where in bmi's at now I think you know we're really to the stage where you can drop that in a rack of servers and that becomes your primary datastore potentially.
+Cory Minton: 
+[30:19] Very cool so you got this massively parallel processing database call the green plum can run but it sounds like kind of anywhere I can run in the clouds and run on premises.
+Some of his power and some pretty interesting data science tools playing in the right Library.
+What's next to Republic what are you guys working on that you can share clearly that you know what the team like what's what's exciting for you in the next couple of months or a year.
+Scott Kahler: 
+[30:40] So the big effort for greenplum has been greenplum in postgres Fort report off of Post grass about 8.2.
+Okay that was like 10 years ago right so we developed greenplum along our own stuff making it more parallel data warehouse.
+Postgres went along the oltp side of stuff we were adding our own code for 10 years they are adding the wrong code for 10 years in 2015 we put green plum out on GitHub.
+Then we did our first.
+The five. Oh release of green blonde which is the first one to be tagged and get Hub came out I think it was a fall of last year that's when we went from 8 to 283 so it took us two-and-a-half years of code wrangling.
+To get things in line from 8 to 283 as long as five there's a big release for us what we're looking at next is green plum 6.
+The oldest code work that we did previously has brought us really in line with the postgres codebase so for GPD 6 we already have 8 49091 merged in.
+We're looking at 9293 potentially and really hoping for 9495.
+All of that code base in for 6 which would be about a year from now.
+Once we get that in we're kind of on a path to really get caught up with postgres that's going to a big effort is around that right now realizing with poster.
+Cory Minton: 
+[32:06] And what's the benefit in doing so like help men understand what that.
+Scott Kahler: 
+[32:09] Well there's there's thousands of thousands people working on post grass so we can start to leverage more. Open source community so we've been pushing back and forth from our code based bus dress code based and taking things from pugs grass.
+What we get parallel with them that allow people to both develop on post grass and green plum at the same time and we can.
+Cory Minton: 
+[32:29] Okay Mexico Bradley adoptable right.
+Scott Kahler: 
+[32:33] Yeah people will know the system and know how it works and you can take code back and forth so that's kind of.
+Cory Minton: 
+[32:39] So really is me pushing more and more towards the open-source how do I add a line to that model how do we get more comfortable with developers very cool.
+Scott Kahler: 
+[32:45] Right yeah go to the big Delta between if you were developing one or the other right now we want to shrink that Delta so it's it's not too much difference.
+Cory Minton: 
+[32:52] Very cool alright what's that it's been super fun to talk to you I want to shift gears for a second.
+We we like to it would like to clearly have these good fun Tech talks and I think we've which motor propellers pretty well here now I want to learn a little bit more about you personally I think the same would enjoy that as well so this is sexual call Rapid Fire.
+And where this work is going to be and what questions I want you to say answer the question with just whatever comes to mind first so it's really we're trying to keep it snappy it'll be fun.
+Scott Kahler: 
+[33:18] We are in Vegas.
+Cory Minton: 
+[33:21] What decision you got to make the money alright so first question what year do you think Skynet will go online.
+Scott Kahler: 
+[33:29] SAA 2022.
+Cory Minton: 
+[33:32] 2022 West pretty close to what is the last really good books that you read.
+Scott Kahler: 
+[33:38] Ready Player One.
+Cory Minton: 
+[33:40] Okay great. I've ever seen the movie yet.
+Robert Hout: 
+[33:42] I can't read the book.
+Cory Minton: 
+[33:45] I wish you can see the movie are you one of those guys.
+Robert Hout: 
+[33:47] No I just from what I've read in the reviews I did side down.
+Kyle Prins: 
+[33:51] Keep it up read the book though and and saw the movie and he said the movie was good but you're the book readers will be a little disappointed.
+Scott Kahler: 
+[33:59] My 11 year old read the book too so after I read it I made him read it.
+Cory Minton: 
+[34:03] Alright what genre of music are you currently rocking.
+Scott Kahler: 
+[34:06] I'm not sure what it's called these days I'm so I have my music collection is mostly 90 stuff cuz that's when did a lot of a lot of listening so can I be industrial type stuff so like all dine in snails and in that type of thing.
+Cory Minton: 
+[34:20] Attack on the day that I go hard man and it had sent that really are we had to PhD data scientist out here and there like we asking both of those metal.
+Scott Kahler: 
+[34:35] Get into your groove all you're working and you're going to rocking back and forth and go into the ditch in the zone.
+Cory Minton: 
+[34:41] What piece of technology is currently making your life worse.
+Scott Kahler: 
+[34:45] Making my life worse pinched nerve like Wi-Fi in general.
+Robert Hout: 
+[34:51] No that's a good one I let you know.
+Scott Kahler: 
+[34:52] So what's the reason for that is.
+I have a decent size house I have 5 kids my wife and me went to the BCS stock and they said how many devices do you have in your house and.
+That made me think about it so I kind of went back in town. And I've got its well over a hundred devices in my house.
+Cory Minton: 
+[35:12] He's got you big bro.
+Scott Kahler: 
+[35:14] Was 5 kids you got computers tablets and plus my SmartThings setup I mean I got lots of stuff.
+Kyle Prins: 
+[35:20] My wife and I my wife and I are at 43 right now and I thought I was doing good but over a hundred.
+Scott Kahler: 
+[35:26] I got somebody to SmartThings devices so then you take the bad and multiply that by all the light tablets I've got five Echoes I mean I've got to go home so I'm pretty wired in which is awesome but.
+The Wi-Fi having to Wi-Fi where everything switches back and forth and maintains all that can be a bit rough.
+Cory Minton: 
+[35:44] So what would serve like going to derail what what router or mesh router system using today.
+Robert Hout: 
+[35:48] The scary mask.
+Scott Kahler: 
+[35:50] I've got Google Fiber so in each of the TVs for that is a box provides Wi-Fi and I've got them Asus Routers on top of that that I've mix into that so I haven't gone like a full mesh.
+I'm trying to manage like my.
+Myspace is where everything exists at and try to make things when when signal is not good drop it off and move it over and that's I need to find a better solution for that.
+Kyle Prins: 
+[36:13] D Jackson has a Ubiquiti and he has said that you can stream 4K to his phone and walk up and down stairs in his house and it will hop access point access.
+Cory Minton: 
+[36:22] Not did I try I've got Google Nash and it's at home it's not it's not it's not doing that I'm seriously consider go to that Linksys velop they say is pretty song.
+Robert Hout: 
+[36:32] Yes every so people usually Google and then Ubiquiti Ritz you lie to that I hear from but if you're having it.
+Cory Minton: 
+[36:39] What we like my dad so my cell phone will literally not like jump between them so if I could not I can connect to it but then if I move in the house it drops and it won't automatically reconnect even to the one I was on before.
+Only way to do it on my phone is if I create a guest network but the problem is if I create a guest Network.
+Then all my devices around it separate networks I can't print from my phone to do like I said anyway sorry.
+Wi-Fi talk Irish it actually concerned you get any work done with keeping all this I T technology running at your home like that's stunning.
+Scott Kahler: 
+[37:09] Will let them know I'm so sad man right so that.
+Cory Minton: 
+[37:11] Site related.
+Scott Kahler: 
+[37:12] Right and a lot of the time my kids that I can't get this thing to work or whatever right in the first thing is have you rebooted write the standard thing right and 910 that fixes the thing right.
+Yeah I do that.
+Cory Minton: 
+[37:27] Full like Nick Burns Company Computer Guy and just like.
+Scott Kahler: 
+[37:31] Galloway let me sit down.
+Robert Hout: 
+[37:32] Let you know eventually visual you got five kids that becomes righty staff.
+Scott Kahler: 
+[37:36] That's what I'm hoping.
+Cory Minton: 
+[37:39] It's like the farm family of the past family the future.
+Scott Kahler: 
+[37:43] Also when you look at that I think a lot of the kids these days with technology I think it's coming up in some of this technology stuff we see a lot more of the engineering I think my kids just assumed that all that stuff works right.
+Robert Hout: 
+[37:53] Oh yeah I am where to build things.
+Scott Kahler: 
+[37:56] Yeah we had we had to build all of that right they just assume that the tablet the Netflix on their computer you know all that stuff just work so they don't really don't think it really think about what's behind all of it.
+Robert Hout: 
+[38:07] As a service is destroying or civil.
+Scott Kahler: 
+[38:11] It's like your car right like my work at my dad my dad knew the insides it is was it a C20 massive pick up right.
+And could rewire the insides of the car and make it work when I pull out my Odyssey that I've got for my kids and I open up the hood there is no way I can figure out how all that stuff we're together and doing its thing.
+Robert Hout: 
+[38:30] Sony has a service if you guys seen that Volvo and some cities has now like one of her car you buy as a service.
+Cory Minton: 
+[38:37] Yeah a lot of companies Cadillac started talking about that like a year ago.
+Robert Hout: 
+[38:39] It's it's it's a non-negotiable monthly fee and you get a car.
+Kyle Prins: 
+[38:44] Love it any time they pop up in the hoods just like yep that's an engine.
+Cory Minton: 
+[38:50] See that's what that's where I'm going to be I'm going to be like the loan dude 25 30 years from now still driving a gas guzzler cuz I love like tinker and I love your personal are your biggest personal Money Pit right now.
+Scott Kahler: 
+[39:05] Biggest personal Money Pit.
+Cory Minton: 
+[39:09] If you say something besides my five kids and all the crap I've got in my eye Wi-Fi network I'm going to be surprised.
+Scott Kahler: 
+[39:14] It's kids technology I would say two things one is my kids technology and the other things going to be board games I sync a decent amount of money into Kickstarter Board Game of Thrones board game dude.
+Part of a couple of events that meet up and play board games in that kind of thing so yeah I spend probably more than I should on board games.
+My wife will tell you that too.
+Kyle Prins: 
+[39:42] It's the one board game you would suggest for everybody to go get right now.
+Scott Kahler: 
+[39:45] Everybody to go get that.
+Kyle Prins: 
+[39:47] Our listeners how about that narrowed it down a bit.
+Scott Kahler: 
+[39:50] Okay if you were to say our listeners.
+So one of the games that I've been having a lot of fun with is this game called brutal Brothers by 10 powers.
+And what it is is it's not like we're here in Vegas right so the ocean series of movies.
+It's kind of like that where you're breaking into an office and it's Cooperative game and you go through multiple levels are you try to avoid the guards find the goods and sneak out in the game I'm I like it cuz it it takes a lot of thinking and you have to really work cooperatively.
+It's at the lesser-known game but it's fun to play and it's not a I really like the 8 to 12 hours bunch of people sit around and have drinks and play the long games with this one's a little bit shorter and it's a cooperative play game.
+So I would suggest people try that one.
+Cory Minton: 
+[40:37] And what was the name of it again.
+Scott Kahler: 
+[40:38] It's brutal Brothers.
+Cory Minton: 
+[40:39] Burger Brothers okay or I like that.
+Kyle Prins: 
+[40:41] Will drop a Lincoln the note.
+Cory Minton: 
+[40:42] That's exactly right are you going anywhere really interesting soon.
+Scott Kahler: 
+[40:47] Hopefully I've hit my interesting peek over the last month so I was in Detroit was talking to an automaker up there there was postgres comp out in New Jersey I did a week of that.
+That went into out to Omaha and Union Pacific and West Corp.
+Cory Minton: 
+[41:06] Those are three cities that I'm not sure would have mostly registered on the interstate.
+Scott Kahler: 
+[41:16] I'm in the Midwest.
+Cory Minton: 
+[41:18] Dude that's a dude from Midwest right there.
+Scott Kahler: 
+[41:20] Tell him we got Vegas this week right and then I can go to Orlando cuz my wife is graduating from nursing school so we're going to go out to Orlando for a couple of weeks to celebrate that so.
+It near future interesting is going to be Orlando but really I'm hoping with all the kids have been doing a lot of traveling over the last month-and-a-half and buckle down for maybe a month and stick around the house.
+Cory Minton: 
+[41:40] What show are you currently binging on.
+Scott Kahler: 
+[41:44] Currently so I'm way behind on my comic book hero shows so while I've been in Vegas I've been judged on Black Lightning.
+I'm and so but I got through all of it so now it's on to I got to get caught up on the Legend series and a couple episodes into that.
+Cory Minton: 
+[42:04] All right it's a bonus question we don't always ask is when giving your background what is your favorite comic.
+Scott Kahler: 
+[42:11] Favorite comics.
+Tulsa okay so I got a marble and I've got DC one time so my favorite Marvel comic was Punisher War Journal which I started collecting when it first came out.
+Related to that don't have any my comic books anymore when I moved out I was like this massive collection I just had to get rid of them so.
+Cory Minton: 
+[42:32] Wives don't love them.
+Scott Kahler: 
+[42:35] It really was I was moving into a small place on my own and my parents said we're not keeping this crap it's got to go so I went to the comic book shop and he said.
+Cory Minton: 
+[42:45] Do you know how many thousands of dollars.
+Scott Kahler: 
+[42:48] Put it in the spreadsheet and it says like $2,000 a comic book 10 bucks but anyway so Punisher War Journal in the Marvel side and then on the other side on the DC side and Suicide Squad Suicide Squad first came out I was really in the suicides.
+Cory Minton: 
+[43:02] Very cool we had a great time chatting with you I'm curious where's the best place for folks to learn more about you and social like are you on Twitter.
+Scott Kahler: 
+[43:10] Yeah so there's I've got actually.
+Two Twitter handles yeah that I use one is bougie B which is b o o o g a b e.
+Yeah that's like my personal one we write anything and everything's out there right like maybe it's the latest XKCD comic or the really resonates or I'm talking about the gator stuff.
+Cory Minton: 
+[43:29] Or board games okay.
+Scott Kahler: 
+[43:30] Board games you about anything if you want more work-related like people related greenplum related stuff I have pivotal red.
+And that one I will do like sometimes I do videos and put them out on YouTube and just talk about releases of green plum that are coming out that ends up on that Twitter handle.
+Cory Minton: 
+[43:46] Watch little man it's been a super fun conversation I know the guys enjoyed it thank you so much for joining us in the Dell luminaries booth and thanks so much for hanging out with.
+Scott Kahler: 
+[43:54] Thanks thanks for.
+Cory Minton: 
+[43:55] By the way thanks for having an awesome beer I think you're officially the first Ginger beard weave hat on.
+Scott Kahler: 
+[43:59] All right number one.
+Cory Minton: 
+[44:00] I want to represent brother thanks so much.
+Scott Kahler: 
+[44:02] Thank you.

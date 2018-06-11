@@ -1,0 +1,416 @@
+EP31 - Blue Talon
+Transcript
+Kyle Prins: 
+[0:00] Open notes.
+Cory Minton: 
+[0:18] A bit too much lean even though when you tightened up so I was like you were on a I think I got a fairy like a ride that just was not the one you want to be on this.
+The suspension system in it had given up on us or at least a given up on my body weight and so when I sat down with her.
+Kyle Prins: 
+[0:34] Chair work too hard.
+Cory Minton: 
+[0:35] It was like the kids sitting at the adults tables in my arms are like up here. I could see me.
+Utterly brilliant so day 4 of Dell Technologies world and this is the final episode that the big hit of your team is recording in the Dell luminaries podcast Studio has been super fun this week to have.
+What is almost a soundproof booth I don't know that you don't think you can call it that we had a great view of the Dell Technologies TV up session over here,
+but I am glad to have an old friend Anna in a burgeoning friendship our folks on the with us today not including my my bearded brother over here Kyle prins.
+CTO of the Brigadier Jamie's we had an outage recently and Kyle was nice enough to bring our website back up so that's why he earned the CTI he was just a site reliability engineer he got promoted to ICT.
+Kyle Prins: 
+[1:23] On my way up in this expensive Corporation.
+Pratik Verma: 
+[1:24] There yeah.
+Cory Minton: 
+[1:28] Show me nearby where I wear instead of going flat like most startups and we'll get it we will get to you in a minute or two.
+So everybody works for somebody it's at the bottom person and that's really whoever is not producing content they're not doing their job as part of the teams of vertical eyes organization so that.
+So today I'm excited to have our friends from Blue Talon and not just friends reboot on but founder and CEO blue Talon pratik Verma.
+And I got his VP of alliances and Business Development Carey James along for the ride pratik thanks for joining us.
+Pratik Verma: 
+[2:00] Hey thanks for having us.
+Cory Minton: 
+[2:01] How's the show going so far.
+Pratik Verma: 
+[2:02] It's been a fantastic we've been having a lot of fun looking around all the different things that are going on we saw this was an expo we went to a lot of talks learn a lot about the o'dells vision for the 4 Transformations and it's been fun.
+Cory Minton: 
+[2:15] Excellent so pratik we've had some folks are blue telling on before but we're excited to have you join us when you're in town that super fun I don't hear your story and like I don't know nearly enough about you how did you end up in Silicon Valley and starting blue Talon.
+Pratik Verma: 
+[2:31] What about chemistry so I know I am so I'm going to grad school to do chemistry.
+And that's what got me to Sanford but really what happened was my dad had created this technology that was very,
+Innovative it has to do with data Federation data security and it was basically funded to solve the healthcare problem for you and one of the big insurance companies.
+And so when my dad answered about passed away this became his legacy so I wanted to start a company in and take what he created with a group of people that he created with a national bring a market that's kind of how it all started.
+Why do nothing about starting companies.
+So I went to one of the Stanford startup accelerators and got connected to people and then talk to more people and found out that we can actually sell this thing.
+So that's kind of how the company came out to be.
+Cory Minton: 
+[3:26] So Stanford seems like it it literally every to get a company it's either Stanford to UC Berkeley seems like all the good of those come out of one of those.
+Pratik Verma: 
+[3:33] That's mostly stand for the Berkeley guys can pretend.
+And I got to tell you sorry I'm so I'm there was one spring that I went to the Berkeley campus and I had not realized how bitter the Rivalry was cuz I had my Stanford sweatshirt on while I was walking.
+Through the campus is all wrong of you know Cal people were coming across I got heckled.
+Cory Minton: 
+[3:59] Stamps besides Stanford being a great University for technology get that in entrepreneurship will get it to you but Stanford is also one of those that you've ever heard the trivia question name all the universities who have.
+Are there mascots either are not plural or don't have a color in them.
+Stanford Cardinal is one of them right so it's then it was it said fun trivia question.
+What technology do you want to bring on a legacy so tell me about what what the technology was when.
+When he got to where he left off and why it was so interested in the healthcare industry.
+Pratik Verma: 
+[4:38] Yeah so what he was actually around 2009 there was HIPAA regulation and Phi regulation because of what Obamacare piano was bringing up,
+became really popular so one of the things I'm insurance companies were dealing with at the time was trying to figure out how they're going to basically create value from sharing data with hospitals,
+between insurance companies but do so without violating HIPAA regulations because there's.
+Personal information there is medical information and not transfer their financial information and not data,
+so what my dad we haven't we lived in Minnesota so my dad happened to be no playing around with different type of technology so what he created something he had an idea of.
+Basically merging data on the Fly where you could.
+Apply Security based on rules before the query had the databases that was his.
+So we took it again I'd Healthcare they should have funded the you know early development of it they using in their software stack and then we basically figure out okay.
+How could we apply this to serve a general problem was this Cody Healthcare company with this going to be a software company so through various amount of iterations over you know few years we finally figured it out that.
+Hadoop and Big Data platforms like greenplum they're really powerful.
+But at the same time because they were relatively younger at the time then maybe some of the older data warehouses they didn't have some of their security controls in place because there wasn't a need for it.
+[6:09] Everybody was worried about more how do I get make this query faster or how do I do more Innovative type of queries,
+so it's actually 3 o'clock that we created the technology then we tested and I have to do and work as it is,
+so the meeting and then we found out that a lot of people were using Hadoop along with databases,
+so actually I got a proposition of simplifying security by defining in one place and then have it be have the software apply at.
+To I do sequel databases nosql databases actually started resonating with a lot of people so we should have raise money and build a team.
+Cory Minton: 
+[6:49] So what's up I'm trying to understand the technology for a listener's such a rules engine and software-defined security rules in supper is it where you to find those rules.
+Pratik Verma: 
+[6:59] Yes so the way this works is you have a centralized management system,
+where you define the rules you write permissions about who can see what they died for what purpose based on their business attributes based on their roles based on the classification of data variety of things that you want to be able to do,
+or fine grain control then these permissions get pushed into a runtime engine that.
+Sucks up this policy in memory now because it's a centralized service it can be utilized for many many different date of oscars so that they can have a consistent rule.
+Now the way we put our security in place in line to make a transparent of the end-users we have these agents call enforcement points.
+Please enforcement points it inside the databases so they're transparent of the end-user so let's say I'm a data scientist I go run I run python code and the python code run the query on the database.
+We coming half of that without the python code you know throwing up that's going to really what the the information there is.
+Cory Minton: 
+[7:57] So that data scientist would have to have the permissions to access the data and execute that Greer that he wants and that would have been text that would have been decided in blue Talon.
+Pratik Verma: 
+[8:06] Yes and actually it's usually what ends up happening is people are going to think of security it's okay I got to go to shock shut everything down so you have no consumption,
+or I got to figure out how to enable piece by piece,
+two ghetto slow down in which really slows down Innovation cuz people can't get access with us instead of saying you get everything or nothing.
+Or allow all or deny all we sit in the Great Piece of the world where,
+we allow you to get a subset of the data that you care about to do your analytics without exposing you to sensitive data and that's really the beautiful thing about.
+Yeah the teams created we got the team from real Ranger from Suntree from Oracle.
+I'm actually from some of your menses are also you should have come back come together and figure it out well.
+How do we take that initial grain that my dad's created and productive productize it for you know really production use cases when you're dealing with such a wide array of Technology.
+Cory Minton: 
+[9:05] Yeah cuz that's because that's one thing I like I think about like.
+Some of this capability has to exist in individual Silo Beast like piece of technology.
+Has probably some access control like with their Navigator technology but you can't really push that across some of it not notice maybe knows until we get in that carries.
+Pratik Verma: 
+[9:24] I got to tell you about it.
+Cory Minton: 
+[9:25] You're allowed to you're allowed you're allowed to get in there if you want to tell me I'm wrong but more things I would like to finish my question is that some of this is God exist in some of these platforms.
+But the challenge it sounds like is that how do you create consistency across multiple platforms.
+Pratik Verma: 
+[9:40] Yeah and it's actually one of your texts I do buy the whole let's take Cloudera for example Cloudera online databases before is not one thing it's a c f s file system it's yarn it's spark sitting on time time Impala.
+Hbase solar a variety of different things so if you have to put Security in each different place just to take a look at 8:50 curity versus Sentry Security in Impala and you have to do the same thing.
+Each Place differently and that's really a mind kind of vending thing for a lot of people because you got security people they're not historically date of people.
+And data people aren't really used to think about think about security as a whole and not how do you basically make sure that you saw that translation problem of making rules.
+Appear to security people in the way they're used to but implemented in a way that data platform users would probably inform.
+I said that's really you know the interesting part of where we are.
+Carey James: 
+[10:42] Nice I think that's the other big part of that is is yes Century has things Ranger has things teradata has things Oracle has things bring them has things and the one thing that's consistent across all those platforms is semantic views.
+We just how a lot of traditional databases handle that type of security which works really works well with our back role-based Access Control.
+But if you think about it I got 10 departments and I got work department tables in 10 different tables now to write a review you are and that you're at a hundred views.
+Manage that data and now you want to change one rule.
+Well now you got to go to 100 different places or there are tools out there that actually build the views on the fly but so you push it but you're still managing that in a hundred different places so they.
+The the access control and the authorization functions are done at the point of storage and this is why analytics the hoodoo platforms the the green plum platform.
+Cuz they're all about scheme on read-write how what are you doing with the data not what are you not thinking about this when I store the day.
+Cory Minton: 
+[11:46] Yes I can put it in jest it's like just get it in there and then I'll figure it out.
+Carey James: 
+[11:49] Exactly and so that's the piece for us that we see different yes each of these have their own silos they can do Barry and capabilities across the silos but it's when you actually flip that model and we do it at the point of access not at the point of store.
+Cory Minton: 
+[12:03] So your security on read do I just go in.
+Pratik Verma: 
+[12:07] Nice guys would have put up yeah there you know I like it.
+Cory Minton: 
+[12:09] Yeah you're welcome I'll sell it to you.
+Pratik Verma: 
+[12:13] We can put TM at the end of it.
+Cory Minton: 
+[12:15] I'll text you there's this guy's been in Silicon Valley long enough so so it's so you said unified Access Control cuz that to me feels like a really unique thing cuz if I look at a lot of the with the the big data vendors are doing it's it's how do I create.
+How do I build these usually framework for processing data and extend then out further but it doesn't solve the security there still a security problem so so what are you guys doing with those vendors.
+To compliment their Technologies like our customers using you with those vendors.
+Pratik Verma: 
+[12:47] Yeah so that that's dumb and exciting things so there's a couple things that are going to know where partner with Cloudera where partner with pivotal on green plum where partner with hortonworks so what we found is when people start using.
+Farms in place they want to get started very quickly on a smaller cluster they put a bunch of data and that a bunch of few early adopters can play around with it,
+then what hands up happening is when they're trying to scale that up for more operational were closed at that point they basically come and bring us into the deal,
+to say Hey you know we've got this customer to this,
+Pastor that got this really cool analytics model we want to expose a result of this to a wide variety of people in our organization maybe through an interesting visualization or maybe through a line of business app.
+Whatever that may be so they bring us in and we add on top of these control we put our software in place,
+from the perspective you know for the customer they basically look at Cloudera and they see blue talent in the Cloudera as a service so for them the experience is very seamless.
+And that allows us to basically fit into the world at these data platforms are already providing and add-on security as a bolt on.
+And then we can do that a different layers and I mean if you take a look at it from even from a Dell World you've got storage later so they're going to some security there then there is virtualization for Gambler applications with PC.
+What we're really providing is Security in the middle above VMware and Below PCS that allows us to basically segment the data.
+[14:19] Based on security rules so you don't have to go figure out how do I make my you know you anacs Security in.
+PCF synchronize that with my OS or database level secure.
+That's kind of one of those things where we provide a lot of value in an ecosystem where there's a bunch of apps a bunch of data sources,
+and then your give got a variety of users not just going to stay sign does Banana lesson develop.
+Cory Minton: 
+[14:45] Okay so you're integrating obviously you're you're getting in the middle of somewhere and now it's just something we're like you integrate with like a D4 rolls like where does that is there some immigration points on that set up side of it that are interesting.
+Pratik Verma: 
+[14:57] Yes so there's Busy Bee five things when people think about security as a whole,
+you start with some sort of authentication so that's typically native to the application they either have Kerberos active directory ldap,
+any places where they don't have native database or other security for authentication we can inject our own but mostly we found in production people have those fully integrated.
+Where we come into the picture as when you have the authorization piece in between the auditing and the mask.
+So we can get a real control around who can see what that date of the user that identified by Kerberos ticket or identified by active directory.
+We can Define permissions based on that and those permissions can be dynamic in such a way that.
+You can use business information and example would be there is a Industrial company that's using our software.
+And they have sensitive information which they need to parse out based on what business are using belongs to this is a multinational corporation they have you know summer headlines a business,
+and a user's information of which business they fit into is president in HR System someplace else so we can utilize that information.
+1 * authenticated by an active directory system to say hey allow this user a subset of data only for their business and no other business.
+And then eventually will hand off you know once we've done authentication integration we've done authorization auditing masking eventually people also have encryption either at the disc level or more targeted if you will.
+Cory Minton: 
+[16:28] Like almost like homomorphic encryption where you actually go sell level okay.
+Pratik Verma: 
+[16:31] Yeah so in those cases when I'm depositing is that's transparent to us and in case people are using more targeted encryption for a particular field using it on one of the commercial offerings.
+We can write a policy that says you can use this and you can get encrypted data or not and have access that you are not based on a policy written in Thai.
+Cory Minton: 
+[16:51] Really okay.
+Pratik Verma: 
+[16:52] That gives you a seamless integration all the way from the top of authentication all the way down to encryption with blue Talon be in the middle of.
+Cory Minton: 
+[16:59] Wow it's that's kind of interesting so security scares the crap out of so many people are secure.
+Pratik Verma: 
+[17:11] So I don't know maybe maybe I'll have to bite my tongue and I went.
+I didn't want one of the interesting thing is I'm security so data people are all about cool fast wide variety of tools and there is no tools,
+that scares that hot a security people,
+because no security person that I know wants to be and no person they don't want to be no people then I'm going to say don't use that to him but they have to and they have to adjust arrest based on it.
+What we allow them to do is we allow a little bit more cultural your understanding between the two groups because we can say Hey look.
+Let's use the security software for translating between what security people want to have happen,
+and how it gets implemented so we don't actually have to get the data owners of data engineer's to worry about how to implement,
+what does security gives them you know from thousands of pages of rules and how to implement that we take that away and that instead of making a more you know should we give how much how many rules when in conversation into how do we tune,
+the right level of access for self service,
+for data people that makes people very happy and security people sort of comfortable that they're not on the hook for you know guacamole.
+Kyle Prins: 
+[18:29] So it sounds like you're really speeding up your deployment aspects by letting your data engineer is not necessarily worried about security but also providing an easy button for your security engineers,
+protect the data so what would this look like from a deployment standpoint is it a single server or their agents or how how would this be implemented in,
+what team is doing the implementing.
+Pratik Verma: 
+[18:49] So typical what ends up happening is people will start with one who cluster or they'll start with a green from Closter or they may be even having a data Lake where they have a green pump house or in conjunction with.
+For a bunch of work loads to the way we come in is we put our we put in a Jason system on place a couple of yams that allows us to put our centralized Management Services so this would be our policy engine in our audit engine and the administration gooey.
+That allows people to write the rules then they connect that to the metadata of the underlying have you called her or the green one clusters they know what tables columns it is,
+what files are in the system then through blue Talon gooey they can create whatever permissions they want in blue Talent know some of those,
+we actually haven't got a bunch of the years we kind of know a couple things that we can bootstrap.
+So we start those sets no you start from either most restrictive or star from you no more enabling that kind of worldview but once you've got those in place then you can put our agents.
+Typically install to Cloudera manager or not interactively to shape up the recipes on the crossroads at South.
+And that brings the cops are under management of blue Talon so then later let's hit you out another cluster green pumps Australian add another Cassandra cluster,
+all you have to do is take our agent and install it I'm not to bring out under managed.
+So that's people with typical they do and then they take their apps the apps continue to operate as a wood before they just have the benefit of the permissions that we create.
+Cory Minton: 
+[20:22] Instant so so we we got the appointment not school I'm curious what's what's next for you guys like what are you what are you focusing on from a technology development perspective and what gaps are you trying to fill in the market here in the short-term.
+Pratik Verma: 
+[20:36] That's very exciting question cuz you know I leave product so I I think about that a lot of where we were headed so there's basically three main areas where we want to focus in on so one of them things the first thing is.
+Ask people try to nail put more more things into production there certain General patterns that keep the emerging so I'll take the case of gdpr in Europe for example,
+today we're seeing patterns that there's basically two types of rules that are relevant when you're in,
+but you're making if using data that has any pii names email addresses any if you have a customer loyalty program,
+you've got data subject to gdpr so the two rules that are relevant there are being able to mask this sensitive information,
+so you can do, level masking and roll over filtering based on consent so if somebody else out,
+how do you use that information in reflecting excluding that Row for that person from the results set so that's kind of one area so that's the first how do we make these templates work out really well,
+for, use cases so data engineer to the security people can actually get started very quickly if they're starting from you know the zero to one if you will,
+so that we can solve that problem that's one area.
+The secondary were excited about is as we you know see we've been around for about 5 years and we've seen you and your data platforms come in not you no spark a couple years ago then there's another Pot Farm this Cassandra.
+As new date of platforms evolve our goal is to bring more more of those under management because.
+[22:12] Send it would be nice to expand that to other day for me.
+And then the last part that I'm really excited about but I think it's a pretty bold Vision which is to be able to link up are auditing with our authorization.
+On the way that would work is where in path of all queries so we know and we can watch who's doing what on the Clusters that are under management.
+It would be great if by looking at the Baseline activity on one Closter You can predict that was already in use before you can predict how to automate the rules that should be created for the net new cluster you bringing her man.
+So that allows you to increase your footprint get more data platforms out the door got more consumption of those data platforms.
+More widely in the organization so I think that's the that's what we're all building up to.
+Cory Minton: 
+[23:02] So you're actually going to be in bed in some machine learning into the platform we had to say machine learning is that mean it's literally like it we we're not allowed to say big kid anymore apparently.
+Kyle Prins: 
+[23:12] Machine learning beer.com.
+Cory Minton: 
+[23:14] Hey I'm here., I think that's our next one so what's your people.
+By your software is are they buying it just like online is a subscription service like how do they actually when they wanted when they get excited about this thing and it's a great white shark carry how do people consume the supper.
+Carey James: 
+[23:32] Yes that's a great question so we are so for those are great partnership with Dell EMC right in the Dell Technologies world war party or select organization so we are a subscription-based system.
+We have spaced on the the platform for protecting so for protecting to do cluster it's per node per worker.
+Writer for protecting the green pump systems they sell their software Licensing in park or so we follow that model right over to the function as we were much more of a nadien than an add-on.
+Right we want to follow that model so it makes it simple for the customer to understand and utilize and then it also then makes it very simple to not.
+[24:11] Drive weird Behavior what I mean by that is it say you set up a cluster and you want to have two different data centers but if we were doing it per policy engine you may need six engines to protect the date of the way it should be protected.
+But if we were still into you by engine it we were actually watching our customers do this they were doing weird things like where they would put just two engines in one cluster trying to connect to Cluster together.
+[24:35] So we are like let's stop at who we want we want to do is people actually protect the data so we've now gone and switched our subscription modeling to what's under protection is if you need 6 engine 8-inch and 10-inch it doesn't matter.
+Bill the environment the way you need it to protect your data and then I guess we are subscription so we do yearly subscriptions you know and so.
+[24:57] That's the big thing for us.
+Cory Minton: 
+[24:58] So
+unified Access Control super cool area where you're actually giving security and I I love the way you said it culturally acceptable way to apply it with the other folks at the super dentist in technology but I'm curious if you've been in the business for 5 years,
+I want to get a sense for like what is it like to be.
+Founder of a tech company in Silicon Valley and I know that's a big question but like if you were to say like what are there like maybe 2 or 3.
+Most interesting things you've learned in the process of found in a company.
+Pratik Verma: 
+[25:28] So the first thing is you don't know squat when you first start the second thing is you have to.
+Learn that you don't know squat when you first start.
+I know it's kind of funny when we first started I thought that we were going to build a SAS company where we're going to put a cloud platform and our software in the cloud and everybody would consuming open up their firewall rules,
+are there Enterprises and connected to our cloud service it turns out but not a lot of companies are willing to do that.
+And then it also turned out that the amount of money it would take to actually build out from the other day was several tens of millions of dollars.
+And several years or so so we the one thing that I learned was,
+you don't from eating bugs like Harry I like prior to him coming on one of the leg platform so,
+by bringing in getting an understanding of how other people are coming from where they're coming from how they're seeing the world its humps shape and fine-tune, where we're going,
+that was that was a fun exciting thing that for me because you know I have never build a software company before so and I'm a chemist and I tell people.
+And the first thing they asked me about is you know Walter White and I've never seen that that's not going to ask me about is Silicon Valley and I refuse to watch that.
+Cory Minton: 
+[26:53] Oh that's all see.
+Kyle Prins: 
+[26:55] I was just thinking that too I was thinking about asking in the end.
+Cory Minton: 
+[26:58] It's about our fans but so it is funny you actually say that about the view this is going to build this Cloud everything can do the same thing all marawa Dallas is the co-founder of Claudia.
+They name the company Cloudera address he was like ours going for the club that we can bring your day today and it's going to happen he's like an investor Smiley feels like that's not going to happen keep the name but.
+Get to work in the Enterprise that's awesome and gears section that we call Rapid Fire we've learned a bunch of Technology super engineer oculist starts his own software company,
+but I want to get in the rapid fire and what this is a chance for us to ask some just some real fun personal questions we ask your buddy come to the same ones so I want you to answer him.
+It just the first thing that comes to mind pratik will give you the right first refusal so you answer first then Carrie to Kyle's going to ask a question for us.
+Kyle Prins: 
+[27:47] All right ready first question what year will Skynet go online.
+Pratik Verma: 
+[27:52] 2042.
+Kyle Prins: 
+[27:54] 2042 Cary.
+Carey James: 
+[27:56] 2442 Stanford Ave.
+Tony 42 the answer to everything love life in the universe.
+Kyle Prins: 
+[28:01] Okay alright what is the last book you read or what would be one you would.
+Pratik Verma: 
+[28:06] Shoe dog Phil Knight apparently was a book about how one of the most unhealthy group of people created a shoe athletic company.
+Carey James: 
+[28:19] Actually the last one I read was actually I just rereading the trilogies are The Hobbit and the trilogy The Lord of the Rings it's my it's my guilty pleasure I've done since I was a young team so about every 2 or 3 years I reread it so I've actually in the middle of rereading that now so that's.
+It's it's kind of funny cuz I I love talkin I even every time I read it I think I know it and I read it and I see other things that you missed along the way so it's.
+Kyle Prins: 
+[28:44] I don't have the attention span to watch the movies I couldn't imagine trying to finish the books.
+Cory Minton: 
+[28:50] My favorite thing looks so use the understanding that the hobbits have multiple breakfast that's my favor.
+Carey James: 
+[28:54] Yes second breakfast yes exactly.
+Kyle Prins: 
+[28:55] They're living life right yeah absolutely I would John ra of Music are you rocking right now.
+Pratik Verma: 
+[29:01] It's embarrassing it's whatever in the top 100 that comes up on Amazon.
+Carey James: 
+[29:08] Stop. So I still I'm a child of the 80s right so I Still Rock that the metal and actually I've gotten my teenage daughters into it she came home one day she's a cat.
+Dad I heard this great band called ACDC I got yeah I know I saw them so they were young.
+Kyle Prins: 
+[29:23] We have so many guests on the show that are just metal fans where I'm missing it I'm missing out yeah I got to get back in it I have a child of the 90s so it's been about 9.
+Carey James: 
+[29:35] Your Red Hot Chili Peppers.
+Kyle Prins: 
+[29:37] Oh yeah Third Eye Blind.
+Carey James: 
+[29:39] Third Eye Blind yet the exact guys too but I love the 90s I'm a child of the 80s that's what sticks with you.
+Kyle Prins: 
+[29:48] Absolutely okay what piece of technology is making your life worse.
+Pratik Verma: 
+[29:55] And tell him one thing stupid two-factor Authentication.
+Kyle Prins: 
+[29:59] Just pulling for security.
+Pratik Verma: 
+[30:00] Yeah I know I see that use for a tall man.
+Carey James: 
+[30:06] Actually I would if you asked me to 6 months ago I told you my MacBook.
+[30:11] Cuz I was a PC guy for a long long time but now it's it and I in Google or good friend so you know kind of moving through it I think the big one now for me is.
+You know the Technologies in the cars and it just it's it's both Advanced and scary at the same time so she would teenage daughters out there driving so.
+Cory Minton: 
+[30:29] And we didn't show you this device have you seen the the automatic you know what does Verizon is like the hum phenomenon that what I thought about for kids I'm like I'm not going to get away with anything.
+Kyle Prins: 
+[30:42] Just have Push alerts to your phone whenever it goes over 35 miles an hour.
+Cory Minton: 
+[30:46] To take off the FaceTime camera to make sure that it's in the it's on the dash or it's in your pocket not you know being held.
+Kyle Prins: 
+[30:51] By that point you can just remote break the car get home now what is your biggest Money Pit right now.
+Pratik Verma: 
+[31:01] So we do a lot of testing and automated testing and to get all the variation of the task condition configuration and placed our bill on our software compute for running on this test.
+Is on a monthly basis like at least 50 Grand.
+Cory Minton: 
+[31:20] What's your biggest personal money to.
+Pratik Verma: 
+[31:22] My biggest my Mustang.
+Cory Minton: 
+[31:25] We're trying to convince him to put a big turbo in it.
+Carey James: 
+[31:27] Exactly were try to that message again I mentioned I have teenage daughters that's my biggest money.
+Pratik Verma: 
+[31:33] But you drive my car when you're in California so they're you.
+Kyle Prins: 
+[31:36] Do you take it out to any track days at all okay.
+Pratik Verma: 
+[31:38] Not yet I have not but looking yes.
+Cory Minton: 
+[31:40] We're going to say cuz just just to drive down south dude we got to get out I'll come I'll trailer I'll trailer out and can play with you.
+Kyle Prins: 
+[31:44] Sounds like you're going to have to trailer love it are you guys going anywhere interesting soon.
+Pratik Verma: 
+[31:53] Well probably Singapore and Europe.
+Cory Minton: 
+[31:57] Singapore's Gray.
+Carey James: 
+[31:57] I was thinking home.
+Kyle Prins: 
+[32:01] Heard of it at one point.
+Carey James: 
+[32:02] Order it at some point I'm loving to see it again.
+Cory Minton: 
+[32:05] Spicer my laundry gets done right.
+Kyle Prins: 
+[32:07] May you have you been out to Singapore was that recently.
+Cory Minton: 
+[32:09] It was his fault Singapore's awesome incredibly clean City the food in Southeast Asia.
+Pratik Verma: 
+[32:17] So easily used to live in Singapore yea though I would say as a child you know in 5th grade the reality in Singapore is very different than as an adult I've been around you do all the things of the child you can't chew gum.
+And actually we were there in Singapore when I can say this anymore but one of the American teenagers vandalized a bunch of cars so.
+Cory Minton: 
+[32:41] The flogging right.
+Pratik Verma: 
+[32:43] So there was a there was a public log at you on that guy.
+Kyle Prins: 
+[32:47] That doesn't force you to behave what show are you binging right now.
+Pratik Verma: 
+[32:53] Actually Californication it's an old show but now.
+Cory Minton: 
+[32:58] Was it David Duchovny in the.
+Kyle Prins: 
+[33:00] What's on HBO right.
+Pratik Verma: 
+[33:02] I think I'm on Netflix or something now.
+Carey James: 
+[33:06] I'm not busy anything right now but I'm happy that my archers crank back up so I I binge watch Archer all the time on the plans actually watch it on the plane on the way out here in like I have seen all these but they're just it's my guilty pleasure.
+Kyle Prins: 
+[33:18] They're the best hate that characters.
+Pratik Verma: 
+[33:21] How about you guys what are you watching.
+Cory Minton: 
+[33:23] I started one of the I can't think of the name of the Netflix is the one where it's like Luke Cage.
+And Jessica Jones just a combined series I just started that one.
+My camera was called The Defenders maybe I think it was snow we're the defending New York from Netflix it's delightful it's one of those my wife I had a hard time getting her into like.
+Netflix shows like that for whatever reason she's she's really into just like.
+Turn the TV on turn sound on. Just like the HDTV or some running in background while she doesn't know that I like I really want to watch a show the like I get into like a really enjoy it so I started down cuz she General Electric, kind of tail so we're journey through some of those I started the.
+I haven't started the new Netflix the what's the danger Will Robinson Lost in Space.
+Carey James: 
+[34:08] Space yeah I'm waiting for that when I'm going to.
+Cory Minton: 
+[34:10] Have y'all seen what's going on with that show the unintended consequences.
+And Netflix is even come on talk about it there are apparently a large number of people who find the robot incredibly sexy.
+[34:23] Literally like what Netflix released a video.
+Talking about like the unintended like we by the way y'all are weird we didn't we didn't see this.
+Carey James: 
+[34:32] Danger Will Robinson.
+Cory Minton: 
+[34:34] What do ghosts look like.
+Kyle Prins: 
+[34:38] You found the weird part of the internet.
+Cory Minton: 
+[34:40] I can only imagine what happened on Reddit and related to.
+Kyle Prins: 
+[34:42] Oh gosh oh gosh.
+Cory Minton: 
+[34:44] Overtaking Gary thank you so much for being on we had a blast talking with you learning from found a retention software company that's doing great work in the unified access really providing this.
+Cultural match between security and date of people I hope you guys have safe travels home and thanks so much for being part of the big date of your podcast well at Dell Technologies world.
+Kyle Prins: 
+[35:02] Where can we find you on the internet.
+Pratik Verma: 
+[35:05] Blue Talon.com Twitter Pratt burn so you can look me up.
+Cory Minton: 
+[35:12] And how was your day.
+Carey James: 
+[35:12] Twitter Carey James 33 find me on LinkedIn I'm the only Carey James out there I'm not Jim Carrey I'd be a lot funnier in a lot richer.
+Cory Minton: 
+[35:24] Hope you guys like so much being on hope you had a good time thanks for dinner.
+Carey James: 
+[35:28] High chairs thanks guys.
